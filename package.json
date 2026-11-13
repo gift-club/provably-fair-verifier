@@ -1,28 +1,55 @@
 {
   "name": "@gift-club/provably-fair-verifier",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Verify any Gift Club round yourself: HMAC-SHA256 provably fair draws for every game, boxes and scratch cards, pinned to vectors from the server's own code.",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
-    ".": { "types": "./dist/index.d.ts", "default": "./dist/index.js" }
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
   },
-  "bin": { "gift-club-verify": "./dist/cli.js" },
-  "files": ["dist", "README.md", "LICENSE"],
+  "bin": {
+    "gift-club-verify": "./dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "vitest run",
     "build:site": "npm run build && node scripts/build-site.mjs",
     "prepublishOnly": "npm run build && npm test"
   },
-  "keywords": ["provably-fair", "provably fair", "hmac-sha256", "verify", "server seed", "client seed", "nonce", "telegram", "telegram-mini-app", "gift-club"],
+  "keywords": [
+    "provably-fair",
+    "provably fair",
+    "hmac-sha256",
+    "verify",
+    "server seed",
+    "client seed",
+    "nonce",
+    "telegram",
+    "telegram-mini-app",
+    "gift-club"
+  ],
   "homepage": "https://gift-club.github.io/provably-fair-verifier/",
-  "repository": { "type": "git", "url": "git+https://github.com/gift-club/provably-fair-verifier.git" },
-  "bugs": { "url": "https://github.com/gift-club/provably-fair-verifier/issues" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gift-club/provably-fair-verifier.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gift-club/provably-fair-verifier/issues"
+  },
   "author": "Gift Club (https://giftclub.app/)",
   "license": "MIT",
-  "engines": { "node": ">=20" },
+  "engines": {
+    "node": ">=20"
+  },
   "devDependencies": {
     "@types/node": "^24.0.0",
     "typescript": "^5.9.0",
