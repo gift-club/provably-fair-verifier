@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Provably fair nasıl çalışır: HMAC-SHA256 algoritması adım adım</title>
+<meta name="description" content="Gift Club&#39;ın Provably fair algoritması adım adım: seed hash taahhüdü, HMAC-SHA256 bayt akışı, baytlardan float&#39;a, ödeme yuvarlama ve çözümlü örnek.">
+<link rel="canonical" href="https://gift-club.github.io/provably-fair-verifier/tr/how-it-works/">
+<link rel="alternate" hreflang="en" href="https://gift-club.github.io/provably-fair-verifier/how-it-works/">
+<link rel="alternate" hreflang="ru" href="https://gift-club.github.io/provably-fair-verifier/ru/how-it-works/">
+<link rel="alternate" hreflang="uk" href="https://gift-club.github.io/provably-fair-verifier/uk/how-it-works/">
+<link rel="alternate" hreflang="es" href="https://gift-club.github.io/provably-fair-verifier/es/how-it-works/">
+<link rel="alternate" hreflang="pl" href="https://gift-club.github.io/provably-fair-verifier/pl/how-it-works/">
+<link rel="alternate" hreflang="it" href="https://gift-club.github.io/provably-fair-verifier/it/how-it-works/">
+<link rel="alternate" hreflang="tr" href="https://gift-club.github.io/provably-fair-verifier/tr/how-it-works/">
+<link rel="alternate" hreflang="de" href="https://gift-club.github.io/provably-fair-verifier/de/how-it-works/">
+<link rel="alternate" hreflang="fr" href="https://gift-club.github.io/provably-fair-verifier/fr/how-it-works/">
+<link rel="alternate" hreflang="x-default" href="https://gift-club.github.io/provably-fair-verifier/how-it-works/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Gift Club Provably fair doğrulayıcı">
+<meta property="og:title" content="Provably fair nasıl çalışır: HMAC-SHA256 algoritması adım adım">
+<meta property="og:description" content="Gift Club&#39;ın Provably fair algoritması adım adım: seed hash taahhüdü, HMAC-SHA256 bayt akışı, baytlardan float&#39;a, ödeme yuvarlama ve çözümlü örnek.">
+<meta property="og:url" content="https://gift-club.github.io/provably-fair-verifier/tr/how-it-works/">
+<meta property="og:locale" content="tr_TR">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#0d0b14">
+<link rel="icon" href="/provably-fair-verifier/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/provably-fair-verifier/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/provably-fair-verifier/icon-192.png">
+<link rel="apple-touch-icon" href="/provably-fair-verifier/apple-touch-icon.png">
+<style>:root{color-scheme:dark;--bg:#0d0b14;--panel:#17141f;--line:#2a2535;--ink:#f3f0fa;--muted:#a59fb5;--accent:#ffcf4a;--link:#8ec5ff}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--link)}
+a:hover{text-decoration-thickness:2px}
+.wrap{max-width:860px;margin:0 auto;padding:0 16px}
+header{border-bottom:1px solid var(--line)}
+header .wrap{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;justify-content:space-between;padding-top:14px;padding-bottom:14px}
+.brand{display:inline-flex;align-items:center;gap:10px;font-weight:700;color:var(--ink);text-decoration:none}
+.brand img{display:block;width:32px;height:32px;border-radius:8px}
+.brand em{font-style:normal;color:var(--accent)}
+nav ul{display:flex;flex-wrap:wrap;gap:6px 14px;list-style:none;margin:0;padding:0;font-size:15px}
+nav a{color:var(--muted);text-decoration:none}
+nav a[aria-current=page]{color:var(--ink);font-weight:600}
+main{padding:28px 0 40px}
+h1{font-size:clamp(28px,5vw,40px);line-height:1.15;margin:0 0 12px}
+h2{font-size:24px;line-height:1.25;margin:36px 0 10px}
+h3{font-size:19px;margin:24px 0 8px}
+.lead{font-size:18px;color:var(--ink)}
+.meta{color:var(--muted);font-size:14px}
+.answer{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:10px;padding:14px 16px;margin:18px 0}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:16px 0}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.card h3{margin:0 0 6px;font-size:17px}
+.card p{margin:0;color:var(--muted);font-size:15px}
+.table-wrap{overflow-x:auto;margin:12px 0;border:1px solid var(--line);border-radius:10px}
+table{border-collapse:collapse;width:100%;font-size:15px}
+th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}
+pre,code{overflow-wrap:anywhere}
+pre{white-space:pre}
+th{background:var(--panel);position:sticky;top:0}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+tr:last-child td{border-bottom:0}
+caption{caption-side:top;text-align:left;padding:8px 10px;color:var(--muted);font-size:14px}
+code,pre{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:14px}
+code{background:var(--panel);padding:1px 5px;border-radius:5px}
+pre{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 14px;overflow-x:auto}
+pre code{background:none;padding:0}
+details{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin:8px 0}
+summary{cursor:pointer;font-weight:600}
+.langs{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:14px;color:var(--muted)}
+.langs a{color:var(--muted)}
+.langs a[aria-current=true]{color:var(--ink);font-weight:600;text-decoration:none}
+footer{border-top:1px solid var(--line);padding:24px 0 40px;color:var(--muted);font-size:14px}
+footer p{margin:6px 0}
+iframe{max-width:100%}</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","headline":"Provably fair çekiliş nasıl çalışır","description":"Gift Club'ın Provably fair algoritması adım adım: seed hash taahhüdü, HMAC-SHA256 bayt akışı, baytlardan float'a, ödeme yuvarlama ve çözümlü örnek.","inLanguage":"tr","url":"https://gift-club.github.io/provably-fair-verifier/tr/how-it-works/","author":{"@type":"Organization","@id":"https://giftclub.app/#organization","name":"Gift Club","url":"https://giftclub.app/","sameAs":["https://github.com/gift-club","https://gift-club.github.io/"]},"publisher":{"@type":"Organization","@id":"https://giftclub.app/#organization","name":"Gift Club","url":"https://giftclub.app/","sameAs":["https://github.com/gift-club","https://gift-club.github.io/"]},"about":"Provably fair HMAC-SHA256 random number generation"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Gift Club Provably fair doğrulayıcı","item":"https://gift-club.github.io/provably-fair-verifier/tr/"},{"@type":"ListItem","position":2,"name":"Nasıl çalışır","item":"https://gift-club.github.io/provably-fair-verifier/tr/how-it-works/"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Neden sıradan bir rastgele sayı değil de HMAC-SHA256?","acceptedAnswer":{"@type":"Answer","text":"Çünkü deterministiktir: aynı seed'ler ve nonce her zaman aynı baytları verir, bu yüzden bir sonuç yeniden hesaplanıp kontrol edilebilir. Sıradan bir rastgele sayı sonradan kontrol edilemez."}},{"@type":"Question","name":"Aynı seed'ler iki farklı sonuç üretebilir mi?","acceptedAnswer":{"@type":"Answer","text":"Hayır. Her tur yeni bir nonce kullanır; bu yüzden aynı seed çiftindeki iki tur baytlarını paylaşmaz."}},{"@type":"Question","name":"Oyun kuralları nerede?","acceptedAnswer":{"@type":"Answer","text":"src/games/ içinde, oyun başına bir dosya; her biri sunucunun kullandığı ödeme tablolarıyla birlikte."}}]}</script>
+</head>
+<body>
+<header><div class="wrap">
+<a class="brand" href="/provably-fair-verifier/tr/"><img src="/provably-fair-verifier/logo-64.png" width="32" height="32" alt=""><span>Gift Club <em>Provably fair</em></span></a>
+<nav aria-label="Belge bölümleri"><ul><li><a href="/provably-fair-verifier/tr/">Genel bakış</a></li><li><a href="/provably-fair-verifier/tr/how-it-works/" aria-current="page">Nasıl çalışır</a></li></ul></nav>
+</div></header>
+<main><div class="wrap">
+<h1>Provably fair çekiliş nasıl çalışır</h1>
+
+
+
+<p>Tüm algoritma, gerçek bir örnek turun sayılarıyla adım adım çözülmüş halde.</p>
+<h2>1. Taahhüt: hash&#39;lenmiş server seed</h2>
+<p>Sunucu rastgele 32 baytlık bir <strong>server seed</strong> seçer ve sana yalnızca SHA-256 hash'ini gösterir. Hash seed hakkında hiçbir şey ifşa etmez ama onu sabitler: başka hiçbir seed aynı hash'e sahip değildir.</p>
+<pre><code>server seed      0f1e2d3c4b5a69788796a5b4c3d2e1f00112233445566778899aabbccddeeff0
+SHA-256 (shown)  afa880ca0c7da502fc32ab284cf70852ef7c5540204e4215c2a1617074ca7905</code></pre>
+<h2>2. Bayt akışı: HMAC-SHA256</h2>
+<p>Her tur, ham server seed'i anahtar, <code>clientSeed:nonce:round</code> değerini mesaj olarak kullanır. <strong>Nonce</strong>, bu seed çiftindeki turlarını sayar; <code>round</code>, bir oyun 32 bayttan fazlasına ihtiyaç duyduğunda 32 baytlık blokları sayar.</p>
+<pre><code>key      = server seed (32 raw bytes)
+message  = &quot;gift-club-demo:0:0&quot;        // clientSeed:nonce:round
+block    = HMAC-SHA256(key, message)
+bytes    = 1a bc a7 1f 1b 42 64 c5 …</code></pre>
+<h2>3. Baytlardan sayılara</h2>
+<p>Her dört bayt, [0, 1) aralığında bir float oluşturur. Formül kesindir; bu yüzden doğrulayıcı yuvarlanmış bir ondalığı değil, altındaki 32 bitlik tam sayıyı karşılaştırır.</p>
+<pre><code>float = b0/256 + b1/256² + b2/256³ + b3/256⁴
+      = 26/256 + 188/65536 + 167/16777216 + 31/4294967296
+      = 0.1044411135</code></pre>
+<h2>4. Sayılardan sonuca</h2>
+<p>Her oyun float'larını kendi yayımlanmış kuralıyla bir sonuca çevirir: Plinko'da sola ve sağa sekmelerden oluşan bir sıra, Blackjack'te karılmış bir deste, kasada bir bilet numarası. <code>src/games/</code> içindeki oyun modülleri her kuralı ve her ödeme tablosunu barındırır.</p>
+<h2>5. Ödeme yuvarlama</h2>
+<p>Yıldız cinsinden kazanç tam sayıdır. Bahis × çarpan kesirli çıktığında bir float daha yukarı yuvarlanıp yuvarlanmayacağını belirler; yani yuvarlama da Provably fair'dir. Gram ödemeleri ise nanoton'a aşağı yuvarlanır ve yuvarlama için float çekmez.</p>
+<h2>Ödeme tablosu sürümleri</h2>
+<p>Bir ödeme tablosu yeniden ayarlandığında eskisi sürüm numarasıyla kodda kalır. Bir tur her zaman oynandığı sürüme göre kontrol edilir; bu sürüm turun ayrıntılarında görünür.</p>
+<h2>Testleri kendin çalıştır</h2>
+<p>Test paketi sunucunun hesapladığı binlerce turu yeniden oynatır ve her baytı kontrol eder:</p>
+<pre><code>git clone https://github.com/gift-club/provably-fair-verifier.git
+cd provably-fair-verifier &amp;&amp; npm install &amp;&amp; npm test</code></pre>
+<h2>Gift Club&#39;da sıradaki yazı</h2><ul><li><a href="https://giftclub.app/tools/provably-fair-checker">Provably Fair Checker and Calculator: Verify a Round</a></li></ul>
+<h2>Sorular</h2>
+<details><summary>Neden sıradan bir rastgele sayı değil de HMAC-SHA256?</summary><p>Çünkü deterministiktir: aynı seed'ler ve nonce her zaman aynı baytları verir, bu yüzden bir sonuç yeniden hesaplanıp kontrol edilebilir. Sıradan bir rastgele sayı sonradan kontrol edilemez.</p></details>
+<details><summary>Aynı seed&#39;ler iki farklı sonuç üretebilir mi?</summary><p>Hayır. Her tur yeni bir nonce kullanır; bu yüzden aynı seed çiftindeki iki tur baytlarını paylaşmaz.</p></details>
+<details><summary>Oyun kuralları nerede?</summary><p>src/games/ içinde, oyun başına bir dosya; her biri sunucunun kullandığı ödeme tablolarıyla birlikte.</p></details>
+
+</div></main>
+<footer><div class="wrap">
+<p class="langs" aria-label="Diller"><a href="/provably-fair-verifier/how-it-works/" hreflang="en" lang="en">English</a><a href="/provably-fair-verifier/ru/how-it-works/" hreflang="ru" lang="ru">Русский</a><a href="/provably-fair-verifier/uk/how-it-works/" hreflang="uk" lang="uk">Українська</a><a href="/provably-fair-verifier/es/how-it-works/" hreflang="es" lang="es">Español</a><a href="/provably-fair-verifier/pl/how-it-works/" hreflang="pl" lang="pl">Polski</a><a href="/provably-fair-verifier/it/how-it-works/" hreflang="it" lang="it">Italiano</a><a href="/provably-fair-verifier/tr/how-it-works/" hreflang="tr" lang="tr" aria-current="true">Türkçe</a><a href="/provably-fair-verifier/de/how-it-works/" hreflang="de" lang="de">Deutsch</a><a href="/provably-fair-verifier/fr/how-it-works/" hreflang="fr" lang="fr">Français</a></p>
+<p>Hediye kasaları ve oyunlar sunan Telegram Mini App <a href="https://giftclub.app/tr/">Gift Club</a> tarafından açık kaynak olarak yayımlandı.</p>
+<p>Gift Club&#39;dan daha fazlası: <a href="/telegram-gifts-dataset/tr/">Telegram data</a> · <a href="/telegram-stars-calculator/tr/">Stars calculator</a> · <a href="https://github.com/gift-club/provably-fair-verifier">Kaynak kod GitHub&#39;da</a></p>
+
+</div></footer>
+</body>
+</html>

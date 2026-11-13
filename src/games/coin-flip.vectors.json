@@ -1,0 +1,1445 @@
+{
+  "generatedBy": "the Gift Club server's own code",
+  "winMultiplier": "1.90",
+  "maxRides": 4,
+  "ladder": [
+    "1.90",
+    "3.80",
+    "7.60",
+    "15.20",
+    "30.40"
+  ],
+  "flipFloat": 0,
+  "roundingFloat": 1,
+  "firstRideFloat": 2,
+  "floatCount": 6,
+  "maxWinTon": "1000",
+  "maxWinStars": 3040,
+  "gram": {
+    "tiers": [
+      "0.1",
+      "0.5",
+      "1",
+      "2",
+      "3",
+      "5",
+      "10"
+    ],
+    "paid": [
+      [
+        "0.19",
+        "0.38",
+        "0.76",
+        "1.52",
+        "3.04"
+      ],
+      [
+        "0.95",
+        "1.9",
+        "3.8",
+        "7.6",
+        "15.2"
+      ],
+      [
+        "1.9",
+        "3.8",
+        "7.6",
+        "15.2",
+        "30.4"
+      ],
+      [
+        "3.8",
+        "7.6",
+        "15.2",
+        "30.4",
+        "60.8"
+      ],
+      [
+        "5.7",
+        "11.4",
+        "22.8",
+        "45.6",
+        "91.2"
+      ],
+      [
+        "9.5",
+        "19",
+        "38",
+        "76",
+        "152"
+      ],
+      [
+        "19",
+        "38",
+        "76",
+        "152",
+        "304"
+      ]
+    ],
+    "paidCapped": [
+      [
+        "0.19",
+        "0.38",
+        "0.76",
+        "1.52",
+        "3.04"
+      ],
+      [
+        "0.95",
+        "1.9",
+        "3.8",
+        "7.6",
+        "15.2"
+      ],
+      [
+        "1.9",
+        "3.8",
+        "7.6",
+        "15.2",
+        "30.4"
+      ],
+      [
+        "3.8",
+        "7.6",
+        "15.2",
+        "30.4",
+        "50"
+      ],
+      [
+        "5.7",
+        "11.4",
+        "22.8",
+        "45.6",
+        "50"
+      ],
+      [
+        "9.5",
+        "19",
+        "38",
+        "50",
+        "50"
+      ],
+      [
+        "19",
+        "38",
+        "50",
+        "50",
+        "50"
+      ]
+    ]
+  },
+  "cases": [
+    {
+      "serverSeed": "0f1e2d3c4b5a69788796a5b4c3d2e1f00112233445566778899aabbccddeeff0",
+      "clientSeed": "gift-club-demo",
+      "nonce": 0,
+      "floats": [
+        0.10444111353717744,
+        0.10648183641023934,
+        0.2890474188607186,
+        0.4723973728250712,
+        0.4664675407111645,
+        0.21711033931933343
+      ],
+      "sides": [
+        "tails",
+        "tails",
+        "tails",
+        "tails",
+        "tails",
+        "tails"
+      ],
+      "firstPotStars": [
+        2,
+        10,
+        19,
+        38,
+        95,
+        190
+      ],
+      "potStars": [
+        [
+          2,
+          4,
+          8,
+          16,
+          32
+        ],
+        [
+          10,
+          20,
+          40,
+          80,
+          160
+        ],
+        [
+          19,
+          38,
+          76,
+          152,
+          304
+        ],
+        [
+          38,
+          76,
+          152,
+          304,
+          608
+        ],
+        [
+          95,
+          190,
+          380,
+          760,
+          1520
+        ],
+        [
+          190,
+          380,
+          760,
+          1520,
+          3040
+        ]
+      ],
+      "replays": [
+        {
+          "call": "heads",
+          "rideCalls": "",
+          "first": "tails",
+          "rides": [],
+          "step": 0,
+          "lost": true,
+          "atTop": false,
+          "multiplier": "0"
+        },
+        {
+          "call": "tails",
+          "rideCalls": "",
+          "first": "tails",
+          "rides": [],
+          "step": 1,
+          "lost": false,
+          "atTop": false,
+          "multiplier": "1.90"
+        },
+        {
+          "call": "tails",
+          "rideCalls": "TTTT",
+          "first": "tails",
+          "rides": [
+            {
+              "call": "tails",
+              "landed": "tails",
+              "won": true
+            },
+            {
+              "call": "tails",
+              "landed": "tails",
+              "won": true
+            },
+            {
+              "call": "tails",
+              "landed": "tails",
+              "won": true
+            },
+            {
+              "call": "tails",
+              "landed": "tails",
+              "won": true
+            }
+          ],
+          "step": 5,
+          "lost": false,
+          "atTop": true,
+          "multiplier": "30.40"
+        },
+        {
+          "call": "tails",
+          "rideCalls": "TH",
+          "first": "tails",
+          "rides": [
+            {
+              "call": "tails",
+              "landed": "tails",
+              "won": true
+            },
+            {
+              "call": "heads",
+              "landed": "tails",
+              "won": false
+            }
+          ],
+          "step": 2,
+          "lost": true,
+          "atTop": false,
+          "multiplier": "0"
+        },
+        {
+          "call": "tails",
+          "rideCalls": "H",
+          "first": "tails",
+          "rides": [
+            {
+              "call": "heads",
+              "landed": "tails",
+              "won": false
+            }
+          ],
+          "step": 1,
+          "lost": true,
+          "atTop": false,
+          "multiplier": "0"
+        },
+        {
+          "call": "tails",
+          "rideCalls": "TTTH",
+          "first": "tails",
+          "rides": [
+            {
+              "call": "tails",
+              "landed": "tails",
+              "won": true
+            },
+            {
+              "call": "tails",
+              "landed": "tails",
+              "won": true
+            },
+            {
+              "call": "tails",
+              "landed": "tails",
+              "won": true
+            },
+            {
+              "call": "heads",
+              "landed": "tails",
+              "won": false
+            }
+          ],
+          "step": 4,
+          "lost": true,
+          "atTop": false,
+          "multiplier": "0"
+        },
+        {
+          "call": "heads",
+          "rideCalls": "TTTT",
+          "first": "tails",
+          "rides": [],
+          "step": 0,
+          "lost": true,
+          "atTop": false,
+          "multiplier": "0"
+        },
+        {
+          "call": "heads",
+          "rideCalls": "HHHH",
+          "first": "tails",
+          "rides": [],
+          "step": 0,
+          "lost": true,
+          "atTop": false,
+          "multiplier": "0"
+        }
+      ]
+    },
+    {
+      "serverSeed": "a3f1c9e84b2d7f6051e9c3a7b8d4f2e6c1a09b7e5d3f8c2a6e4b1d9f7c3a5e8b",
+      "clientSeed": "9d4c1f3e-2b7a-4e8c-9f1d-3a6b5c8e7d2f",
+      "nonce": 7,
+      "floats": [
+        0.902275743894279,
+        0.8036713697947562,
+        0.2760614568833262,
+        0.9851823050994426,
+        0.5538748633116484,
+        0.1407592457253486
+      ],
+      "sides": [
+        "heads",
+        "heads",
+        "tails",
+        "heads",
+        "heads",
+        "tails"
+      ],
+      "firstPotStars": [
+        2,
+        9,
+        19,
+        38,
+        95,
+        190
+      ],
+      "potStars": [
+        [
+          2,
+          4,
+          8,
+          16,
+          32
+        ],
+        [
+          9,
+          18,
+          36,
+          72,
+          144
+        ],
+        [
+          19,
+          38,
+          76,
+          152,
+          304
+        ],
+        [
+          38,
+          76,
+          152,
+          304,
+          608
+        ],
+        [
+          95,
+          190,
+          380,
+          760,
+          1520
+        ],
+        [
+          190,
+          380,
+          760,
+          1520,
+          3040
+        ]
+      ],
+      "replays": [
+        {
+          "call": "tails",
+          "rideCalls": "",
+          "first": "heads",
+          "rides": [],
+          "step": 0,
+          "lost": true,
+          "atTop": false,
+          "multiplier": "0"
+        },
+        {
+          "call": "heads",
+          "rideCalls": "",
+          "first": "heads",
+          "rides": [],
+          "step": 1,
+          "lost": false,
+          "atTop": false,
+          "multiplier": "1.90"
+        },
+        {
+          "call": "heads",
+          "rideCalls": "THHT",
+          "first": "heads",
+          "rides": [
+            {
+              "call": "tails",
+              "landed": "tails",
+              "won": true
+            },
+            {
+              "call": "heads",
+              "landed": "heads",
+              "won": true
+            },
+            {
+              "call": "heads",
+              "landed": "heads",
+              "won": true
+            },
+            {
+              "call": "tails",
+              "landed": "tails",
+              "won": true
+            }
+          ],
+          "step": 5,
+          "lost": false,
+          "atTop": true,
+          "multiplier": "30.40"
+        },
+        {
+          "call": "heads",
+          "rideCalls": "TT",
+          "first": "heads",
+          "rides": [
+            {
+              "call": "tails",
+              "landed": "tails",
+              "won": true
+            },
+            {
+              "call": "tails",
+              "landed": "heads",
+              "won": false
+            }
+          ],
+          "step": 2,
+          "lost": true,
+          "atTop": false,
+          "multiplier": "0"
+        },
+        {
+          "call": "heads",
+          "rideCalls": "H",
+          "first": "heads",
+          "rides": [
+            {
+              "call": "heads",
+              "landed": "tails",
+              "won": false
+            }
+          ],
+          "step": 1,
+          "lost": true,
+          "atTop": false,
+          "multiplier": "0"
+        },
+        {
+          "call": "heads",
+          "rideCalls": "THHH",
+          "first": "heads",
+          "rides": [
+            {
+              "call": "tails",
+              "landed": "tails",
+              "won": true
+            },
+            {
+              "call": "heads",
+              "landed": "heads",
+              "won": true
+            },
+            {
+              "call": "heads",
+              "landed": "heads",
+              "won": true
+            },
+            {
+              "call": "heads",
+              "landed": "tails",
+              "won": false
+            }
+          ],
+          "step": 4,
+          "lost": true,
+          "atTop": false,
+          "multiplier": "0"
+        },
+        {
+          "call": "tails",
+          "rideCalls": "THHT",
+          "first": "heads",
+          "rides": [],
+          "step": 0,
+          "lost": true,
+          "atTop": false,
+          "multiplier": "0"
+        },
+        {
+          "call": "heads",
+          "rideCalls": "HHHH",
+          "first": "heads",
+          "rides": [
+            {
+              "call": "heads",
+              "landed": "tails",
+              "won": false
+            }
+          ],
+          "step": 1,
+          "lost": true,
+          "atTop": false,
+          "multiplier": "0"
+        }
+      ]
+    },
+    {
+      "serverSeed": "ffffffff00000000ffffffff00000000ffffffff00000000ffffffff00000000",
+      "clientSeed": "x",
+      "nonce": 123456,
+      "floats": [
+        0.03174039022997022,
+        0.45318084536120296,
+        0.19873170484788716,
+        0.4844240585807711,
+        0.14346900768578053,
+        0.7071315851062536
+      ],
+      "sides": [
+        "tails",
+        "tails",
+        "tails",
+        "tails",
+        "tails",
+        "heads"
+      ],
+      "firstPotStars": [
+        2,
+        10,
+        19,
+        38,
+        95,
+        190
+      ],
+      "potStars": [
+        [
+          2,
+          4,
+          8,
+          16,
+          32
+        ],
+        [
+          10,
+          20,
+          40,
+          80,
+          160
+        ],
+        [
+          19,
+          38,
+          76,
+          152,
+          304
+        ],
+        [
+          38,
+          76,
+          152,
+          304,
+          608
+        ],
+        [
+          95,
+          190,
+          380,
+          760,
+          1520
+        ],
+        [
+          190,
+          380,
+          760,
+          1520,
+          3040
+        ]
+      ],
+      "replays": [
+        {
+          "call": "heads",
+          "rideCalls": "",
+          "first": "tails",
+          "rides": [],
+          "step": 0,
+          "lost": true,
+          "atTop": false,
+          "multiplier": "0"
+        },
+        {
+          "call": "tails",
+          "rideCalls": "",
+          "first": "tails",
+          "rides": [],
+          "step": 1,
+          "lost": false,
+          "atTop": false,
+          "multiplier": "1.90"
+        },
+        {
+          "call": "tails",
+          "rideCalls": "TTTH",
+          "first": "tails",
+          "rides": [
+            {
+              "call": "tails",
+              "landed": "tails",
+              "won": true
+            },
+            {
+              "call": "tails",
+              "landed": "tails",
+              "won": true
+            },
+            {
+              "call": "tails",
+              "landed": "tails",
+              "won": true
+            },
+            {
+              "call": "heads",
+              "landed": "heads",
+              "won": true
+            }
+          ],
+          "step": 5,
+          "lost": false,
+          "atTop": true,
+          "multiplier": "30.40"
+        },
+        {
+          "call": "tails",
+          "rideCalls": "TH",
+          "first": "tails",
+          "rides": [
+            {
+              "call": "tails",
+              "landed": "tails",
+              "won": true
+            },
+            {
+              "call": "heads",
+              "landed": "tails",
+              "won": false
+            }
+          ],
+          "step": 2,
+          "lost": true,
+          "atTop": false,
+          "multiplier": "0"
+        },
+        {
+          "call": "tails",
+          "rideCalls": "H",
+          "first": "tails",
+          "rides": [
+            {
+              "call": "heads",
+              "landed": "tails",
+              "won": false
+            }
+          ],
+          "step": 1,
+          "lost": true,
+          "atTop": false,
+          "multiplier": "0"
+        },
+        {
+          "call": "tails",
+          "rideCalls": "TTTT",
+          "first": "tails",
+          "rides": [
+            {
+              "call": "tails",
+              "landed": "tails",
+              "won": true
+            },
+            {
+              "call": "tails",
+              "landed": "tails",
+              "won": true
+            },
+            {
+              "call": "tails",
+              "landed": "tails",
+              "won": true
+            },
+            {
+              "call": "tails",
+              "landed": "heads",
+              "won": false
+            }
+          ],
+          "step": 4,
+          "lost": true,
+          "atTop": false,
+          "multiplier": "0"
+        },
+        {
+          "call": "heads",
+          "rideCalls": "TTTH",
+          "first": "tails",
+          "rides": [],
+          "step": 0,
+          "lost": true,
+          "atTop": false,
+          "multiplier": "0"
+        },
+        {
+          "call": "heads",
+          "rideCalls": "HHHH",
+          "first": "tails",
+          "rides": [],
+          "step": 0,
+          "lost": true,
+          "atTop": false,
+          "multiplier": "0"
+        }
+      ]
+    },
+    {
+      "serverSeed": "5c6e1b2a9d8f7e3c4b1a0f9e8d7c6b5a4f3e2d1c0b9a8f7e6d5c4b3a2f1e0d9c",
+      "clientSeed": "player-client-seed",
+      "nonce": 42,
+      "floats": [
+        0.3660743373911828,
+        0.15493342000991106,
+        0.54071936593391,
+        0.1532906824722886,
+        0.7022443907335401,
+        0.18402925948612392
+      ],
+      "sides": [
+        "tails",
+        "tails",
+        "heads",
+        "tails",
+        "heads",
+        "tails"
+      ],
+      "firstPotStars": [
+        2,
+        10,
+        19,
+        38,
+        95,
+        190
+      ],
+      "potStars": [
+        [
+          2,
+          4,
+          8,
+          16,
+          32
+        ],
+        [
+          10,
+          20,
+          40,
+          80,
+          160
+        ],
+        [
+          19,
+          38,
+          76,
+          152,
+          304
+        ],
+        [
+          38,
+          76,
+          152,
+          304,
+          608
+        ],
+        [
+          95,
+          190,
+          380,
+          760,
+          1520
+        ],
+        [
+          190,
+          380,
+          760,
+          1520,
+          3040
+        ]
+      ],
+      "replays": [
+        {
+          "call": "heads",
+          "rideCalls": "",
+          "first": "tails",
+          "rides": [],
+          "step": 0,
+          "lost": true,
+          "atTop": false,
+          "multiplier": "0"
+        },
+        {
+          "call": "tails",
+          "rideCalls": "",
+          "first": "tails",
+          "rides": [],
+          "step": 1,
+          "lost": false,
+          "atTop": false,
+          "multiplier": "1.90"
+        },
+        {
+          "call": "tails",
+          "rideCalls": "HTHT",
+          "first": "tails",
+          "rides": [
+            {
+              "call": "heads",
+              "landed": "heads",
+              "won": true
+            },
+            {
+              "call": "tails",
+              "landed": "tails",
+              "won": true
+            },
+            {
+              "call": "heads",
+              "landed": "heads",
+              "won": true
+            },
+            {
+              "call": "tails",
+              "landed": "tails",
+              "won": true
+            }
+          ],
+          "step": 5,
+          "lost": false,
+          "atTop": true,
+          "multiplier": "30.40"
+        },
+        {
+          "call": "tails",
+          "rideCalls": "HH",
+          "first": "tails",
+          "rides": [
+            {
+              "call": "heads",
+              "landed": "heads",
+              "won": true
+            },
+            {
+              "call": "heads",
+              "landed": "tails",
+              "won": false
+            }
+          ],
+          "step": 2,
+          "lost": true,
+          "atTop": false,
+          "multiplier": "0"
+        },
+        {
+          "call": "tails",
+          "rideCalls": "T",
+          "first": "tails",
+          "rides": [
+            {
+              "call": "tails",
+              "landed": "heads",
+              "won": false
+            }
+          ],
+          "step": 1,
+          "lost": true,
+          "atTop": false,
+          "multiplier": "0"
+        },
+        {
+          "call": "tails",
+          "rideCalls": "HTHH",
+          "first": "tails",
+          "rides": [
+            {
+              "call": "heads",
+              "landed": "heads",
+              "won": true
+            },
+            {
+              "call": "tails",
+              "landed": "tails",
+              "won": true
+            },
+            {
+              "call": "heads",
+              "landed": "heads",
+              "won": true
+            },
+            {
+              "call": "heads",
+              "landed": "tails",
+              "won": false
+            }
+          ],
+          "step": 4,
+          "lost": true,
+          "atTop": false,
+          "multiplier": "0"
+        },
+        {
+          "call": "heads",
+          "rideCalls": "HTHT",
+          "first": "tails",
+          "rides": [],
+          "step": 0,
+          "lost": true,
+          "atTop": false,
+          "multiplier": "0"
+        },
+        {
+          "call": "heads",
+          "rideCalls": "HHHH",
+          "first": "tails",
+          "rides": [],
+          "step": 0,
+          "lost": true,
+          "atTop": false,
+          "multiplier": "0"
+        }
+      ]
+    },
+    {
+      "serverSeed": "00112233445566778899aabbccddeeff00112233445566778899aabbccddeeff",
+      "clientSeed": "rides",
+      "nonce": 3,
+      "floats": [
+        0.8914333414286375,
+        0.2732025268487632,
+        0.26530613051727414,
+        0.8306119437329471,
+        0.7528292662464082,
+        0.0701603030320257
+      ],
+      "sides": [
+        "heads",
+        "tails",
+        "tails",
+        "heads",
+        "heads",
+        "tails"
+      ],
+      "firstPotStars": [
+        2,
+        10,
+        19,
+        38,
+        95,
+        190
+      ],
+      "potStars": [
+        [
+          2,
+          4,
+          8,
+          16,
+          32
+        ],
+        [
+          10,
+          20,
+          40,
+          80,
+          160
+        ],
+        [
+          19,
+          38,
+          76,
+          152,
+          304
+        ],
+        [
+          38,
+          76,
+          152,
+          304,
+          608
+        ],
+        [
+          95,
+          190,
+          380,
+          760,
+          1520
+        ],
+        [
+          190,
+          380,
+          760,
+          1520,
+          3040
+        ]
+      ],
+      "replays": [
+        {
+          "call": "tails",
+          "rideCalls": "",
+          "first": "heads",
+          "rides": [],
+          "step": 0,
+          "lost": true,
+          "atTop": false,
+          "multiplier": "0"
+        },
+        {
+          "call": "heads",
+          "rideCalls": "",
+          "first": "heads",
+          "rides": [],
+          "step": 1,
+          "lost": false,
+          "atTop": false,
+          "multiplier": "1.90"
+        },
+        {
+          "call": "heads",
+          "rideCalls": "THHT",
+          "first": "heads",
+          "rides": [
+            {
+              "call": "tails",
+              "landed": "tails",
+              "won": true
+            },
+            {
+              "call": "heads",
+              "landed": "heads",
+              "won": true
+            },
+            {
+              "call": "heads",
+              "landed": "heads",
+              "won": true
+            },
+            {
+              "call": "tails",
+              "landed": "tails",
+              "won": true
+            }
+          ],
+          "step": 5,
+          "lost": false,
+          "atTop": true,
+          "multiplier": "30.40"
+        },
+        {
+          "call": "heads",
+          "rideCalls": "TT",
+          "first": "heads",
+          "rides": [
+            {
+              "call": "tails",
+              "landed": "tails",
+              "won": true
+            },
+            {
+              "call": "tails",
+              "landed": "heads",
+              "won": false
+            }
+          ],
+          "step": 2,
+          "lost": true,
+          "atTop": false,
+          "multiplier": "0"
+        },
+        {
+          "call": "heads",
+          "rideCalls": "H",
+          "first": "heads",
+          "rides": [
+            {
+              "call": "heads",
+              "landed": "tails",
+              "won": false
+            }
+          ],
+          "step": 1,
+          "lost": true,
+          "atTop": false,
+          "multiplier": "0"
+        },
+        {
+          "call": "heads",
+          "rideCalls": "THHH",
+          "first": "heads",
+          "rides": [
+            {
+              "call": "tails",
+              "landed": "tails",
+              "won": true
+            },
+            {
+              "call": "heads",
+              "landed": "heads",
+              "won": true
+            },
+            {
+              "call": "heads",
+              "landed": "heads",
+              "won": true
+            },
+            {
+              "call": "heads",
+              "landed": "tails",
+              "won": false
+            }
+          ],
+          "step": 4,
+          "lost": true,
+          "atTop": false,
+          "multiplier": "0"
+        },
+        {
+          "call": "tails",
+          "rideCalls": "THHT",
+          "first": "heads",
+          "rides": [],
+          "step": 0,
+          "lost": true,
+          "atTop": false,
+          "multiplier": "0"
+        },
+        {
+          "call": "heads",
+          "rideCalls": "HHHH",
+          "first": "heads",
+          "rides": [
+            {
+              "call": "heads",
+              "landed": "tails",
+              "won": false
+            }
+          ],
+          "step": 1,
+          "lost": true,
+          "atTop": false,
+          "multiplier": "0"
+        }
+      ]
+    },
+    {
+      "serverSeed": "c0ffee00c0ffee00c0ffee00c0ffee00c0ffee00c0ffee00c0ffee00c0ffee00",
+      "clientSeed": "gift-club-demo",
+      "nonce": 11,
+      "floats": [
+        0.8185648350045085,
+        0.909022263251245,
+        0.9194348535966128,
+        0.6877100446727127,
+        0.3953827943187207,
+        0.5121894683688879
+      ],
+      "sides": [
+        "heads",
+        "heads",
+        "heads",
+        "heads",
+        "tails",
+        "heads"
+      ],
+      "firstPotStars": [
+        1,
+        9,
+        19,
+        38,
+        95,
+        190
+      ],
+      "potStars": [
+        [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        [
+          9,
+          18,
+          36,
+          72,
+          144
+        ],
+        [
+          19,
+          38,
+          76,
+          152,
+          304
+        ],
+        [
+          38,
+          76,
+          152,
+          304,
+          608
+        ],
+        [
+          95,
+          190,
+          380,
+          760,
+          1520
+        ],
+        [
+          190,
+          380,
+          760,
+          1520,
+          3040
+        ]
+      ],
+      "replays": [
+        {
+          "call": "tails",
+          "rideCalls": "",
+          "first": "heads",
+          "rides": [],
+          "step": 0,
+          "lost": true,
+          "atTop": false,
+          "multiplier": "0"
+        },
+        {
+          "call": "heads",
+          "rideCalls": "",
+          "first": "heads",
+          "rides": [],
+          "step": 1,
+          "lost": false,
+          "atTop": false,
+          "multiplier": "1.90"
+        },
+        {
+          "call": "heads",
+          "rideCalls": "HHTH",
+          "first": "heads",
+          "rides": [
+            {
+              "call": "heads",
+              "landed": "heads",
+              "won": true
+            },
+            {
+              "call": "heads",
+              "landed": "heads",
+              "won": true
+            },
+            {
+              "call": "tails",
+              "landed": "tails",
+              "won": true
+            },
+            {
+              "call": "heads",
+              "landed": "heads",
+              "won": true
+            }
+          ],
+          "step": 5,
+          "lost": false,
+          "atTop": true,
+          "multiplier": "30.40"
+        },
+        {
+          "call": "heads",
+          "rideCalls": "HT",
+          "first": "heads",
+          "rides": [
+            {
+              "call": "heads",
+              "landed": "heads",
+              "won": true
+            },
+            {
+              "call": "tails",
+              "landed": "heads",
+              "won": false
+            }
+          ],
+          "step": 2,
+          "lost": true,
+          "atTop": false,
+          "multiplier": "0"
+        },
+        {
+          "call": "heads",
+          "rideCalls": "T",
+          "first": "heads",
+          "rides": [
+            {
+              "call": "tails",
+              "landed": "heads",
+              "won": false
+            }
+          ],
+          "step": 1,
+          "lost": true,
+          "atTop": false,
+          "multiplier": "0"
+        },
+        {
+          "call": "heads",
+          "rideCalls": "HHTT",
+          "first": "heads",
+          "rides": [
+            {
+              "call": "heads",
+              "landed": "heads",
+              "won": true
+            },
+            {
+              "call": "heads",
+              "landed": "heads",
+              "won": true
+            },
+            {
+              "call": "tails",
+              "landed": "tails",
+              "won": true
+            },
+            {
+              "call": "tails",
+              "landed": "heads",
+              "won": false
+            }
+          ],
+          "step": 4,
+          "lost": true,
+          "atTop": false,
+          "multiplier": "0"
+        },
+        {
+          "call": "tails",
+          "rideCalls": "HHTH",
+          "first": "heads",
+          "rides": [],
+          "step": 0,
+          "lost": true,
+          "atTop": false,
+          "multiplier": "0"
+        },
+        {
+          "call": "heads",
+          "rideCalls": "HHHH",
+          "first": "heads",
+          "rides": [
+            {
+              "call": "heads",
+              "landed": "heads",
+              "won": true
+            },
+            {
+              "call": "heads",
+              "landed": "heads",
+              "won": true
+            },
+            {
+              "call": "heads",
+              "landed": "tails",
+              "won": false
+            }
+          ],
+          "step": 3,
+          "lost": true,
+          "atTop": false,
+          "multiplier": "0"
+        }
+      ]
+    }
+  ]
+}

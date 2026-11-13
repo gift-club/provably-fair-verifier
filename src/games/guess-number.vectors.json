@@ -1,0 +1,2454 @@
+{
+  "generatedBy": "the Gift Club server's own code",
+  "lowestStart": 100,
+  "highestNumber": 999,
+  "levels": {
+    "low": {
+      "range": 200,
+      "maxGuesses": 7,
+      "multiplier": "1.4961"
+    },
+    "medium": {
+      "range": 500,
+      "maxGuesses": 7,
+      "multiplier": "3.7402"
+    }
+  },
+  "rollStarts": [
+    {
+      "range": 200,
+      "roll": 0,
+      "start": 100
+    },
+    {
+      "range": 200,
+      "roll": 0.01,
+      "start": 107
+    },
+    {
+      "range": 200,
+      "roll": 0.02,
+      "start": 114
+    },
+    {
+      "range": 200,
+      "roll": 0.03,
+      "start": 121
+    },
+    {
+      "range": 200,
+      "roll": 0.04,
+      "start": 128
+    },
+    {
+      "range": 200,
+      "roll": 0.05,
+      "start": 135
+    },
+    {
+      "range": 200,
+      "roll": 0.06,
+      "start": 142
+    },
+    {
+      "range": 200,
+      "roll": 0.07,
+      "start": 149
+    },
+    {
+      "range": 200,
+      "roll": 0.08,
+      "start": 156
+    },
+    {
+      "range": 200,
+      "roll": 0.09,
+      "start": 163
+    },
+    {
+      "range": 200,
+      "roll": 0.1,
+      "start": 170
+    },
+    {
+      "range": 200,
+      "roll": 0.11,
+      "start": 177
+    },
+    {
+      "range": 200,
+      "roll": 0.12,
+      "start": 184
+    },
+    {
+      "range": 200,
+      "roll": 0.13,
+      "start": 191
+    },
+    {
+      "range": 200,
+      "roll": 0.14,
+      "start": 198
+    },
+    {
+      "range": 200,
+      "roll": 0.15,
+      "start": 205
+    },
+    {
+      "range": 200,
+      "roll": 0.16,
+      "start": 212
+    },
+    {
+      "range": 200,
+      "roll": 0.17,
+      "start": 219
+    },
+    {
+      "range": 200,
+      "roll": 0.18,
+      "start": 226
+    },
+    {
+      "range": 200,
+      "roll": 0.19,
+      "start": 233
+    },
+    {
+      "range": 200,
+      "roll": 0.2,
+      "start": 240
+    },
+    {
+      "range": 200,
+      "roll": 0.21,
+      "start": 247
+    },
+    {
+      "range": 200,
+      "roll": 0.22,
+      "start": 254
+    },
+    {
+      "range": 200,
+      "roll": 0.23,
+      "start": 261
+    },
+    {
+      "range": 200,
+      "roll": 0.24,
+      "start": 268
+    },
+    {
+      "range": 200,
+      "roll": 0.25,
+      "start": 275
+    },
+    {
+      "range": 200,
+      "roll": 0.26,
+      "start": 282
+    },
+    {
+      "range": 200,
+      "roll": 0.27,
+      "start": 289
+    },
+    {
+      "range": 200,
+      "roll": 0.28,
+      "start": 296
+    },
+    {
+      "range": 200,
+      "roll": 0.29,
+      "start": 303
+    },
+    {
+      "range": 200,
+      "roll": 0.3,
+      "start": 310
+    },
+    {
+      "range": 200,
+      "roll": 0.31,
+      "start": 317
+    },
+    {
+      "range": 200,
+      "roll": 0.32,
+      "start": 324
+    },
+    {
+      "range": 200,
+      "roll": 0.33,
+      "start": 331
+    },
+    {
+      "range": 200,
+      "roll": 0.34,
+      "start": 338
+    },
+    {
+      "range": 200,
+      "roll": 0.35,
+      "start": 345
+    },
+    {
+      "range": 200,
+      "roll": 0.36,
+      "start": 352
+    },
+    {
+      "range": 200,
+      "roll": 0.37,
+      "start": 359
+    },
+    {
+      "range": 200,
+      "roll": 0.38,
+      "start": 366
+    },
+    {
+      "range": 200,
+      "roll": 0.39,
+      "start": 373
+    },
+    {
+      "range": 200,
+      "roll": 0.4,
+      "start": 380
+    },
+    {
+      "range": 200,
+      "roll": 0.41,
+      "start": 387
+    },
+    {
+      "range": 200,
+      "roll": 0.42,
+      "start": 394
+    },
+    {
+      "range": 200,
+      "roll": 0.43,
+      "start": 401
+    },
+    {
+      "range": 200,
+      "roll": 0.44,
+      "start": 408
+    },
+    {
+      "range": 200,
+      "roll": 0.45,
+      "start": 415
+    },
+    {
+      "range": 200,
+      "roll": 0.46,
+      "start": 422
+    },
+    {
+      "range": 200,
+      "roll": 0.47,
+      "start": 429
+    },
+    {
+      "range": 200,
+      "roll": 0.48,
+      "start": 436
+    },
+    {
+      "range": 200,
+      "roll": 0.49,
+      "start": 443
+    },
+    {
+      "range": 200,
+      "roll": 0.5,
+      "start": 450
+    },
+    {
+      "range": 200,
+      "roll": 0.51,
+      "start": 457
+    },
+    {
+      "range": 200,
+      "roll": 0.52,
+      "start": 464
+    },
+    {
+      "range": 200,
+      "roll": 0.53,
+      "start": 471
+    },
+    {
+      "range": 200,
+      "roll": 0.54,
+      "start": 478
+    },
+    {
+      "range": 200,
+      "roll": 0.55,
+      "start": 485
+    },
+    {
+      "range": 200,
+      "roll": 0.56,
+      "start": 492
+    },
+    {
+      "range": 200,
+      "roll": 0.57,
+      "start": 499
+    },
+    {
+      "range": 200,
+      "roll": 0.58,
+      "start": 506
+    },
+    {
+      "range": 200,
+      "roll": 0.59,
+      "start": 513
+    },
+    {
+      "range": 200,
+      "roll": 0.6,
+      "start": 520
+    },
+    {
+      "range": 200,
+      "roll": 0.61,
+      "start": 527
+    },
+    {
+      "range": 200,
+      "roll": 0.62,
+      "start": 534
+    },
+    {
+      "range": 200,
+      "roll": 0.63,
+      "start": 541
+    },
+    {
+      "range": 200,
+      "roll": 0.64,
+      "start": 548
+    },
+    {
+      "range": 200,
+      "roll": 0.65,
+      "start": 555
+    },
+    {
+      "range": 200,
+      "roll": 0.66,
+      "start": 562
+    },
+    {
+      "range": 200,
+      "roll": 0.67,
+      "start": 569
+    },
+    {
+      "range": 200,
+      "roll": 0.68,
+      "start": 576
+    },
+    {
+      "range": 200,
+      "roll": 0.69,
+      "start": 583
+    },
+    {
+      "range": 200,
+      "roll": 0.7,
+      "start": 590
+    },
+    {
+      "range": 200,
+      "roll": 0.71,
+      "start": 597
+    },
+    {
+      "range": 200,
+      "roll": 0.72,
+      "start": 604
+    },
+    {
+      "range": 200,
+      "roll": 0.73,
+      "start": 611
+    },
+    {
+      "range": 200,
+      "roll": 0.74,
+      "start": 618
+    },
+    {
+      "range": 200,
+      "roll": 0.75,
+      "start": 625
+    },
+    {
+      "range": 200,
+      "roll": 0.76,
+      "start": 632
+    },
+    {
+      "range": 200,
+      "roll": 0.77,
+      "start": 639
+    },
+    {
+      "range": 200,
+      "roll": 0.78,
+      "start": 646
+    },
+    {
+      "range": 200,
+      "roll": 0.79,
+      "start": 653
+    },
+    {
+      "range": 200,
+      "roll": 0.8,
+      "start": 660
+    },
+    {
+      "range": 200,
+      "roll": 0.81,
+      "start": 667
+    },
+    {
+      "range": 200,
+      "roll": 0.82,
+      "start": 674
+    },
+    {
+      "range": 200,
+      "roll": 0.83,
+      "start": 681
+    },
+    {
+      "range": 200,
+      "roll": 0.84,
+      "start": 688
+    },
+    {
+      "range": 200,
+      "roll": 0.85,
+      "start": 695
+    },
+    {
+      "range": 200,
+      "roll": 0.86,
+      "start": 702
+    },
+    {
+      "range": 200,
+      "roll": 0.87,
+      "start": 709
+    },
+    {
+      "range": 200,
+      "roll": 0.88,
+      "start": 716
+    },
+    {
+      "range": 200,
+      "roll": 0.89,
+      "start": 723
+    },
+    {
+      "range": 200,
+      "roll": 0.9,
+      "start": 730
+    },
+    {
+      "range": 200,
+      "roll": 0.91,
+      "start": 737
+    },
+    {
+      "range": 200,
+      "roll": 0.92,
+      "start": 744
+    },
+    {
+      "range": 200,
+      "roll": 0.93,
+      "start": 751
+    },
+    {
+      "range": 200,
+      "roll": 0.94,
+      "start": 758
+    },
+    {
+      "range": 200,
+      "roll": 0.95,
+      "start": 765
+    },
+    {
+      "range": 200,
+      "roll": 0.96,
+      "start": 772
+    },
+    {
+      "range": 200,
+      "roll": 0.97,
+      "start": 779
+    },
+    {
+      "range": 200,
+      "roll": 0.98,
+      "start": 786
+    },
+    {
+      "range": 200,
+      "roll": 0.99,
+      "start": 793
+    },
+    {
+      "range": 200,
+      "roll": 0.999999999,
+      "start": 800
+    },
+    {
+      "range": 200,
+      "roll": 1E-07,
+      "start": 100
+    },
+    {
+      "range": 500,
+      "roll": 0,
+      "start": 100
+    },
+    {
+      "range": 500,
+      "roll": 0.01,
+      "start": 104
+    },
+    {
+      "range": 500,
+      "roll": 0.02,
+      "start": 108
+    },
+    {
+      "range": 500,
+      "roll": 0.03,
+      "start": 112
+    },
+    {
+      "range": 500,
+      "roll": 0.04,
+      "start": 116
+    },
+    {
+      "range": 500,
+      "roll": 0.05,
+      "start": 120
+    },
+    {
+      "range": 500,
+      "roll": 0.06,
+      "start": 124
+    },
+    {
+      "range": 500,
+      "roll": 0.07,
+      "start": 128
+    },
+    {
+      "range": 500,
+      "roll": 0.08,
+      "start": 132
+    },
+    {
+      "range": 500,
+      "roll": 0.09,
+      "start": 136
+    },
+    {
+      "range": 500,
+      "roll": 0.1,
+      "start": 140
+    },
+    {
+      "range": 500,
+      "roll": 0.11,
+      "start": 144
+    },
+    {
+      "range": 500,
+      "roll": 0.12,
+      "start": 148
+    },
+    {
+      "range": 500,
+      "roll": 0.13,
+      "start": 152
+    },
+    {
+      "range": 500,
+      "roll": 0.14,
+      "start": 156
+    },
+    {
+      "range": 500,
+      "roll": 0.15,
+      "start": 160
+    },
+    {
+      "range": 500,
+      "roll": 0.16,
+      "start": 164
+    },
+    {
+      "range": 500,
+      "roll": 0.17,
+      "start": 168
+    },
+    {
+      "range": 500,
+      "roll": 0.18,
+      "start": 172
+    },
+    {
+      "range": 500,
+      "roll": 0.19,
+      "start": 176
+    },
+    {
+      "range": 500,
+      "roll": 0.2,
+      "start": 180
+    },
+    {
+      "range": 500,
+      "roll": 0.21,
+      "start": 184
+    },
+    {
+      "range": 500,
+      "roll": 0.22,
+      "start": 188
+    },
+    {
+      "range": 500,
+      "roll": 0.23,
+      "start": 192
+    },
+    {
+      "range": 500,
+      "roll": 0.24,
+      "start": 196
+    },
+    {
+      "range": 500,
+      "roll": 0.25,
+      "start": 200
+    },
+    {
+      "range": 500,
+      "roll": 0.26,
+      "start": 204
+    },
+    {
+      "range": 500,
+      "roll": 0.27,
+      "start": 208
+    },
+    {
+      "range": 500,
+      "roll": 0.28,
+      "start": 212
+    },
+    {
+      "range": 500,
+      "roll": 0.29,
+      "start": 216
+    },
+    {
+      "range": 500,
+      "roll": 0.3,
+      "start": 220
+    },
+    {
+      "range": 500,
+      "roll": 0.31,
+      "start": 224
+    },
+    {
+      "range": 500,
+      "roll": 0.32,
+      "start": 228
+    },
+    {
+      "range": 500,
+      "roll": 0.33,
+      "start": 232
+    },
+    {
+      "range": 500,
+      "roll": 0.34,
+      "start": 236
+    },
+    {
+      "range": 500,
+      "roll": 0.35,
+      "start": 240
+    },
+    {
+      "range": 500,
+      "roll": 0.36,
+      "start": 244
+    },
+    {
+      "range": 500,
+      "roll": 0.37,
+      "start": 248
+    },
+    {
+      "range": 500,
+      "roll": 0.38,
+      "start": 252
+    },
+    {
+      "range": 500,
+      "roll": 0.39,
+      "start": 256
+    },
+    {
+      "range": 500,
+      "roll": 0.4,
+      "start": 260
+    },
+    {
+      "range": 500,
+      "roll": 0.41,
+      "start": 264
+    },
+    {
+      "range": 500,
+      "roll": 0.42,
+      "start": 268
+    },
+    {
+      "range": 500,
+      "roll": 0.43,
+      "start": 272
+    },
+    {
+      "range": 500,
+      "roll": 0.44,
+      "start": 276
+    },
+    {
+      "range": 500,
+      "roll": 0.45,
+      "start": 280
+    },
+    {
+      "range": 500,
+      "roll": 0.46,
+      "start": 284
+    },
+    {
+      "range": 500,
+      "roll": 0.47,
+      "start": 288
+    },
+    {
+      "range": 500,
+      "roll": 0.48,
+      "start": 292
+    },
+    {
+      "range": 500,
+      "roll": 0.49,
+      "start": 296
+    },
+    {
+      "range": 500,
+      "roll": 0.5,
+      "start": 300
+    },
+    {
+      "range": 500,
+      "roll": 0.51,
+      "start": 304
+    },
+    {
+      "range": 500,
+      "roll": 0.52,
+      "start": 308
+    },
+    {
+      "range": 500,
+      "roll": 0.53,
+      "start": 312
+    },
+    {
+      "range": 500,
+      "roll": 0.54,
+      "start": 316
+    },
+    {
+      "range": 500,
+      "roll": 0.55,
+      "start": 320
+    },
+    {
+      "range": 500,
+      "roll": 0.56,
+      "start": 324
+    },
+    {
+      "range": 500,
+      "roll": 0.57,
+      "start": 328
+    },
+    {
+      "range": 500,
+      "roll": 0.58,
+      "start": 332
+    },
+    {
+      "range": 500,
+      "roll": 0.59,
+      "start": 336
+    },
+    {
+      "range": 500,
+      "roll": 0.6,
+      "start": 340
+    },
+    {
+      "range": 500,
+      "roll": 0.61,
+      "start": 344
+    },
+    {
+      "range": 500,
+      "roll": 0.62,
+      "start": 348
+    },
+    {
+      "range": 500,
+      "roll": 0.63,
+      "start": 352
+    },
+    {
+      "range": 500,
+      "roll": 0.64,
+      "start": 356
+    },
+    {
+      "range": 500,
+      "roll": 0.65,
+      "start": 360
+    },
+    {
+      "range": 500,
+      "roll": 0.66,
+      "start": 364
+    },
+    {
+      "range": 500,
+      "roll": 0.67,
+      "start": 368
+    },
+    {
+      "range": 500,
+      "roll": 0.68,
+      "start": 372
+    },
+    {
+      "range": 500,
+      "roll": 0.69,
+      "start": 376
+    },
+    {
+      "range": 500,
+      "roll": 0.7,
+      "start": 380
+    },
+    {
+      "range": 500,
+      "roll": 0.71,
+      "start": 384
+    },
+    {
+      "range": 500,
+      "roll": 0.72,
+      "start": 388
+    },
+    {
+      "range": 500,
+      "roll": 0.73,
+      "start": 392
+    },
+    {
+      "range": 500,
+      "roll": 0.74,
+      "start": 396
+    },
+    {
+      "range": 500,
+      "roll": 0.75,
+      "start": 400
+    },
+    {
+      "range": 500,
+      "roll": 0.76,
+      "start": 404
+    },
+    {
+      "range": 500,
+      "roll": 0.77,
+      "start": 408
+    },
+    {
+      "range": 500,
+      "roll": 0.78,
+      "start": 412
+    },
+    {
+      "range": 500,
+      "roll": 0.79,
+      "start": 416
+    },
+    {
+      "range": 500,
+      "roll": 0.8,
+      "start": 420
+    },
+    {
+      "range": 500,
+      "roll": 0.81,
+      "start": 424
+    },
+    {
+      "range": 500,
+      "roll": 0.82,
+      "start": 428
+    },
+    {
+      "range": 500,
+      "roll": 0.83,
+      "start": 432
+    },
+    {
+      "range": 500,
+      "roll": 0.84,
+      "start": 436
+    },
+    {
+      "range": 500,
+      "roll": 0.85,
+      "start": 440
+    },
+    {
+      "range": 500,
+      "roll": 0.86,
+      "start": 444
+    },
+    {
+      "range": 500,
+      "roll": 0.87,
+      "start": 448
+    },
+    {
+      "range": 500,
+      "roll": 0.88,
+      "start": 452
+    },
+    {
+      "range": 500,
+      "roll": 0.89,
+      "start": 456
+    },
+    {
+      "range": 500,
+      "roll": 0.9,
+      "start": 460
+    },
+    {
+      "range": 500,
+      "roll": 0.91,
+      "start": 464
+    },
+    {
+      "range": 500,
+      "roll": 0.92,
+      "start": 468
+    },
+    {
+      "range": 500,
+      "roll": 0.93,
+      "start": 472
+    },
+    {
+      "range": 500,
+      "roll": 0.94,
+      "start": 476
+    },
+    {
+      "range": 500,
+      "roll": 0.95,
+      "start": 480
+    },
+    {
+      "range": 500,
+      "roll": 0.96,
+      "start": 484
+    },
+    {
+      "range": 500,
+      "roll": 0.97,
+      "start": 488
+    },
+    {
+      "range": 500,
+      "roll": 0.98,
+      "start": 492
+    },
+    {
+      "range": 500,
+      "roll": 0.99,
+      "start": 496
+    },
+    {
+      "range": 500,
+      "roll": 0.999999999,
+      "start": 500
+    },
+    {
+      "range": 500,
+      "roll": 1E-07,
+      "start": 100
+    },
+    {
+      "range": 1000,
+      "roll": 0,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.01,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.02,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.03,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.04,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.05,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.06,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.07,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.08,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.09,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.1,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.11,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.12,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.13,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.14,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.15,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.16,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.17,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.18,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.19,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.2,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.21,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.22,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.23,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.24,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.25,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.26,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.27,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.28,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.29,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.3,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.31,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.32,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.33,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.34,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.35,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.36,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.37,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.38,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.39,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.4,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.41,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.42,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.43,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.44,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.45,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.46,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.47,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.48,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.49,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.5,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.51,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.52,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.53,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.54,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.55,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.56,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.57,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.58,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.59,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.6,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.61,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.62,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.63,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.64,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.65,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.66,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.67,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.68,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.69,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.7,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.71,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.72,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.73,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.74,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.75,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.76,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.77,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.78,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.79,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.8,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.81,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.82,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.83,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.84,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.85,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.86,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.87,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.88,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.89,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.9,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.91,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.92,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.93,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.94,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.95,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.96,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.97,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.98,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.99,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 0.999999999,
+      "start": 1
+    },
+    {
+      "range": 1000,
+      "roll": 1E-07,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.01,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.02,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.03,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.04,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.05,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.06,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.07,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.08,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.09,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.1,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.11,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.12,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.13,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.14,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.15,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.16,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.17,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.18,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.19,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.2,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.21,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.22,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.23,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.24,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.25,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.26,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.27,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.28,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.29,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.3,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.31,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.32,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.33,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.34,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.35,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.36,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.37,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.38,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.39,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.4,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.41,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.42,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.43,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.44,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.45,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.46,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.47,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.48,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.49,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.5,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.51,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.52,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.53,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.54,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.55,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.56,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.57,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.58,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.59,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.6,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.61,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.62,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.63,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.64,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.65,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.66,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.67,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.68,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.69,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.7,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.71,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.72,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.73,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.74,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.75,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.76,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.77,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.78,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.79,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.8,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.81,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.82,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.83,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.84,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.85,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.86,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.87,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.88,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.89,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.9,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.91,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.92,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.93,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.94,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.95,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.96,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.97,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.98,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.99,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 0.999999999,
+      "start": 1
+    },
+    {
+      "range": 5000,
+      "roll": 1E-07,
+      "start": 1
+    }
+  ],
+  "gram": {
+    "tiers": [
+      "0.1",
+      "0.5",
+      "1",
+      "2",
+      "3",
+      "5",
+      "10"
+    ],
+    "low": [
+      "0.14961",
+      "0.74805",
+      "1.4961",
+      "2.9922",
+      "4.4883",
+      "7.4805",
+      "14.961"
+    ],
+    "medium": [
+      "0.37402",
+      "1.8701",
+      "3.7402",
+      "7.4804",
+      "11.2206",
+      "18.701",
+      "37.402"
+    ]
+  },
+  "cases": [
+    {
+      "serverSeed": "0f1e2d3c4b5a69788796a5b4c3d2e1f00112233445566778899aabbccddeeff0",
+      "clientSeed": "gift-club-demo",
+      "nonce": 0,
+      "floats": [
+        0.10444111353717744,
+        0.10648183641023934
+      ],
+      "risks": {
+        "low": {
+          "range": 200,
+          "maxGuesses": 7,
+          "multiplier": "1.4961",
+          "minNumber": 174,
+          "maxNumber": 373,
+          "secretNumber": 194
+        },
+        "medium": {
+          "range": 500,
+          "maxGuesses": 7,
+          "multiplier": "3.7402",
+          "minNumber": 142,
+          "maxNumber": 641,
+          "secretNumber": 194
+        }
+      },
+      "legacy": {
+        "200": 21,
+        "1000": 105,
+        "5000": 523
+      },
+      "roundingFloat": 0.14860570360906422,
+      "stars": {
+        "1.4961": [
+          2,
+          8,
+          15,
+          30,
+          75,
+          150
+        ],
+        "3.7402": [
+          4,
+          19,
+          38,
+          75,
+          187,
+          374
+        ],
+        "7.4803": [
+          8,
+          38,
+          75,
+          150,
+          374,
+          748
+        ],
+        "37.4016": [
+          38,
+          187,
+          374,
+          748,
+          1870,
+          3741
+        ],
+        "1.5433": [
+          2,
+          8,
+          16,
+          31,
+          78,
+          155
+        ],
+        "7.7165": [
+          8,
+          39,
+          78,
+          155,
+          386,
+          772
+        ],
+        "38.5827": [
+          39,
+          193,
+          386,
+          772,
+          1929,
+          3859
+        ]
+      }
+    },
+    {
+      "serverSeed": "a3f1c9e84b2d7f6051e9c3a7b8d4f2e6c1a09b7e5d3f8c2a6e4b1d9f7c3a5e8b",
+      "clientSeed": "9d4c1f3e-2b7a-4e8c-9f1d-3a6b5c8e7d2f",
+      "nonce": 7,
+      "floats": [
+        0.902275743894279,
+        0.8036713697947562
+      ],
+      "risks": {
+        "low": {
+          "range": 200,
+          "maxGuesses": 7,
+          "multiplier": "1.4961",
+          "minNumber": 663,
+          "maxNumber": 862,
+          "secretNumber": 843
+        },
+        "medium": {
+          "range": 500,
+          "maxGuesses": 7,
+          "multiplier": "3.7402",
+          "minNumber": 422,
+          "maxNumber": 921,
+          "secretNumber": 873
+        }
+      },
+      "legacy": {
+        "200": 181,
+        "1000": 903,
+        "5000": 4512
+      },
+      "roundingFloat": 0.27225745283067226,
+      "stars": {
+        "1.4961": [
+          2,
+          8,
+          15,
+          30,
+          75,
+          150
+        ],
+        "3.7402": [
+          4,
+          19,
+          38,
+          75,
+          187,
+          374
+        ],
+        "7.4803": [
+          8,
+          38,
+          75,
+          150,
+          374,
+          748
+        ],
+        "37.4016": [
+          38,
+          187,
+          374,
+          748,
+          1870,
+          3740
+        ],
+        "1.5433": [
+          2,
+          8,
+          16,
+          31,
+          77,
+          155
+        ],
+        "7.7165": [
+          8,
+          39,
+          77,
+          155,
+          386,
+          772
+        ],
+        "38.5827": [
+          39,
+          193,
+          386,
+          772,
+          1929,
+          3858
+        ]
+      }
+    },
+    {
+      "serverSeed": "ffffffff00000000ffffffff00000000ffffffff00000000ffffffff00000000",
+      "clientSeed": "x",
+      "nonce": 123456,
+      "floats": [
+        0.03174039022997022,
+        0.45318084536120296
+      ],
+      "risks": {
+        "low": {
+          "range": 200,
+          "maxGuesses": 7,
+          "multiplier": "1.4961",
+          "minNumber": 417,
+          "maxNumber": 616,
+          "secretNumber": 423
+        },
+        "medium": {
+          "range": 500,
+          "maxGuesses": 7,
+          "multiplier": "3.7402",
+          "minNumber": 281,
+          "maxNumber": 780,
+          "secretNumber": 296
+        }
+      },
+      "legacy": {
+        "200": 7,
+        "1000": 32,
+        "5000": 159
+      },
+      "roundingFloat": 0.7858057727571577,
+      "stars": {
+        "1.4961": [
+          1,
+          7,
+          15,
+          30,
+          75,
+          149
+        ],
+        "3.7402": [
+          3,
+          18,
+          37,
+          75,
+          187,
+          374
+        ],
+        "7.4803": [
+          7,
+          37,
+          75,
+          149,
+          374,
+          748
+        ],
+        "37.4016": [
+          37,
+          187,
+          374,
+          748,
+          1870,
+          3740
+        ],
+        "1.5433": [
+          1,
+          7,
+          15,
+          31,
+          77,
+          154
+        ],
+        "7.7165": [
+          7,
+          38,
+          77,
+          154,
+          386,
+          771
+        ],
+        "38.5827": [
+          38,
+          193,
+          386,
+          771,
+          1929,
+          3858
+        ]
+      }
+    },
+    {
+      "serverSeed": "5c6e1b2a9d8f7e3c4b1a0f9e8d7c6b5a4f3e2d1c0b9a8f7e6d5c4b3a2f1e0d9c",
+      "clientSeed": "player-client-seed",
+      "nonce": 42,
+      "floats": [
+        0.3660743373911828,
+        0.15493342000991106
+      ],
+      "risks": {
+        "low": {
+          "range": 200,
+          "maxGuesses": 7,
+          "multiplier": "1.4961",
+          "minNumber": 208,
+          "maxNumber": 407,
+          "secretNumber": 281
+        },
+        "medium": {
+          "range": 500,
+          "maxGuesses": 7,
+          "multiplier": "3.7402",
+          "minNumber": 162,
+          "maxNumber": 661,
+          "secretNumber": 345
+        }
+      },
+      "legacy": {
+        "200": 74,
+        "1000": 367,
+        "5000": 1831
+      },
+      "roundingFloat": 0.43243310414254665,
+      "stars": {
+        "1.4961": [
+          2,
+          8,
+          15,
+          30,
+          75,
+          150
+        ],
+        "3.7402": [
+          4,
+          19,
+          37,
+          75,
+          187,
+          374
+        ],
+        "7.4803": [
+          8,
+          37,
+          75,
+          150,
+          374,
+          748
+        ],
+        "37.4016": [
+          37,
+          187,
+          374,
+          748,
+          1870,
+          3740
+        ],
+        "1.5433": [
+          2,
+          8,
+          16,
+          31,
+          77,
+          154
+        ],
+        "7.7165": [
+          8,
+          39,
+          77,
+          154,
+          386,
+          772
+        ],
+        "38.5827": [
+          39,
+          193,
+          386,
+          772,
+          1929,
+          3858
+        ]
+      }
+    }
+  ]
+}

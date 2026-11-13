@@ -1,0 +1,7792 @@
+{
+  "generatedBy": "the Gift Club server's own code",
+  "balloonLadder": [
+    "1.0000",
+    "1.0638",
+    "1.1439",
+    "1.2433",
+    "1.3663",
+    "1.5181",
+    "1.7057",
+    "1.9166",
+    "2.1535",
+    "2.4196",
+    "2.7187",
+    "3.0547",
+    "3.4323",
+    "3.8565",
+    "4.3331",
+    "4.8687",
+    "5.4705",
+    "6.1466",
+    "6.9063",
+    "7.7599",
+    "8.7190",
+    "9.7966",
+    "11.0074",
+    "12.3679",
+    "13.8965",
+    "15.6141",
+    "17.5439",
+    "19.7123",
+    "22.1486",
+    "24.8861",
+    "27.9619",
+    "31.4179",
+    "35.3010",
+    "39.6640",
+    "44.5663"
+  ],
+  "balloonLadderFlat": [
+    "1.0555",
+    "1.1728",
+    "1.3031",
+    "1.4479",
+    "1.6088",
+    "1.7875",
+    "1.9862",
+    "2.2069",
+    "2.4521",
+    "2.7245",
+    "3.0273",
+    "3.3636",
+    "3.7374",
+    "4.1526",
+    "4.6140",
+    "5.1267",
+    "5.6964",
+    "6.3293",
+    "7.0326",
+    "7.8140"
+  ],
+  "gram": {
+    "tiers": [
+      "0.1",
+      "0.5",
+      "1",
+      "2",
+      "3",
+      "5",
+      "10"
+    ],
+    "keno5x109": [
+      "0.109",
+      "0.545",
+      "1.09",
+      "2.18",
+      "3.27",
+      "5.45",
+      "10.9"
+    ],
+    "rollOver47": [
+      "0.182692307",
+      "0.913461538",
+      "1.826923076",
+      "3.653846153",
+      "5.48076923",
+      "9.134615384",
+      "18.269230769"
+    ],
+    "diceDuel178": [
+      "0.178",
+      "0.89",
+      "1.78",
+      "3.56",
+      "5.34",
+      "8.9",
+      "17.8"
+    ],
+    "coinFlip": [
+      "0.19",
+      "0.95",
+      "1.9",
+      "3.8",
+      "5.7",
+      "9.5",
+      "19"
+    ],
+    "higherLowerRound6": [
+      "0.55599",
+      "2.77995",
+      "5.5599",
+      "11.1198",
+      "16.6797",
+      "27.7995",
+      "55.599"
+    ],
+    "balloonPump35": [
+      "4.45663",
+      "22.28315",
+      "44.5663",
+      "89.1326",
+      "133.6989",
+      "222.8315",
+      "445.663"
+    ],
+    "plinko1074": [
+      "10.74",
+      "53.7",
+      "107.4",
+      "214.8",
+      "322.2",
+      "537",
+      "1000"
+    ]
+  },
+  "balloonRolls": [
+    {
+      "roll": 0,
+      "sliding": 36,
+      "flat": 21
+    },
+    {
+      "roll": 0.005,
+      "sliding": 36,
+      "flat": 21
+    },
+    {
+      "roll": 0.01,
+      "sliding": 36,
+      "flat": 21
+    },
+    {
+      "roll": 0.015,
+      "sliding": 36,
+      "flat": 21
+    },
+    {
+      "roll": 0.02,
+      "sliding": 36,
+      "flat": 21
+    },
+    {
+      "roll": 0.025,
+      "sliding": 34,
+      "flat": 21
+    },
+    {
+      "roll": 0.03,
+      "sliding": 33,
+      "flat": 21
+    },
+    {
+      "roll": 0.035,
+      "sliding": 31,
+      "flat": 21
+    },
+    {
+      "roll": 0.04,
+      "sliding": 30,
+      "flat": 21
+    },
+    {
+      "roll": 0.045,
+      "sliding": 29,
+      "flat": 21
+    },
+    {
+      "roll": 0.05,
+      "sliding": 28,
+      "flat": 21
+    },
+    {
+      "roll": 0.055,
+      "sliding": 27,
+      "flat": 21
+    },
+    {
+      "roll": 0.06,
+      "sliding": 27,
+      "flat": 21
+    },
+    {
+      "roll": 0.065,
+      "sliding": 26,
+      "flat": 21
+    },
+    {
+      "roll": 0.07,
+      "sliding": 25,
+      "flat": 21
+    },
+    {
+      "roll": 0.075,
+      "sliding": 25,
+      "flat": 21
+    },
+    {
+      "roll": 0.08,
+      "sliding": 24,
+      "flat": 21
+    },
+    {
+      "roll": 0.085,
+      "sliding": 24,
+      "flat": 21
+    },
+    {
+      "roll": 0.09,
+      "sliding": 23,
+      "flat": 21
+    },
+    {
+      "roll": 0.095,
+      "sliding": 23,
+      "flat": 21
+    },
+    {
+      "roll": 0.1,
+      "sliding": 22,
+      "flat": 21
+    },
+    {
+      "roll": 0.105,
+      "sliding": 22,
+      "flat": 21
+    },
+    {
+      "roll": 0.11,
+      "sliding": 21,
+      "flat": 21
+    },
+    {
+      "roll": 0.115,
+      "sliding": 21,
+      "flat": 21
+    },
+    {
+      "roll": 0.12,
+      "sliding": 21,
+      "flat": 21
+    },
+    {
+      "roll": 0.125,
+      "sliding": 20,
+      "flat": 20
+    },
+    {
+      "roll": 0.13,
+      "sliding": 20,
+      "flat": 20
+    },
+    {
+      "roll": 0.135,
+      "sliding": 20,
+      "flat": 20
+    },
+    {
+      "roll": 0.14,
+      "sliding": 19,
+      "flat": 19
+    },
+    {
+      "roll": 0.145,
+      "sliding": 19,
+      "flat": 19
+    },
+    {
+      "roll": 0.15,
+      "sliding": 19,
+      "flat": 19
+    },
+    {
+      "roll": 0.155,
+      "sliding": 18,
+      "flat": 18
+    },
+    {
+      "roll": 0.16,
+      "sliding": 18,
+      "flat": 18
+    },
+    {
+      "roll": 0.165,
+      "sliding": 18,
+      "flat": 18
+    },
+    {
+      "roll": 0.17,
+      "sliding": 18,
+      "flat": 17
+    },
+    {
+      "roll": 0.175,
+      "sliding": 17,
+      "flat": 17
+    },
+    {
+      "roll": 0.18,
+      "sliding": 17,
+      "flat": 17
+    },
+    {
+      "roll": 0.185,
+      "sliding": 17,
+      "flat": 17
+    },
+    {
+      "roll": 0.19,
+      "sliding": 17,
+      "flat": 16
+    },
+    {
+      "roll": 0.195,
+      "sliding": 17,
+      "flat": 16
+    },
+    {
+      "roll": 0.2,
+      "sliding": 16,
+      "flat": 16
+    },
+    {
+      "roll": 0.205,
+      "sliding": 16,
+      "flat": 16
+    },
+    {
+      "roll": 0.21,
+      "sliding": 16,
+      "flat": 15
+    },
+    {
+      "roll": 0.215,
+      "sliding": 16,
+      "flat": 15
+    },
+    {
+      "roll": 0.22,
+      "sliding": 15,
+      "flat": 15
+    },
+    {
+      "roll": 0.225,
+      "sliding": 15,
+      "flat": 15
+    },
+    {
+      "roll": 0.23,
+      "sliding": 15,
+      "flat": 14
+    },
+    {
+      "roll": 0.235,
+      "sliding": 15,
+      "flat": 14
+    },
+    {
+      "roll": 0.24,
+      "sliding": 15,
+      "flat": 14
+    },
+    {
+      "roll": 0.245,
+      "sliding": 15,
+      "flat": 14
+    },
+    {
+      "roll": 0.25,
+      "sliding": 14,
+      "flat": 14
+    },
+    {
+      "roll": 0.255,
+      "sliding": 14,
+      "flat": 13
+    },
+    {
+      "roll": 0.26,
+      "sliding": 14,
+      "flat": 13
+    },
+    {
+      "roll": 0.265,
+      "sliding": 14,
+      "flat": 13
+    },
+    {
+      "roll": 0.27,
+      "sliding": 14,
+      "flat": 13
+    },
+    {
+      "roll": 0.275,
+      "sliding": 14,
+      "flat": 13
+    },
+    {
+      "roll": 0.28,
+      "sliding": 13,
+      "flat": 13
+    },
+    {
+      "roll": 0.285,
+      "sliding": 13,
+      "flat": 12
+    },
+    {
+      "roll": 0.29,
+      "sliding": 13,
+      "flat": 12
+    },
+    {
+      "roll": 0.295,
+      "sliding": 13,
+      "flat": 12
+    },
+    {
+      "roll": 0.3,
+      "sliding": 13,
+      "flat": 12
+    },
+    {
+      "roll": 0.305,
+      "sliding": 13,
+      "flat": 12
+    },
+    {
+      "roll": 0.31,
+      "sliding": 13,
+      "flat": 12
+    },
+    {
+      "roll": 0.315,
+      "sliding": 12,
+      "flat": 11
+    },
+    {
+      "roll": 0.32,
+      "sliding": 12,
+      "flat": 11
+    },
+    {
+      "roll": 0.325,
+      "sliding": 12,
+      "flat": 11
+    },
+    {
+      "roll": 0.33,
+      "sliding": 12,
+      "flat": 11
+    },
+    {
+      "roll": 0.335,
+      "sliding": 12,
+      "flat": 11
+    },
+    {
+      "roll": 0.34,
+      "sliding": 12,
+      "flat": 11
+    },
+    {
+      "roll": 0.345,
+      "sliding": 12,
+      "flat": 11
+    },
+    {
+      "roll": 0.35,
+      "sliding": 11,
+      "flat": 10
+    },
+    {
+      "roll": 0.355,
+      "sliding": 11,
+      "flat": 10
+    },
+    {
+      "roll": 0.36,
+      "sliding": 11,
+      "flat": 10
+    },
+    {
+      "roll": 0.365,
+      "sliding": 11,
+      "flat": 10
+    },
+    {
+      "roll": 0.37,
+      "sliding": 11,
+      "flat": 10
+    },
+    {
+      "roll": 0.375,
+      "sliding": 11,
+      "flat": 10
+    },
+    {
+      "roll": 0.38,
+      "sliding": 11,
+      "flat": 10
+    },
+    {
+      "roll": 0.385,
+      "sliding": 11,
+      "flat": 10
+    },
+    {
+      "roll": 0.39,
+      "sliding": 11,
+      "flat": 9
+    },
+    {
+      "roll": 0.395,
+      "sliding": 10,
+      "flat": 9
+    },
+    {
+      "roll": 0.4,
+      "sliding": 10,
+      "flat": 9
+    },
+    {
+      "roll": 0.405,
+      "sliding": 10,
+      "flat": 9
+    },
+    {
+      "roll": 0.41,
+      "sliding": 10,
+      "flat": 9
+    },
+    {
+      "roll": 0.415,
+      "sliding": 10,
+      "flat": 9
+    },
+    {
+      "roll": 0.42,
+      "sliding": 10,
+      "flat": 9
+    },
+    {
+      "roll": 0.425,
+      "sliding": 10,
+      "flat": 9
+    },
+    {
+      "roll": 0.43,
+      "sliding": 10,
+      "flat": 9
+    },
+    {
+      "roll": 0.435,
+      "sliding": 10,
+      "flat": 8
+    },
+    {
+      "roll": 0.44,
+      "sliding": 10,
+      "flat": 8
+    },
+    {
+      "roll": 0.445,
+      "sliding": 9,
+      "flat": 8
+    },
+    {
+      "roll": 0.45,
+      "sliding": 9,
+      "flat": 8
+    },
+    {
+      "roll": 0.455,
+      "sliding": 9,
+      "flat": 8
+    },
+    {
+      "roll": 0.46,
+      "sliding": 9,
+      "flat": 8
+    },
+    {
+      "roll": 0.465,
+      "sliding": 9,
+      "flat": 8
+    },
+    {
+      "roll": 0.47,
+      "sliding": 9,
+      "flat": 8
+    },
+    {
+      "roll": 0.475,
+      "sliding": 9,
+      "flat": 8
+    },
+    {
+      "roll": 0.48,
+      "sliding": 9,
+      "flat": 7
+    },
+    {
+      "roll": 0.485,
+      "sliding": 9,
+      "flat": 7
+    },
+    {
+      "roll": 0.49,
+      "sliding": 9,
+      "flat": 7
+    },
+    {
+      "roll": 0.495,
+      "sliding": 9,
+      "flat": 7
+    },
+    {
+      "roll": 0.5,
+      "sliding": 8,
+      "flat": 7
+    },
+    {
+      "roll": 0.505,
+      "sliding": 8,
+      "flat": 7
+    },
+    {
+      "roll": 0.51,
+      "sliding": 8,
+      "flat": 7
+    },
+    {
+      "roll": 0.515,
+      "sliding": 8,
+      "flat": 7
+    },
+    {
+      "roll": 0.52,
+      "sliding": 8,
+      "flat": 7
+    },
+    {
+      "roll": 0.525,
+      "sliding": 8,
+      "flat": 7
+    },
+    {
+      "roll": 0.53,
+      "sliding": 8,
+      "flat": 7
+    },
+    {
+      "roll": 0.535,
+      "sliding": 8,
+      "flat": 6
+    },
+    {
+      "roll": 0.54,
+      "sliding": 8,
+      "flat": 6
+    },
+    {
+      "roll": 0.545,
+      "sliding": 8,
+      "flat": 6
+    },
+    {
+      "roll": 0.55,
+      "sliding": 8,
+      "flat": 6
+    },
+    {
+      "roll": 0.555,
+      "sliding": 8,
+      "flat": 6
+    },
+    {
+      "roll": 0.56,
+      "sliding": 7,
+      "flat": 6
+    },
+    {
+      "roll": 0.565,
+      "sliding": 7,
+      "flat": 6
+    },
+    {
+      "roll": 0.57,
+      "sliding": 7,
+      "flat": 6
+    },
+    {
+      "roll": 0.575,
+      "sliding": 7,
+      "flat": 6
+    },
+    {
+      "roll": 0.58,
+      "sliding": 7,
+      "flat": 6
+    },
+    {
+      "roll": 0.585,
+      "sliding": 7,
+      "flat": 6
+    },
+    {
+      "roll": 0.59,
+      "sliding": 7,
+      "flat": 6
+    },
+    {
+      "roll": 0.595,
+      "sliding": 7,
+      "flat": 5
+    },
+    {
+      "roll": 0.6,
+      "sliding": 7,
+      "flat": 5
+    },
+    {
+      "roll": 0.605,
+      "sliding": 7,
+      "flat": 5
+    },
+    {
+      "roll": 0.61,
+      "sliding": 7,
+      "flat": 5
+    },
+    {
+      "roll": 0.615,
+      "sliding": 7,
+      "flat": 5
+    },
+    {
+      "roll": 0.62,
+      "sliding": 7,
+      "flat": 5
+    },
+    {
+      "roll": 0.625,
+      "sliding": 7,
+      "flat": 5
+    },
+    {
+      "roll": 0.63,
+      "sliding": 6,
+      "flat": 5
+    },
+    {
+      "roll": 0.635,
+      "sliding": 6,
+      "flat": 5
+    },
+    {
+      "roll": 0.64,
+      "sliding": 6,
+      "flat": 5
+    },
+    {
+      "roll": 0.645,
+      "sliding": 6,
+      "flat": 5
+    },
+    {
+      "roll": 0.65,
+      "sliding": 6,
+      "flat": 5
+    },
+    {
+      "roll": 0.655,
+      "sliding": 6,
+      "flat": 5
+    },
+    {
+      "roll": 0.66,
+      "sliding": 6,
+      "flat": 4
+    },
+    {
+      "roll": 0.665,
+      "sliding": 6,
+      "flat": 4
+    },
+    {
+      "roll": 0.67,
+      "sliding": 6,
+      "flat": 4
+    },
+    {
+      "roll": 0.675,
+      "sliding": 6,
+      "flat": 4
+    },
+    {
+      "roll": 0.68,
+      "sliding": 6,
+      "flat": 4
+    },
+    {
+      "roll": 0.685,
+      "sliding": 6,
+      "flat": 4
+    },
+    {
+      "roll": 0.69,
+      "sliding": 6,
+      "flat": 4
+    },
+    {
+      "roll": 0.695,
+      "sliding": 6,
+      "flat": 4
+    },
+    {
+      "roll": 0.7,
+      "sliding": 5,
+      "flat": 4
+    },
+    {
+      "roll": 0.705,
+      "sliding": 5,
+      "flat": 4
+    },
+    {
+      "roll": 0.71,
+      "sliding": 5,
+      "flat": 4
+    },
+    {
+      "roll": 0.715,
+      "sliding": 5,
+      "flat": 4
+    },
+    {
+      "roll": 0.72,
+      "sliding": 5,
+      "flat": 4
+    },
+    {
+      "roll": 0.725,
+      "sliding": 5,
+      "flat": 4
+    },
+    {
+      "roll": 0.73,
+      "sliding": 5,
+      "flat": 3
+    },
+    {
+      "roll": 0.735,
+      "sliding": 5,
+      "flat": 3
+    },
+    {
+      "roll": 0.74,
+      "sliding": 5,
+      "flat": 3
+    },
+    {
+      "roll": 0.745,
+      "sliding": 5,
+      "flat": 3
+    },
+    {
+      "roll": 0.75,
+      "sliding": 5,
+      "flat": 3
+    },
+    {
+      "roll": 0.755,
+      "sliding": 5,
+      "flat": 3
+    },
+    {
+      "roll": 0.76,
+      "sliding": 5,
+      "flat": 3
+    },
+    {
+      "roll": 0.765,
+      "sliding": 4,
+      "flat": 3
+    },
+    {
+      "roll": 0.77,
+      "sliding": 4,
+      "flat": 3
+    },
+    {
+      "roll": 0.775,
+      "sliding": 4,
+      "flat": 3
+    },
+    {
+      "roll": 0.78,
+      "sliding": 4,
+      "flat": 3
+    },
+    {
+      "roll": 0.785,
+      "sliding": 4,
+      "flat": 3
+    },
+    {
+      "roll": 0.79,
+      "sliding": 4,
+      "flat": 3
+    },
+    {
+      "roll": 0.795,
+      "sliding": 4,
+      "flat": 3
+    },
+    {
+      "roll": 0.8,
+      "sliding": 4,
+      "flat": 3
+    },
+    {
+      "roll": 0.805,
+      "sliding": 4,
+      "flat": 3
+    },
+    {
+      "roll": 0.81,
+      "sliding": 4,
+      "flat": 2
+    },
+    {
+      "roll": 0.815,
+      "sliding": 4,
+      "flat": 2
+    },
+    {
+      "roll": 0.82,
+      "sliding": 4,
+      "flat": 2
+    },
+    {
+      "roll": 0.825,
+      "sliding": 4,
+      "flat": 2
+    },
+    {
+      "roll": 0.83,
+      "sliding": 4,
+      "flat": 2
+    },
+    {
+      "roll": 0.835,
+      "sliding": 3,
+      "flat": 2
+    },
+    {
+      "roll": 0.84,
+      "sliding": 3,
+      "flat": 2
+    },
+    {
+      "roll": 0.845,
+      "sliding": 3,
+      "flat": 2
+    },
+    {
+      "roll": 0.85,
+      "sliding": 3,
+      "flat": 2
+    },
+    {
+      "roll": 0.855,
+      "sliding": 3,
+      "flat": 2
+    },
+    {
+      "roll": 0.86,
+      "sliding": 3,
+      "flat": 2
+    },
+    {
+      "roll": 0.865,
+      "sliding": 3,
+      "flat": 2
+    },
+    {
+      "roll": 0.87,
+      "sliding": 3,
+      "flat": 2
+    },
+    {
+      "roll": 0.875,
+      "sliding": 3,
+      "flat": 2
+    },
+    {
+      "roll": 0.88,
+      "sliding": 3,
+      "flat": 2
+    },
+    {
+      "roll": 0.885,
+      "sliding": 3,
+      "flat": 2
+    },
+    {
+      "roll": 0.89,
+      "sliding": 3,
+      "flat": 2
+    },
+    {
+      "roll": 0.895,
+      "sliding": 2,
+      "flat": 2
+    },
+    {
+      "roll": 0.9,
+      "sliding": 2,
+      "flat": 2
+    },
+    {
+      "roll": 0.905,
+      "sliding": 2,
+      "flat": 1
+    },
+    {
+      "roll": 0.91,
+      "sliding": 2,
+      "flat": 1
+    },
+    {
+      "roll": 0.915,
+      "sliding": 2,
+      "flat": 1
+    },
+    {
+      "roll": 0.92,
+      "sliding": 2,
+      "flat": 1
+    },
+    {
+      "roll": 0.925,
+      "sliding": 2,
+      "flat": 1
+    },
+    {
+      "roll": 0.93,
+      "sliding": 2,
+      "flat": 1
+    },
+    {
+      "roll": 0.935,
+      "sliding": 2,
+      "flat": 1
+    },
+    {
+      "roll": 0.94,
+      "sliding": 2,
+      "flat": 1
+    },
+    {
+      "roll": 0.945,
+      "sliding": 2,
+      "flat": 1
+    },
+    {
+      "roll": 0.95,
+      "sliding": 1,
+      "flat": 1
+    },
+    {
+      "roll": 0.955,
+      "sliding": 1,
+      "flat": 1
+    },
+    {
+      "roll": 0.96,
+      "sliding": 1,
+      "flat": 1
+    },
+    {
+      "roll": 0.965,
+      "sliding": 1,
+      "flat": 1
+    },
+    {
+      "roll": 0.97,
+      "sliding": 1,
+      "flat": 1
+    },
+    {
+      "roll": 0.975,
+      "sliding": 1,
+      "flat": 1
+    },
+    {
+      "roll": 0.98,
+      "sliding": 1,
+      "flat": 1
+    },
+    {
+      "roll": 0.985,
+      "sliding": 1,
+      "flat": 1
+    },
+    {
+      "roll": 0.99,
+      "sliding": 1,
+      "flat": 1
+    },
+    {
+      "roll": 0.995,
+      "sliding": 1,
+      "flat": 1
+    },
+    {
+      "roll": 0.0213,
+      "sliding": 36,
+      "flat": 21
+    },
+    {
+      "roll": 0.02,
+      "sliding": 36,
+      "flat": 21
+    },
+    {
+      "roll": 0.9499999,
+      "sliding": 2,
+      "flat": 1
+    },
+    {
+      "roll": 0.95,
+      "sliding": 1,
+      "flat": 1
+    },
+    {
+      "roll": 0.893,
+      "sliding": 2,
+      "flat": 2
+    },
+    {
+      "roll": 0.999999,
+      "sliding": 1,
+      "flat": 1
+    }
+  ],
+  "higherLowerPrices": [
+    {
+      "winners": 0,
+      "losers": 0,
+      "first": null,
+      "later": null
+    },
+    {
+      "winners": 0,
+      "losers": 1,
+      "first": null,
+      "later": null
+    },
+    {
+      "winners": 0,
+      "losers": 2,
+      "first": null,
+      "later": null
+    },
+    {
+      "winners": 0,
+      "losers": 3,
+      "first": null,
+      "later": null
+    },
+    {
+      "winners": 0,
+      "losers": 4,
+      "first": null,
+      "later": null
+    },
+    {
+      "winners": 0,
+      "losers": 7,
+      "first": null,
+      "later": null
+    },
+    {
+      "winners": 0,
+      "losers": 11,
+      "first": null,
+      "later": null
+    },
+    {
+      "winners": 0,
+      "losers": 20,
+      "first": null,
+      "later": null
+    },
+    {
+      "winners": 0,
+      "losers": 24,
+      "first": null,
+      "later": null
+    },
+    {
+      "winners": 0,
+      "losers": 33,
+      "first": null,
+      "later": null
+    },
+    {
+      "winners": 0,
+      "losers": 44,
+      "first": null,
+      "later": null
+    },
+    {
+      "winners": 0,
+      "losers": 47,
+      "first": null,
+      "later": null
+    },
+    {
+      "winners": 1,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 1,
+      "losers": 1,
+      "first": "1.9",
+      "later": "2"
+    },
+    {
+      "winners": 1,
+      "losers": 2,
+      "first": "2.85",
+      "later": "3"
+    },
+    {
+      "winners": 1,
+      "losers": 3,
+      "first": "3.8",
+      "later": "4"
+    },
+    {
+      "winners": 1,
+      "losers": 4,
+      "first": "4.75",
+      "later": "5"
+    },
+    {
+      "winners": 1,
+      "losers": 7,
+      "first": "7.6",
+      "later": "8"
+    },
+    {
+      "winners": 1,
+      "losers": 11,
+      "first": "11.4",
+      "later": "12"
+    },
+    {
+      "winners": 1,
+      "losers": 20,
+      "first": "19.95",
+      "later": "21"
+    },
+    {
+      "winners": 1,
+      "losers": 24,
+      "first": "23.75",
+      "later": "25"
+    },
+    {
+      "winners": 1,
+      "losers": 33,
+      "first": "32.3",
+      "later": "34"
+    },
+    {
+      "winners": 1,
+      "losers": 44,
+      "first": "42.75",
+      "later": "45"
+    },
+    {
+      "winners": 1,
+      "losers": 47,
+      "first": "45.6",
+      "later": "48"
+    },
+    {
+      "winners": 2,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 2,
+      "losers": 1,
+      "first": "1.425",
+      "later": "1.5"
+    },
+    {
+      "winners": 2,
+      "losers": 2,
+      "first": "1.9",
+      "later": "2"
+    },
+    {
+      "winners": 2,
+      "losers": 3,
+      "first": "2.375",
+      "later": "2.5"
+    },
+    {
+      "winners": 2,
+      "losers": 4,
+      "first": "2.85",
+      "later": "3"
+    },
+    {
+      "winners": 2,
+      "losers": 7,
+      "first": "4.275",
+      "later": "4.5"
+    },
+    {
+      "winners": 2,
+      "losers": 11,
+      "first": "6.175",
+      "later": "6.5"
+    },
+    {
+      "winners": 2,
+      "losers": 20,
+      "first": "10.45",
+      "later": "11"
+    },
+    {
+      "winners": 2,
+      "losers": 24,
+      "first": "12.35",
+      "later": "13"
+    },
+    {
+      "winners": 2,
+      "losers": 33,
+      "first": "16.625",
+      "later": "17.5"
+    },
+    {
+      "winners": 2,
+      "losers": 44,
+      "first": "21.85",
+      "later": "23"
+    },
+    {
+      "winners": 2,
+      "losers": 47,
+      "first": "23.275",
+      "later": "24.5"
+    },
+    {
+      "winners": 3,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 3,
+      "losers": 1,
+      "first": "1.2666",
+      "later": "1.3333"
+    },
+    {
+      "winners": 3,
+      "losers": 2,
+      "first": "1.5833",
+      "later": "1.6666"
+    },
+    {
+      "winners": 3,
+      "losers": 3,
+      "first": "1.9",
+      "later": "2"
+    },
+    {
+      "winners": 3,
+      "losers": 4,
+      "first": "2.2166",
+      "later": "2.3333"
+    },
+    {
+      "winners": 3,
+      "losers": 7,
+      "first": "3.1666",
+      "later": "3.3333"
+    },
+    {
+      "winners": 3,
+      "losers": 11,
+      "first": "4.4333",
+      "later": "4.6666"
+    },
+    {
+      "winners": 3,
+      "losers": 20,
+      "first": "7.2833",
+      "later": "7.6666"
+    },
+    {
+      "winners": 3,
+      "losers": 24,
+      "first": "8.55",
+      "later": "9"
+    },
+    {
+      "winners": 3,
+      "losers": 33,
+      "first": "11.4",
+      "later": "12"
+    },
+    {
+      "winners": 3,
+      "losers": 44,
+      "first": "14.8833",
+      "later": "15.6666"
+    },
+    {
+      "winners": 3,
+      "losers": 47,
+      "first": "15.8333",
+      "later": "16.6666"
+    },
+    {
+      "winners": 4,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 4,
+      "losers": 1,
+      "first": "1.1875",
+      "later": "1.25"
+    },
+    {
+      "winners": 4,
+      "losers": 2,
+      "first": "1.425",
+      "later": "1.5"
+    },
+    {
+      "winners": 4,
+      "losers": 3,
+      "first": "1.6625",
+      "later": "1.75"
+    },
+    {
+      "winners": 4,
+      "losers": 4,
+      "first": "1.9",
+      "later": "2"
+    },
+    {
+      "winners": 4,
+      "losers": 7,
+      "first": "2.6125",
+      "later": "2.75"
+    },
+    {
+      "winners": 4,
+      "losers": 11,
+      "first": "3.5625",
+      "later": "3.75"
+    },
+    {
+      "winners": 4,
+      "losers": 20,
+      "first": "5.7",
+      "later": "6"
+    },
+    {
+      "winners": 4,
+      "losers": 24,
+      "first": "6.65",
+      "later": "7"
+    },
+    {
+      "winners": 4,
+      "losers": 33,
+      "first": "8.7875",
+      "later": "9.25"
+    },
+    {
+      "winners": 4,
+      "losers": 44,
+      "first": "11.4",
+      "later": "12"
+    },
+    {
+      "winners": 4,
+      "losers": 47,
+      "first": "12.1125",
+      "later": "12.75"
+    },
+    {
+      "winners": 5,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 5,
+      "losers": 1,
+      "first": "1.14",
+      "later": "1.2"
+    },
+    {
+      "winners": 5,
+      "losers": 2,
+      "first": "1.33",
+      "later": "1.4"
+    },
+    {
+      "winners": 5,
+      "losers": 3,
+      "first": "1.52",
+      "later": "1.6"
+    },
+    {
+      "winners": 5,
+      "losers": 4,
+      "first": "1.71",
+      "later": "1.8"
+    },
+    {
+      "winners": 5,
+      "losers": 7,
+      "first": "2.28",
+      "later": "2.4"
+    },
+    {
+      "winners": 5,
+      "losers": 11,
+      "first": "3.04",
+      "later": "3.2"
+    },
+    {
+      "winners": 5,
+      "losers": 20,
+      "first": "4.75",
+      "later": "5"
+    },
+    {
+      "winners": 5,
+      "losers": 24,
+      "first": "5.51",
+      "later": "5.8"
+    },
+    {
+      "winners": 5,
+      "losers": 33,
+      "first": "7.22",
+      "later": "7.6"
+    },
+    {
+      "winners": 5,
+      "losers": 44,
+      "first": "9.31",
+      "later": "9.8"
+    },
+    {
+      "winners": 6,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 6,
+      "losers": 1,
+      "first": "1.1083",
+      "later": "1.1666"
+    },
+    {
+      "winners": 6,
+      "losers": 2,
+      "first": "1.2666",
+      "later": "1.3333"
+    },
+    {
+      "winners": 6,
+      "losers": 3,
+      "first": "1.425",
+      "later": "1.5"
+    },
+    {
+      "winners": 6,
+      "losers": 4,
+      "first": "1.5833",
+      "later": "1.6666"
+    },
+    {
+      "winners": 6,
+      "losers": 7,
+      "first": "2.0583",
+      "later": "2.1666"
+    },
+    {
+      "winners": 6,
+      "losers": 11,
+      "first": "2.6916",
+      "later": "2.8333"
+    },
+    {
+      "winners": 6,
+      "losers": 20,
+      "first": "4.1166",
+      "later": "4.3333"
+    },
+    {
+      "winners": 6,
+      "losers": 24,
+      "first": "4.75",
+      "later": "5"
+    },
+    {
+      "winners": 6,
+      "losers": 33,
+      "first": "6.175",
+      "later": "6.5"
+    },
+    {
+      "winners": 6,
+      "losers": 44,
+      "first": "7.9166",
+      "later": "8.3333"
+    },
+    {
+      "winners": 7,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 7,
+      "losers": 1,
+      "first": "1.0857",
+      "later": "1.1428"
+    },
+    {
+      "winners": 7,
+      "losers": 2,
+      "first": "1.2214",
+      "later": "1.2857"
+    },
+    {
+      "winners": 7,
+      "losers": 3,
+      "first": "1.3571",
+      "later": "1.4285"
+    },
+    {
+      "winners": 7,
+      "losers": 4,
+      "first": "1.4928",
+      "later": "1.5714"
+    },
+    {
+      "winners": 7,
+      "losers": 7,
+      "first": "1.9",
+      "later": "2"
+    },
+    {
+      "winners": 7,
+      "losers": 11,
+      "first": "2.4428",
+      "later": "2.5714"
+    },
+    {
+      "winners": 7,
+      "losers": 20,
+      "first": "3.6642",
+      "later": "3.8571"
+    },
+    {
+      "winners": 7,
+      "losers": 24,
+      "first": "4.2071",
+      "later": "4.4285"
+    },
+    {
+      "winners": 7,
+      "losers": 33,
+      "first": "5.4285",
+      "later": "5.7142"
+    },
+    {
+      "winners": 7,
+      "losers": 44,
+      "first": "6.9214",
+      "later": "7.2857"
+    },
+    {
+      "winners": 8,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 8,
+      "losers": 1,
+      "first": "1.0687",
+      "later": "1.125"
+    },
+    {
+      "winners": 8,
+      "losers": 2,
+      "first": "1.1875",
+      "later": "1.25"
+    },
+    {
+      "winners": 8,
+      "losers": 3,
+      "first": "1.3062",
+      "later": "1.375"
+    },
+    {
+      "winners": 8,
+      "losers": 4,
+      "first": "1.425",
+      "later": "1.5"
+    },
+    {
+      "winners": 8,
+      "losers": 7,
+      "first": "1.7812",
+      "later": "1.875"
+    },
+    {
+      "winners": 8,
+      "losers": 11,
+      "first": "2.2562",
+      "later": "2.375"
+    },
+    {
+      "winners": 8,
+      "losers": 20,
+      "first": "3.325",
+      "later": "3.5"
+    },
+    {
+      "winners": 8,
+      "losers": 24,
+      "first": "3.8",
+      "later": "4"
+    },
+    {
+      "winners": 8,
+      "losers": 33,
+      "first": "4.8687",
+      "later": "5.125"
+    },
+    {
+      "winners": 9,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 9,
+      "losers": 1,
+      "first": "1.0555",
+      "later": "1.1111"
+    },
+    {
+      "winners": 9,
+      "losers": 2,
+      "first": "1.1611",
+      "later": "1.2222"
+    },
+    {
+      "winners": 9,
+      "losers": 3,
+      "first": "1.2666",
+      "later": "1.3333"
+    },
+    {
+      "winners": 9,
+      "losers": 4,
+      "first": "1.3722",
+      "later": "1.4444"
+    },
+    {
+      "winners": 9,
+      "losers": 7,
+      "first": "1.6888",
+      "later": "1.7777"
+    },
+    {
+      "winners": 9,
+      "losers": 11,
+      "first": "2.1111",
+      "later": "2.2222"
+    },
+    {
+      "winners": 9,
+      "losers": 20,
+      "first": "3.0611",
+      "later": "3.2222"
+    },
+    {
+      "winners": 9,
+      "losers": 24,
+      "first": "3.4833",
+      "later": "3.6666"
+    },
+    {
+      "winners": 9,
+      "losers": 33,
+      "first": "4.4333",
+      "later": "4.6666"
+    },
+    {
+      "winners": 10,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 10,
+      "losers": 1,
+      "first": "1.045",
+      "later": "1.1"
+    },
+    {
+      "winners": 10,
+      "losers": 2,
+      "first": "1.14",
+      "later": "1.2"
+    },
+    {
+      "winners": 10,
+      "losers": 3,
+      "first": "1.235",
+      "later": "1.3"
+    },
+    {
+      "winners": 10,
+      "losers": 4,
+      "first": "1.33",
+      "later": "1.4"
+    },
+    {
+      "winners": 10,
+      "losers": 7,
+      "first": "1.615",
+      "later": "1.7"
+    },
+    {
+      "winners": 10,
+      "losers": 11,
+      "first": "1.995",
+      "later": "2.1"
+    },
+    {
+      "winners": 10,
+      "losers": 20,
+      "first": "2.85",
+      "later": "3"
+    },
+    {
+      "winners": 10,
+      "losers": 24,
+      "first": "3.23",
+      "later": "3.4"
+    },
+    {
+      "winners": 10,
+      "losers": 33,
+      "first": "4.085",
+      "later": "4.3"
+    },
+    {
+      "winners": 11,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 11,
+      "losers": 1,
+      "first": "1.0363",
+      "later": "1.0909"
+    },
+    {
+      "winners": 11,
+      "losers": 2,
+      "first": "1.1227",
+      "later": "1.1818"
+    },
+    {
+      "winners": 11,
+      "losers": 3,
+      "first": "1.209",
+      "later": "1.2727"
+    },
+    {
+      "winners": 11,
+      "losers": 4,
+      "first": "1.2954",
+      "later": "1.3636"
+    },
+    {
+      "winners": 11,
+      "losers": 7,
+      "first": "1.5545",
+      "later": "1.6363"
+    },
+    {
+      "winners": 11,
+      "losers": 11,
+      "first": "1.9",
+      "later": "2"
+    },
+    {
+      "winners": 11,
+      "losers": 20,
+      "first": "2.6772",
+      "later": "2.8181"
+    },
+    {
+      "winners": 11,
+      "losers": 24,
+      "first": "3.0227",
+      "later": "3.1818"
+    },
+    {
+      "winners": 11,
+      "losers": 33,
+      "first": "3.8",
+      "later": "4"
+    },
+    {
+      "winners": 12,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 12,
+      "losers": 1,
+      "first": "1.0291",
+      "later": "1.0833"
+    },
+    {
+      "winners": 12,
+      "losers": 2,
+      "first": "1.1083",
+      "later": "1.1666"
+    },
+    {
+      "winners": 12,
+      "losers": 3,
+      "first": "1.1875",
+      "later": "1.25"
+    },
+    {
+      "winners": 12,
+      "losers": 4,
+      "first": "1.2666",
+      "later": "1.3333"
+    },
+    {
+      "winners": 12,
+      "losers": 7,
+      "first": "1.5041",
+      "later": "1.5833"
+    },
+    {
+      "winners": 12,
+      "losers": 11,
+      "first": "1.8208",
+      "later": "1.9166"
+    },
+    {
+      "winners": 12,
+      "losers": 20,
+      "first": "2.5333",
+      "later": "2.6666"
+    },
+    {
+      "winners": 12,
+      "losers": 24,
+      "first": "2.85",
+      "later": "3"
+    },
+    {
+      "winners": 12,
+      "losers": 33,
+      "first": "3.5625",
+      "later": "3.75"
+    },
+    {
+      "winners": 13,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 13,
+      "losers": 1,
+      "first": "1.023",
+      "later": "1.0769"
+    },
+    {
+      "winners": 13,
+      "losers": 2,
+      "first": "1.0961",
+      "later": "1.1538"
+    },
+    {
+      "winners": 13,
+      "losers": 3,
+      "first": "1.1692",
+      "later": "1.2307"
+    },
+    {
+      "winners": 13,
+      "losers": 4,
+      "first": "1.2423",
+      "later": "1.3076"
+    },
+    {
+      "winners": 13,
+      "losers": 7,
+      "first": "1.4615",
+      "later": "1.5384"
+    },
+    {
+      "winners": 13,
+      "losers": 11,
+      "first": "1.7538",
+      "later": "1.8461"
+    },
+    {
+      "winners": 13,
+      "losers": 20,
+      "first": "2.4115",
+      "later": "2.5384"
+    },
+    {
+      "winners": 13,
+      "losers": 24,
+      "first": "2.7038",
+      "later": "2.8461"
+    },
+    {
+      "winners": 13,
+      "losers": 33,
+      "first": "3.3615",
+      "later": "3.5384"
+    },
+    {
+      "winners": 14,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 14,
+      "losers": 1,
+      "first": "1.0178",
+      "later": "1.0714"
+    },
+    {
+      "winners": 14,
+      "losers": 2,
+      "first": "1.0857",
+      "later": "1.1428"
+    },
+    {
+      "winners": 14,
+      "losers": 3,
+      "first": "1.1535",
+      "later": "1.2142"
+    },
+    {
+      "winners": 14,
+      "losers": 4,
+      "first": "1.2214",
+      "later": "1.2857"
+    },
+    {
+      "winners": 14,
+      "losers": 7,
+      "first": "1.425",
+      "later": "1.5"
+    },
+    {
+      "winners": 14,
+      "losers": 11,
+      "first": "1.6964",
+      "later": "1.7857"
+    },
+    {
+      "winners": 14,
+      "losers": 20,
+      "first": "2.3071",
+      "later": "2.4285"
+    },
+    {
+      "winners": 14,
+      "losers": 24,
+      "first": "2.5785",
+      "later": "2.7142"
+    },
+    {
+      "winners": 14,
+      "losers": 33,
+      "first": "3.1892",
+      "later": "3.3571"
+    },
+    {
+      "winners": 15,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 15,
+      "losers": 1,
+      "first": "1.0133",
+      "later": "1.0666"
+    },
+    {
+      "winners": 15,
+      "losers": 2,
+      "first": "1.0766",
+      "later": "1.1333"
+    },
+    {
+      "winners": 15,
+      "losers": 3,
+      "first": "1.14",
+      "later": "1.2"
+    },
+    {
+      "winners": 15,
+      "losers": 4,
+      "first": "1.2033",
+      "later": "1.2666"
+    },
+    {
+      "winners": 15,
+      "losers": 7,
+      "first": "1.3933",
+      "later": "1.4666"
+    },
+    {
+      "winners": 15,
+      "losers": 11,
+      "first": "1.6466",
+      "later": "1.7333"
+    },
+    {
+      "winners": 15,
+      "losers": 20,
+      "first": "2.2166",
+      "later": "2.3333"
+    },
+    {
+      "winners": 15,
+      "losers": 24,
+      "first": "2.47",
+      "later": "2.6"
+    },
+    {
+      "winners": 15,
+      "losers": 33,
+      "first": "3.04",
+      "later": "3.2"
+    },
+    {
+      "winners": 16,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 16,
+      "losers": 1,
+      "first": "1.0093",
+      "later": "1.0625"
+    },
+    {
+      "winners": 16,
+      "losers": 2,
+      "first": "1.0687",
+      "later": "1.125"
+    },
+    {
+      "winners": 16,
+      "losers": 3,
+      "first": "1.1281",
+      "later": "1.1875"
+    },
+    {
+      "winners": 16,
+      "losers": 4,
+      "first": "1.1875",
+      "later": "1.25"
+    },
+    {
+      "winners": 16,
+      "losers": 7,
+      "first": "1.3656",
+      "later": "1.4375"
+    },
+    {
+      "winners": 16,
+      "losers": 11,
+      "first": "1.6031",
+      "later": "1.6875"
+    },
+    {
+      "winners": 16,
+      "losers": 20,
+      "first": "2.1375",
+      "later": "2.25"
+    },
+    {
+      "winners": 16,
+      "losers": 24,
+      "first": "2.375",
+      "later": "2.5"
+    },
+    {
+      "winners": 16,
+      "losers": 33,
+      "first": "2.9093",
+      "later": "3.0625"
+    },
+    {
+      "winners": 17,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 17,
+      "losers": 1,
+      "first": "1.0058",
+      "later": "1.0588"
+    },
+    {
+      "winners": 17,
+      "losers": 2,
+      "first": "1.0617",
+      "later": "1.1176"
+    },
+    {
+      "winners": 17,
+      "losers": 3,
+      "first": "1.1176",
+      "later": "1.1764"
+    },
+    {
+      "winners": 17,
+      "losers": 4,
+      "first": "1.1735",
+      "later": "1.2352"
+    },
+    {
+      "winners": 17,
+      "losers": 7,
+      "first": "1.3411",
+      "later": "1.4117"
+    },
+    {
+      "winners": 17,
+      "losers": 11,
+      "first": "1.5647",
+      "later": "1.647"
+    },
+    {
+      "winners": 17,
+      "losers": 20,
+      "first": "2.0676",
+      "later": "2.1764"
+    },
+    {
+      "winners": 17,
+      "losers": 24,
+      "first": "2.2911",
+      "later": "2.4117"
+    },
+    {
+      "winners": 17,
+      "losers": 33,
+      "first": "2.7941",
+      "later": "2.9411"
+    },
+    {
+      "winners": 18,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 18,
+      "losers": 1,
+      "first": "1.0027",
+      "later": "1.0555"
+    },
+    {
+      "winners": 18,
+      "losers": 2,
+      "first": "1.0555",
+      "later": "1.1111"
+    },
+    {
+      "winners": 18,
+      "losers": 3,
+      "first": "1.1083",
+      "later": "1.1666"
+    },
+    {
+      "winners": 18,
+      "losers": 4,
+      "first": "1.1611",
+      "later": "1.2222"
+    },
+    {
+      "winners": 18,
+      "losers": 7,
+      "first": "1.3194",
+      "later": "1.3888"
+    },
+    {
+      "winners": 18,
+      "losers": 11,
+      "first": "1.5305",
+      "later": "1.6111"
+    },
+    {
+      "winners": 18,
+      "losers": 20,
+      "first": "2.0055",
+      "later": "2.1111"
+    },
+    {
+      "winners": 18,
+      "losers": 24,
+      "first": "2.2166",
+      "later": "2.3333"
+    },
+    {
+      "winners": 18,
+      "losers": 33,
+      "first": "2.6916",
+      "later": "2.8333"
+    },
+    {
+      "winners": 19,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 19,
+      "losers": 1,
+      "first": "1",
+      "later": "1.0526"
+    },
+    {
+      "winners": 19,
+      "losers": 2,
+      "first": "1.05",
+      "later": "1.1052"
+    },
+    {
+      "winners": 19,
+      "losers": 3,
+      "first": "1.1",
+      "later": "1.1578"
+    },
+    {
+      "winners": 19,
+      "losers": 4,
+      "first": "1.15",
+      "later": "1.2105"
+    },
+    {
+      "winners": 19,
+      "losers": 7,
+      "first": "1.3",
+      "later": "1.3684"
+    },
+    {
+      "winners": 19,
+      "losers": 11,
+      "first": "1.5",
+      "later": "1.5789"
+    },
+    {
+      "winners": 19,
+      "losers": 20,
+      "first": "1.95",
+      "later": "2.0526"
+    },
+    {
+      "winners": 19,
+      "losers": 24,
+      "first": "2.15",
+      "later": "2.2631"
+    },
+    {
+      "winners": 20,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 20,
+      "losers": 1,
+      "first": "0.9975",
+      "later": "1.05"
+    },
+    {
+      "winners": 20,
+      "losers": 2,
+      "first": "1.045",
+      "later": "1.1"
+    },
+    {
+      "winners": 20,
+      "losers": 3,
+      "first": "1.0925",
+      "later": "1.15"
+    },
+    {
+      "winners": 20,
+      "losers": 4,
+      "first": "1.14",
+      "later": "1.2"
+    },
+    {
+      "winners": 20,
+      "losers": 7,
+      "first": "1.2825",
+      "later": "1.35"
+    },
+    {
+      "winners": 20,
+      "losers": 11,
+      "first": "1.4725",
+      "later": "1.55"
+    },
+    {
+      "winners": 20,
+      "losers": 20,
+      "first": "1.9",
+      "later": "2"
+    },
+    {
+      "winners": 20,
+      "losers": 24,
+      "first": "2.09",
+      "later": "2.2"
+    },
+    {
+      "winners": 21,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 21,
+      "losers": 1,
+      "first": "0.9952",
+      "later": "1.0476"
+    },
+    {
+      "winners": 21,
+      "losers": 2,
+      "first": "1.0404",
+      "later": "1.0952"
+    },
+    {
+      "winners": 21,
+      "losers": 3,
+      "first": "1.0857",
+      "later": "1.1428"
+    },
+    {
+      "winners": 21,
+      "losers": 4,
+      "first": "1.1309",
+      "later": "1.1904"
+    },
+    {
+      "winners": 21,
+      "losers": 7,
+      "first": "1.2666",
+      "later": "1.3333"
+    },
+    {
+      "winners": 21,
+      "losers": 11,
+      "first": "1.4476",
+      "later": "1.5238"
+    },
+    {
+      "winners": 21,
+      "losers": 20,
+      "first": "1.8547",
+      "later": "1.9523"
+    },
+    {
+      "winners": 21,
+      "losers": 24,
+      "first": "2.0357",
+      "later": "2.1428"
+    },
+    {
+      "winners": 22,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 22,
+      "losers": 1,
+      "first": "0.9931",
+      "later": "1.0454"
+    },
+    {
+      "winners": 22,
+      "losers": 2,
+      "first": "1.0363",
+      "later": "1.0909"
+    },
+    {
+      "winners": 22,
+      "losers": 3,
+      "first": "1.0795",
+      "later": "1.1363"
+    },
+    {
+      "winners": 22,
+      "losers": 4,
+      "first": "1.1227",
+      "later": "1.1818"
+    },
+    {
+      "winners": 22,
+      "losers": 7,
+      "first": "1.2522",
+      "later": "1.3181"
+    },
+    {
+      "winners": 22,
+      "losers": 11,
+      "first": "1.425",
+      "later": "1.5"
+    },
+    {
+      "winners": 22,
+      "losers": 20,
+      "first": "1.8136",
+      "later": "1.909"
+    },
+    {
+      "winners": 22,
+      "losers": 24,
+      "first": "1.9863",
+      "later": "2.0909"
+    },
+    {
+      "winners": 23,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 23,
+      "losers": 1,
+      "first": "0.9913",
+      "later": "1.0434"
+    },
+    {
+      "winners": 23,
+      "losers": 2,
+      "first": "1.0326",
+      "later": "1.0869"
+    },
+    {
+      "winners": 23,
+      "losers": 3,
+      "first": "1.0739",
+      "later": "1.1304"
+    },
+    {
+      "winners": 23,
+      "losers": 4,
+      "first": "1.1152",
+      "later": "1.1739"
+    },
+    {
+      "winners": 23,
+      "losers": 7,
+      "first": "1.2391",
+      "later": "1.3043"
+    },
+    {
+      "winners": 23,
+      "losers": 11,
+      "first": "1.4043",
+      "later": "1.4782"
+    },
+    {
+      "winners": 23,
+      "losers": 20,
+      "first": "1.776",
+      "later": "1.8695"
+    },
+    {
+      "winners": 23,
+      "losers": 24,
+      "first": "1.9413",
+      "later": "2.0434"
+    },
+    {
+      "winners": 24,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 24,
+      "losers": 1,
+      "first": "0.9895",
+      "later": "1.0416"
+    },
+    {
+      "winners": 24,
+      "losers": 2,
+      "first": "1.0291",
+      "later": "1.0833"
+    },
+    {
+      "winners": 24,
+      "losers": 3,
+      "first": "1.0687",
+      "later": "1.125"
+    },
+    {
+      "winners": 24,
+      "losers": 4,
+      "first": "1.1083",
+      "later": "1.1666"
+    },
+    {
+      "winners": 24,
+      "losers": 7,
+      "first": "1.227",
+      "later": "1.2916"
+    },
+    {
+      "winners": 24,
+      "losers": 11,
+      "first": "1.3854",
+      "later": "1.4583"
+    },
+    {
+      "winners": 24,
+      "losers": 20,
+      "first": "1.7416",
+      "later": "1.8333"
+    },
+    {
+      "winners": 24,
+      "losers": 24,
+      "first": "1.9",
+      "later": "2"
+    },
+    {
+      "winners": 25,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 25,
+      "losers": 1,
+      "first": "0.988",
+      "later": "1.04"
+    },
+    {
+      "winners": 25,
+      "losers": 2,
+      "first": "1.026",
+      "later": "1.08"
+    },
+    {
+      "winners": 25,
+      "losers": 3,
+      "first": "1.064",
+      "later": "1.12"
+    },
+    {
+      "winners": 25,
+      "losers": 4,
+      "first": "1.102",
+      "later": "1.16"
+    },
+    {
+      "winners": 25,
+      "losers": 7,
+      "first": "1.216",
+      "later": "1.28"
+    },
+    {
+      "winners": 25,
+      "losers": 11,
+      "first": "1.368",
+      "later": "1.44"
+    },
+    {
+      "winners": 25,
+      "losers": 20,
+      "first": "1.71",
+      "later": "1.8"
+    },
+    {
+      "winners": 25,
+      "losers": 24,
+      "first": "1.862",
+      "later": "1.96"
+    },
+    {
+      "winners": 26,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 26,
+      "losers": 1,
+      "first": "0.9865",
+      "later": "1.0384"
+    },
+    {
+      "winners": 26,
+      "losers": 2,
+      "first": "1.023",
+      "later": "1.0769"
+    },
+    {
+      "winners": 26,
+      "losers": 3,
+      "first": "1.0596",
+      "later": "1.1153"
+    },
+    {
+      "winners": 26,
+      "losers": 4,
+      "first": "1.0961",
+      "later": "1.1538"
+    },
+    {
+      "winners": 26,
+      "losers": 7,
+      "first": "1.2057",
+      "later": "1.2692"
+    },
+    {
+      "winners": 26,
+      "losers": 11,
+      "first": "1.3519",
+      "later": "1.423"
+    },
+    {
+      "winners": 26,
+      "losers": 20,
+      "first": "1.6807",
+      "later": "1.7692"
+    },
+    {
+      "winners": 26,
+      "losers": 24,
+      "first": "1.8269",
+      "later": "1.923"
+    },
+    {
+      "winners": 27,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 27,
+      "losers": 1,
+      "first": "0.9851",
+      "later": "1.037"
+    },
+    {
+      "winners": 27,
+      "losers": 2,
+      "first": "1.0203",
+      "later": "1.074"
+    },
+    {
+      "winners": 27,
+      "losers": 3,
+      "first": "1.0555",
+      "later": "1.1111"
+    },
+    {
+      "winners": 27,
+      "losers": 4,
+      "first": "1.0907",
+      "later": "1.1481"
+    },
+    {
+      "winners": 27,
+      "losers": 7,
+      "first": "1.1962",
+      "later": "1.2592"
+    },
+    {
+      "winners": 27,
+      "losers": 11,
+      "first": "1.337",
+      "later": "1.4074"
+    },
+    {
+      "winners": 27,
+      "losers": 20,
+      "first": "1.6537",
+      "later": "1.7407"
+    },
+    {
+      "winners": 27,
+      "losers": 24,
+      "first": "1.7944",
+      "later": "1.8888"
+    },
+    {
+      "winners": 28,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 28,
+      "losers": 1,
+      "first": "0.9839",
+      "later": "1.0357"
+    },
+    {
+      "winners": 28,
+      "losers": 2,
+      "first": "1.0178",
+      "later": "1.0714"
+    },
+    {
+      "winners": 28,
+      "losers": 3,
+      "first": "1.0517",
+      "later": "1.1071"
+    },
+    {
+      "winners": 28,
+      "losers": 4,
+      "first": "1.0857",
+      "later": "1.1428"
+    },
+    {
+      "winners": 28,
+      "losers": 7,
+      "first": "1.1875",
+      "later": "1.25"
+    },
+    {
+      "winners": 28,
+      "losers": 11,
+      "first": "1.3232",
+      "later": "1.3928"
+    },
+    {
+      "winners": 28,
+      "losers": 20,
+      "first": "1.6285",
+      "later": "1.7142"
+    },
+    {
+      "winners": 29,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 29,
+      "losers": 1,
+      "first": "0.9827",
+      "later": "1.0344"
+    },
+    {
+      "winners": 29,
+      "losers": 2,
+      "first": "1.0155",
+      "later": "1.0689"
+    },
+    {
+      "winners": 29,
+      "losers": 3,
+      "first": "1.0482",
+      "later": "1.1034"
+    },
+    {
+      "winners": 29,
+      "losers": 4,
+      "first": "1.081",
+      "later": "1.1379"
+    },
+    {
+      "winners": 29,
+      "losers": 7,
+      "first": "1.1793",
+      "later": "1.2413"
+    },
+    {
+      "winners": 29,
+      "losers": 11,
+      "first": "1.3103",
+      "later": "1.3793"
+    },
+    {
+      "winners": 29,
+      "losers": 20,
+      "first": "1.6051",
+      "later": "1.6896"
+    },
+    {
+      "winners": 30,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 30,
+      "losers": 1,
+      "first": "0.9816",
+      "later": "1.0333"
+    },
+    {
+      "winners": 30,
+      "losers": 2,
+      "first": "1.0133",
+      "later": "1.0666"
+    },
+    {
+      "winners": 30,
+      "losers": 3,
+      "first": "1.045",
+      "later": "1.1"
+    },
+    {
+      "winners": 30,
+      "losers": 4,
+      "first": "1.0766",
+      "later": "1.1333"
+    },
+    {
+      "winners": 30,
+      "losers": 7,
+      "first": "1.1716",
+      "later": "1.2333"
+    },
+    {
+      "winners": 30,
+      "losers": 11,
+      "first": "1.2983",
+      "later": "1.3666"
+    },
+    {
+      "winners": 30,
+      "losers": 20,
+      "first": "1.5833",
+      "later": "1.6666"
+    },
+    {
+      "winners": 31,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 31,
+      "losers": 1,
+      "first": "0.9806",
+      "later": "1.0322"
+    },
+    {
+      "winners": 31,
+      "losers": 2,
+      "first": "1.0112",
+      "later": "1.0645"
+    },
+    {
+      "winners": 31,
+      "losers": 3,
+      "first": "1.0419",
+      "later": "1.0967"
+    },
+    {
+      "winners": 31,
+      "losers": 4,
+      "first": "1.0725",
+      "later": "1.129"
+    },
+    {
+      "winners": 31,
+      "losers": 7,
+      "first": "1.1645",
+      "later": "1.2258"
+    },
+    {
+      "winners": 31,
+      "losers": 11,
+      "first": "1.287",
+      "later": "1.3548"
+    },
+    {
+      "winners": 31,
+      "losers": 20,
+      "first": "1.5629",
+      "later": "1.6451"
+    },
+    {
+      "winners": 32,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 32,
+      "losers": 1,
+      "first": "0.9796",
+      "later": "1.0312"
+    },
+    {
+      "winners": 32,
+      "losers": 2,
+      "first": "1.0093",
+      "later": "1.0625"
+    },
+    {
+      "winners": 32,
+      "losers": 3,
+      "first": "1.039",
+      "later": "1.0937"
+    },
+    {
+      "winners": 32,
+      "losers": 4,
+      "first": "1.0687",
+      "later": "1.125"
+    },
+    {
+      "winners": 32,
+      "losers": 7,
+      "first": "1.1578",
+      "later": "1.2187"
+    },
+    {
+      "winners": 32,
+      "losers": 11,
+      "first": "1.2765",
+      "later": "1.3437"
+    },
+    {
+      "winners": 33,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 33,
+      "losers": 1,
+      "first": "0.9787",
+      "later": "1.0303"
+    },
+    {
+      "winners": 33,
+      "losers": 2,
+      "first": "1.0075",
+      "later": "1.0606"
+    },
+    {
+      "winners": 33,
+      "losers": 3,
+      "first": "1.0363",
+      "later": "1.0909"
+    },
+    {
+      "winners": 33,
+      "losers": 4,
+      "first": "1.0651",
+      "later": "1.1212"
+    },
+    {
+      "winners": 33,
+      "losers": 7,
+      "first": "1.1515",
+      "later": "1.2121"
+    },
+    {
+      "winners": 33,
+      "losers": 11,
+      "first": "1.2666",
+      "later": "1.3333"
+    },
+    {
+      "winners": 34,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 34,
+      "losers": 1,
+      "first": "0.9779",
+      "later": "1.0294"
+    },
+    {
+      "winners": 34,
+      "losers": 2,
+      "first": "1.0058",
+      "later": "1.0588"
+    },
+    {
+      "winners": 34,
+      "losers": 3,
+      "first": "1.0338",
+      "later": "1.0882"
+    },
+    {
+      "winners": 34,
+      "losers": 4,
+      "first": "1.0617",
+      "later": "1.1176"
+    },
+    {
+      "winners": 34,
+      "losers": 7,
+      "first": "1.1455",
+      "later": "1.2058"
+    },
+    {
+      "winners": 34,
+      "losers": 11,
+      "first": "1.2573",
+      "later": "1.3235"
+    },
+    {
+      "winners": 35,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 35,
+      "losers": 1,
+      "first": "0.9771",
+      "later": "1.0285"
+    },
+    {
+      "winners": 35,
+      "losers": 2,
+      "first": "1.0042",
+      "later": "1.0571"
+    },
+    {
+      "winners": 35,
+      "losers": 3,
+      "first": "1.0314",
+      "later": "1.0857"
+    },
+    {
+      "winners": 35,
+      "losers": 4,
+      "first": "1.0585",
+      "later": "1.1142"
+    },
+    {
+      "winners": 35,
+      "losers": 7,
+      "first": "1.14",
+      "later": "1.2"
+    },
+    {
+      "winners": 35,
+      "losers": 11,
+      "first": "1.2485",
+      "later": "1.3142"
+    },
+    {
+      "winners": 36,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 36,
+      "losers": 1,
+      "first": "0.9763",
+      "later": "1.0277"
+    },
+    {
+      "winners": 36,
+      "losers": 2,
+      "first": "1.0027",
+      "later": "1.0555"
+    },
+    {
+      "winners": 36,
+      "losers": 3,
+      "first": "1.0291",
+      "later": "1.0833"
+    },
+    {
+      "winners": 36,
+      "losers": 4,
+      "first": "1.0555",
+      "later": "1.1111"
+    },
+    {
+      "winners": 36,
+      "losers": 7,
+      "first": "1.1347",
+      "later": "1.1944"
+    },
+    {
+      "winners": 36,
+      "losers": 11,
+      "first": "1.2402",
+      "later": "1.3055"
+    },
+    {
+      "winners": 37,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 37,
+      "losers": 1,
+      "first": "0.9756",
+      "later": "1.027"
+    },
+    {
+      "winners": 37,
+      "losers": 2,
+      "first": "1.0013",
+      "later": "1.054"
+    },
+    {
+      "winners": 37,
+      "losers": 3,
+      "first": "1.027",
+      "later": "1.081"
+    },
+    {
+      "winners": 37,
+      "losers": 4,
+      "first": "1.0527",
+      "later": "1.1081"
+    },
+    {
+      "winners": 37,
+      "losers": 7,
+      "first": "1.1297",
+      "later": "1.1891"
+    },
+    {
+      "winners": 37,
+      "losers": 11,
+      "first": "1.2324",
+      "later": "1.2972"
+    },
+    {
+      "winners": 38,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 38,
+      "losers": 1,
+      "first": "0.975",
+      "later": "1.0263"
+    },
+    {
+      "winners": 38,
+      "losers": 2,
+      "first": "1",
+      "later": "1.0526"
+    },
+    {
+      "winners": 38,
+      "losers": 3,
+      "first": "1.025",
+      "later": "1.0789"
+    },
+    {
+      "winners": 38,
+      "losers": 4,
+      "first": "1.05",
+      "later": "1.1052"
+    },
+    {
+      "winners": 38,
+      "losers": 7,
+      "first": "1.125",
+      "later": "1.1842"
+    },
+    {
+      "winners": 38,
+      "losers": 11,
+      "first": "1.225",
+      "later": "1.2894"
+    },
+    {
+      "winners": 39,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 39,
+      "losers": 1,
+      "first": "0.9743",
+      "later": "1.0256"
+    },
+    {
+      "winners": 39,
+      "losers": 2,
+      "first": "0.9987",
+      "later": "1.0512"
+    },
+    {
+      "winners": 39,
+      "losers": 3,
+      "first": "1.023",
+      "later": "1.0769"
+    },
+    {
+      "winners": 39,
+      "losers": 4,
+      "first": "1.0474",
+      "later": "1.1025"
+    },
+    {
+      "winners": 39,
+      "losers": 7,
+      "first": "1.1205",
+      "later": "1.1794"
+    },
+    {
+      "winners": 39,
+      "losers": 11,
+      "first": "1.2179",
+      "later": "1.282"
+    },
+    {
+      "winners": 40,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 40,
+      "losers": 1,
+      "first": "0.9737",
+      "later": "1.025"
+    },
+    {
+      "winners": 40,
+      "losers": 2,
+      "first": "0.9975",
+      "later": "1.05"
+    },
+    {
+      "winners": 40,
+      "losers": 3,
+      "first": "1.0212",
+      "later": "1.075"
+    },
+    {
+      "winners": 40,
+      "losers": 4,
+      "first": "1.045",
+      "later": "1.1"
+    },
+    {
+      "winners": 40,
+      "losers": 7,
+      "first": "1.1162",
+      "later": "1.175"
+    },
+    {
+      "winners": 40,
+      "losers": 11,
+      "first": "1.2112",
+      "later": "1.275"
+    },
+    {
+      "winners": 41,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 41,
+      "losers": 1,
+      "first": "0.9731",
+      "later": "1.0243"
+    },
+    {
+      "winners": 41,
+      "losers": 2,
+      "first": "0.9963",
+      "later": "1.0487"
+    },
+    {
+      "winners": 41,
+      "losers": 3,
+      "first": "1.0195",
+      "later": "1.0731"
+    },
+    {
+      "winners": 41,
+      "losers": 4,
+      "first": "1.0426",
+      "later": "1.0975"
+    },
+    {
+      "winners": 41,
+      "losers": 7,
+      "first": "1.1121",
+      "later": "1.1707"
+    },
+    {
+      "winners": 42,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 42,
+      "losers": 1,
+      "first": "0.9726",
+      "later": "1.0238"
+    },
+    {
+      "winners": 42,
+      "losers": 2,
+      "first": "0.9952",
+      "later": "1.0476"
+    },
+    {
+      "winners": 42,
+      "losers": 3,
+      "first": "1.0178",
+      "later": "1.0714"
+    },
+    {
+      "winners": 42,
+      "losers": 4,
+      "first": "1.0404",
+      "later": "1.0952"
+    },
+    {
+      "winners": 42,
+      "losers": 7,
+      "first": "1.1083",
+      "later": "1.1666"
+    },
+    {
+      "winners": 43,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 43,
+      "losers": 1,
+      "first": "0.972",
+      "later": "1.0232"
+    },
+    {
+      "winners": 43,
+      "losers": 2,
+      "first": "0.9941",
+      "later": "1.0465"
+    },
+    {
+      "winners": 43,
+      "losers": 3,
+      "first": "1.0162",
+      "later": "1.0697"
+    },
+    {
+      "winners": 43,
+      "losers": 4,
+      "first": "1.0383",
+      "later": "1.093"
+    },
+    {
+      "winners": 43,
+      "losers": 7,
+      "first": "1.1046",
+      "later": "1.1627"
+    },
+    {
+      "winners": 44,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 44,
+      "losers": 1,
+      "first": "0.9715",
+      "later": "1.0227"
+    },
+    {
+      "winners": 44,
+      "losers": 2,
+      "first": "0.9931",
+      "later": "1.0454"
+    },
+    {
+      "winners": 44,
+      "losers": 3,
+      "first": "1.0147",
+      "later": "1.0681"
+    },
+    {
+      "winners": 44,
+      "losers": 4,
+      "first": "1.0363",
+      "later": "1.0909"
+    },
+    {
+      "winners": 44,
+      "losers": 7,
+      "first": "1.1011",
+      "later": "1.159"
+    },
+    {
+      "winners": 45,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 45,
+      "losers": 1,
+      "first": "0.9711",
+      "later": "1.0222"
+    },
+    {
+      "winners": 45,
+      "losers": 2,
+      "first": "0.9922",
+      "later": "1.0444"
+    },
+    {
+      "winners": 45,
+      "losers": 3,
+      "first": "1.0133",
+      "later": "1.0666"
+    },
+    {
+      "winners": 45,
+      "losers": 4,
+      "first": "1.0344",
+      "later": "1.0888"
+    },
+    {
+      "winners": 46,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 46,
+      "losers": 1,
+      "first": "0.9706",
+      "later": "1.0217"
+    },
+    {
+      "winners": 46,
+      "losers": 2,
+      "first": "0.9913",
+      "later": "1.0434"
+    },
+    {
+      "winners": 46,
+      "losers": 3,
+      "first": "1.0119",
+      "later": "1.0652"
+    },
+    {
+      "winners": 46,
+      "losers": 4,
+      "first": "1.0326",
+      "later": "1.0869"
+    },
+    {
+      "winners": 47,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 47,
+      "losers": 1,
+      "first": "0.9702",
+      "later": "1.0212"
+    },
+    {
+      "winners": 47,
+      "losers": 2,
+      "first": "0.9904",
+      "later": "1.0425"
+    },
+    {
+      "winners": 47,
+      "losers": 3,
+      "first": "1.0106",
+      "later": "1.0638"
+    },
+    {
+      "winners": 47,
+      "losers": 4,
+      "first": "1.0308",
+      "later": "1.0851"
+    },
+    {
+      "winners": 48,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 48,
+      "losers": 1,
+      "first": "0.9697",
+      "later": "1.0208"
+    },
+    {
+      "winners": 48,
+      "losers": 2,
+      "first": "0.9895",
+      "later": "1.0416"
+    },
+    {
+      "winners": 48,
+      "losers": 3,
+      "first": "1.0093",
+      "later": "1.0625"
+    },
+    {
+      "winners": 49,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 49,
+      "losers": 1,
+      "first": "0.9693",
+      "later": "1.0204"
+    },
+    {
+      "winners": 49,
+      "losers": 2,
+      "first": "0.9887",
+      "later": "1.0408"
+    },
+    {
+      "winners": 50,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    },
+    {
+      "winners": 50,
+      "losers": 1,
+      "first": "0.969",
+      "later": "1.02"
+    },
+    {
+      "winners": 51,
+      "losers": 0,
+      "first": "1",
+      "later": "1"
+    }
+  ],
+  "cases": [
+    {
+      "serverSeed": "0f1e2d3c4b5a69788796a5b4c3d2e1f00112233445566778899aabbccddeeff0",
+      "serverSeedHash": "afa880ca0c7da502fc32ab284cf70852ef7c5540204e4215c2a1617074ca7905",
+      "clientSeed": "gift-club-demo",
+      "nonce": 0,
+      "hmacHex44": "1abca71f1b4264c549ff02fb78ef08c3776a6ab037948b0fd9d0545ab47f3ebfd5a575b616fe51030db79c4e",
+      "floats11": [
+        0.10444111353717744,
+        0.10648183641023934,
+        0.2890474188607186,
+        0.4723973728250712,
+        0.4664675407111645,
+        0.21711033931933343,
+        0.8508351058699191,
+        0.7050666061695665,
+        0.8345559663139284,
+        0.08981806109659374,
+        0.053582924883812666
+      ],
+      "plinko16": {
+        "slot": 5,
+        "bits": 12736
+      },
+      "keno": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        12,
+        13,
+        21,
+        31,
+        35
+      ],
+      "rollOver": 10,
+      "diceDuel": [
+        1,
+        1,
+        2,
+        3
+      ],
+      "coinFlip": "tails",
+      "minefield": {
+        "easy": [
+          2,
+          24,
+          6
+        ],
+        "medium": [
+          2,
+          24,
+          6,
+          10,
+          9
+        ],
+        "hard": [
+          2,
+          24,
+          6,
+          10,
+          9,
+          4,
+          16,
+          12,
+          14,
+          1
+        ]
+      },
+      "minesTower": {
+        "easy": [
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            2
+          ],
+          [
+            1
+          ]
+        ],
+        "medium": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "hard": [
+          [
+            0,
+            4,
+            3
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            4,
+            2,
+            3
+          ],
+          [
+            0,
+            4,
+            1
+          ],
+          [
+            3,
+            2,
+            0
+          ]
+        ]
+      },
+      "balloonBurstPump": 22,
+      "balloonBurstPumpFlat": 21,
+      "higherLowerDeck": [
+        17,
+        41,
+        44,
+        21,
+        47,
+        29,
+        50,
+        15,
+        48,
+        20,
+        12,
+        0,
+        11,
+        28,
+        32,
+        37,
+        18,
+        26,
+        9,
+        45,
+        34,
+        46,
+        19,
+        1,
+        4,
+        49,
+        40,
+        30,
+        25,
+        38,
+        6,
+        7,
+        43,
+        35,
+        42,
+        33,
+        13,
+        8,
+        24,
+        27,
+        16,
+        2,
+        3,
+        36,
+        31,
+        39,
+        10,
+        22,
+        23,
+        14,
+        51,
+        5
+      ],
+      "higherLowerPayoutFloats": [
+        0.18224665825255215,
+        0.568330618320033,
+        0.09078222373500466,
+        0.5576829970814288,
+        0.5537982902023941,
+        0.28992714104242623
+      ],
+      "higherLowerPerCall": {
+        "likely": {
+          "calls": "H",
+          "steps": [
+            {
+              "card": 17,
+              "nextCard": 41,
+              "call": "H",
+              "outcome": "Loss",
+              "callMultiplier": "1.425",
+              "multiplierAfter": "0"
+            }
+          ],
+          "rounds": 0,
+          "lost": true,
+          "multiplier": "0",
+          "stars": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "gram": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "deep": {
+          "calls": "H",
+          "steps": [
+            {
+              "card": 17,
+              "nextCard": 41,
+              "call": "H",
+              "outcome": "Loss",
+              "callMultiplier": "1.425",
+              "multiplierAfter": "0"
+            }
+          ],
+          "rounds": 0,
+          "lost": true,
+          "multiplier": "0",
+          "stars": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "gram": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "longShot": {
+          "calls": "LL",
+          "steps": [
+            {
+              "card": 17,
+              "nextCard": 41,
+              "call": "L",
+              "outcome": "Win",
+              "callMultiplier": "2.85",
+              "multiplierAfter": "2.85"
+            },
+            {
+              "card": 41,
+              "nextCard": 44,
+              "call": "L",
+              "outcome": "Loss",
+              "callMultiplier": "5.875",
+              "multiplierAfter": "0"
+            }
+          ],
+          "rounds": 1,
+          "lost": true,
+          "multiplier": "0",
+          "stars": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "gram": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "kenoGram": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        12,
+        13,
+        21,
+        31,
+        35
+      ],
+      "seaWar": {
+        "creatorShootsFirst": true,
+        "layouts": [
+          {
+            "k": 0,
+            "creator": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  14,
+                  15,
+                  16,
+                  17
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  29,
+                  30,
+                  31
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  26,
+                  27
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  2,
+                  3
+                ],
+                "horizontal": true
+              }
+            ],
+            "opponent": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  3,
+                  4,
+                  5,
+                  6
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  16,
+                  17,
+                  18
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  39,
+                  40
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  0,
+                  7
+                ],
+                "horizontal": false
+              }
+            ]
+          },
+          {
+            "k": 1,
+            "creator": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  11,
+                  18,
+                  25,
+                  32
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  0,
+                  1,
+                  2
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  34,
+                  41
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  6,
+                  13
+                ],
+                "horizontal": false
+              }
+            ],
+            "opponent": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  44,
+                  45,
+                  46,
+                  47
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  14,
+                  21,
+                  28
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  9,
+                  10
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  33,
+                  34
+                ],
+                "horizontal": true
+              }
+            ]
+          },
+          {
+            "k": 2,
+            "creator": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  0,
+                  7,
+                  14,
+                  21
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  18,
+                  19,
+                  20
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  31,
+                  32
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  3,
+                  4
+                ],
+                "horizontal": true
+              }
+            ],
+            "opponent": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  18,
+                  25,
+                  32,
+                  39
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  14,
+                  15,
+                  16
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  43,
+                  44
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  2,
+                  3
+                ],
+                "horizontal": true
+              }
+            ]
+          },
+          {
+            "k": 3,
+            "creator": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  19,
+                  26,
+                  33,
+                  40
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  14,
+                  21,
+                  28
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  1,
+                  2
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  30,
+                  31
+                ],
+                "horizontal": true
+              }
+            ],
+            "opponent": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  45,
+                  46,
+                  47,
+                  48
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  3,
+                  4,
+                  5
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  28,
+                  29
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  0,
+                  1
+                ],
+                "horizontal": true
+              }
+            ]
+          },
+          {
+            "k": 4,
+            "creator": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  39,
+                  40,
+                  41
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  30,
+                  37
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  35,
+                  42
+                ],
+                "horizontal": false
+              }
+            ],
+            "opponent": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  12,
+                  19,
+                  26,
+                  33
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  21,
+                  22,
+                  23
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  9,
+                  10
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  37,
+                  38
+                ],
+                "horizontal": true
+              }
+            ]
+          },
+          {
+            "k": 5,
+            "creator": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  19,
+                  26,
+                  33,
+                  40
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  0,
+                  7,
+                  14
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  31,
+                  38
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  9,
+                  16
+                ],
+                "horizontal": false
+              }
+            ],
+            "opponent": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  13,
+                  20,
+                  27,
+                  34
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  15,
+                  22,
+                  29
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  3,
+                  4
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  31,
+                  32
+                ],
+                "horizontal": true
+              }
+            ]
+          },
+          {
+            "k": 99,
+            "creator": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  23,
+                  24,
+                  25
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  45,
+                  46
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  35,
+                  36
+                ],
+                "horizontal": true
+              }
+            ],
+            "opponent": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  38,
+                  39,
+                  40,
+                  41
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  28,
+                  35,
+                  42
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  8,
+                  15
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  11,
+                  12
+                ],
+                "horizontal": true
+              }
+            ]
+          }
+        ],
+        "stars": [
+          10,
+          19,
+          38,
+          95,
+          190
+        ]
+      },
+      "stars": {
+        "keno5x109": [
+          2,
+          6,
+          11,
+          22,
+          55,
+          109
+        ],
+        "rollOver47": [
+          2,
+          10,
+          19,
+          37,
+          92,
+          183
+        ],
+        "diceDuel178": [
+          2,
+          9,
+          18,
+          36,
+          89,
+          178
+        ],
+        "coinFlip": [
+          2,
+          10,
+          19,
+          38,
+          95,
+          190
+        ],
+        "higherLowerRound3": [
+          3,
+          12,
+          23,
+          46,
+          113,
+          226
+        ]
+      }
+    },
+    {
+      "serverSeed": "a3f1c9e84b2d7f6051e9c3a7b8d4f2e6c1a09b7e5d3f8c2a6e4b1d9f7c3a5e8b",
+      "serverSeedHash": "f6211dbb2522aa386583476d21f2eaed65afad5835a08a7484ff14d84a85d984",
+      "clientSeed": "9d4c1f3e-2b7a-4e8c-9f1d-3a6b5c8e7d2f",
+      "nonce": 7,
+      "hmacHex44": "e6fb8b0ccdbd682a46abf6b1fc34e8558dcabe382408cc450c89b3e4da7fd4fc648448a84f8ba4a84a9d01fa",
+      "floats11": [
+        0.902275743894279,
+        0.8036713697947562,
+        0.2760614568833262,
+        0.9851823050994426,
+        0.5538748633116484,
+        0.1407592457253486,
+        0.04897617641836405,
+        0.8535130610689521,
+        0.39264349080622196,
+        0.3107245359569788,
+        0.2914582476951182
+      ],
+      "plinko16": {
+        "slot": 6,
+        "bits": 2203
+      },
+      "keno": [
+        8,
+        10,
+        13,
+        19,
+        21,
+        24,
+        33,
+        36,
+        37,
+        40
+      ],
+      "rollOver": 90,
+      "diceDuel": [
+        6,
+        5,
+        2,
+        6
+      ],
+      "coinFlip": "heads",
+      "minefield": {
+        "easy": [
+          22,
+          19,
+          6
+        ],
+        "medium": [
+          22,
+          19,
+          6,
+          21,
+          11
+        ],
+        "hard": [
+          22,
+          19,
+          6,
+          21,
+          11,
+          2,
+          0,
+          15,
+          24,
+          4
+        ]
+      },
+      "minesTower": {
+        "easy": [
+          [
+            4
+          ],
+          [
+            4
+          ],
+          [
+            1
+          ],
+          [
+            4
+          ],
+          [
+            2
+          ],
+          [
+            0
+          ]
+        ],
+        "medium": [
+          [
+            4,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "hard": [
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            4,
+            2,
+            0
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            1,
+            4,
+            2
+          ],
+          [
+            1,
+            4,
+            0
+          ]
+        ]
+      },
+      "balloonBurstPump": 2,
+      "balloonBurstPumpFlat": 1,
+      "higherLowerDeck": [
+        28,
+        16,
+        36,
+        42,
+        15,
+        43,
+        34,
+        1,
+        9,
+        14,
+        45,
+        30,
+        4,
+        47,
+        18,
+        50,
+        39,
+        7,
+        21,
+        31,
+        29,
+        51,
+        11,
+        0,
+        37,
+        25,
+        27,
+        20,
+        32,
+        19,
+        23,
+        33,
+        22,
+        24,
+        35,
+        3,
+        8,
+        5,
+        10,
+        41,
+        44,
+        12,
+        49,
+        17,
+        38,
+        2,
+        6,
+        26,
+        48,
+        13,
+        40,
+        46
+      ],
+      "higherLowerPayoutFloats": [
+        0.9791064108721912,
+        0.9190259107854217,
+        0.49902768386527896,
+        0.7627044257242233,
+        0.3571436470374465,
+        0.5158704600762576
+      ],
+      "higherLowerPerCall": {
+        "likely": {
+          "calls": "HHL",
+          "steps": [
+            {
+              "card": 28,
+              "nextCard": 16,
+              "call": "H",
+              "outcome": "Win",
+              "callMultiplier": "1.14",
+              "multiplierAfter": "1.14"
+            },
+            {
+              "card": 16,
+              "nextCard": 36,
+              "call": "H",
+              "outcome": "Win",
+              "callMultiplier": "1.3055",
+              "multiplierAfter": "1.4882"
+            },
+            {
+              "card": 36,
+              "nextCard": 42,
+              "call": "L",
+              "outcome": "Win",
+              "callMultiplier": "1.2105",
+              "multiplierAfter": "1.8014"
+            }
+          ],
+          "rounds": 3,
+          "lost": false,
+          "multiplier": "1.8014",
+          "stars": [
+            2,
+            9,
+            18,
+            36,
+            90,
+            180
+          ],
+          "gram": [
+            "0.18014",
+            "0.9007",
+            "1.8014",
+            "3.6028",
+            "5.4042",
+            "9.007",
+            "18.014"
+          ]
+        },
+        "deep": {
+          "calls": "HHLH",
+          "steps": [
+            {
+              "card": 28,
+              "nextCard": 16,
+              "call": "H",
+              "outcome": "Win",
+              "callMultiplier": "1.14",
+              "multiplierAfter": "1.14"
+            },
+            {
+              "card": 16,
+              "nextCard": 36,
+              "call": "H",
+              "outcome": "Win",
+              "callMultiplier": "1.3055",
+              "multiplierAfter": "1.4882"
+            },
+            {
+              "card": 36,
+              "nextCard": 42,
+              "call": "L",
+              "outcome": "Win",
+              "callMultiplier": "1.2105",
+              "multiplierAfter": "1.8014"
+            },
+            {
+              "card": 42,
+              "nextCard": 15,
+              "call": "H",
+              "outcome": "Loss",
+              "callMultiplier": "1.3142",
+              "multiplierAfter": "0"
+            }
+          ],
+          "rounds": 3,
+          "lost": true,
+          "multiplier": "0",
+          "stars": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "gram": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "longShot": {
+          "calls": "L",
+          "steps": [
+            {
+              "card": 28,
+              "nextCard": 16,
+              "call": "L",
+              "outcome": "Loss",
+              "callMultiplier": "5.7",
+              "multiplierAfter": "0"
+            }
+          ],
+          "rounds": 0,
+          "lost": true,
+          "multiplier": "0",
+          "stars": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "gram": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "kenoGram": [
+        8,
+        10,
+        13,
+        19,
+        21,
+        24,
+        33,
+        36,
+        37,
+        40
+      ],
+      "seaWar": {
+        "creatorShootsFirst": false,
+        "layouts": [
+          {
+            "k": 0,
+            "creator": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  24,
+                  25,
+                  26,
+                  27
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  8,
+                  15,
+                  22
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  46,
+                  47
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  3,
+                  10
+                ],
+                "horizontal": false
+              }
+            ],
+            "opponent": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  27,
+                  34,
+                  41,
+                  48
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  9,
+                  10,
+                  11
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  38,
+                  39
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  35,
+                  42
+                ],
+                "horizontal": false
+              }
+            ]
+          },
+          {
+            "k": 1,
+            "creator": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  21,
+                  28,
+                  35,
+                  42
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  5,
+                  12,
+                  19
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  9,
+                  10
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  40,
+                  47
+                ],
+                "horizontal": false
+              }
+            ],
+            "opponent": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  4,
+                  11,
+                  18,
+                  25
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  14,
+                  15,
+                  16
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  44,
+                  45
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  40,
+                  41
+                ],
+                "horizontal": true
+              }
+            ]
+          },
+          {
+            "k": 2,
+            "creator": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  36,
+                  37,
+                  38,
+                  39
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  10,
+                  11,
+                  12
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  27,
+                  34
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  0,
+                  1
+                ],
+                "horizontal": true
+              }
+            ],
+            "opponent": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  16,
+                  23,
+                  30,
+                  37
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  0,
+                  1,
+                  2
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  20,
+                  27
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  4,
+                  5
+                ],
+                "horizontal": true
+              }
+            ]
+          },
+          {
+            "k": 3,
+            "creator": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  26,
+                  33,
+                  40,
+                  47
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  14,
+                  21,
+                  28
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  6,
+                  13
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  23,
+                  24
+                ],
+                "horizontal": true
+              }
+            ],
+            "opponent": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  37,
+                  38,
+                  39,
+                  40
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  10,
+                  17,
+                  24
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  0,
+                  1
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  19,
+                  26
+                ],
+                "horizontal": false
+              }
+            ]
+          },
+          {
+            "k": 4,
+            "creator": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  10,
+                  11,
+                  12,
+                  13
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  32,
+                  33,
+                  34
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  44,
+                  45
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  8,
+                  15
+                ],
+                "horizontal": false
+              }
+            ],
+            "opponent": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  15,
+                  16,
+                  17,
+                  18
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  31,
+                  32,
+                  33
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  36,
+                  43
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  2,
+                  3
+                ],
+                "horizontal": true
+              }
+            ]
+          },
+          {
+            "k": 5,
+            "creator": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  3,
+                  4,
+                  5,
+                  6
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  14,
+                  21,
+                  28
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  26,
+                  27
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  16,
+                  23
+                ],
+                "horizontal": false
+              }
+            ],
+            "opponent": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  5,
+                  12,
+                  19,
+                  26
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  1,
+                  2,
+                  3
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  21,
+                  22
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  35,
+                  42
+                ],
+                "horizontal": false
+              }
+            ]
+          },
+          {
+            "k": 99,
+            "creator": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  7,
+                  8,
+                  9,
+                  10
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  21,
+                  22,
+                  23
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  36,
+                  43
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  45,
+                  46
+                ],
+                "horizontal": true
+              }
+            ],
+            "opponent": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  22,
+                  29,
+                  36
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  24,
+                  25
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  39,
+                  46
+                ],
+                "horizontal": false
+              }
+            ]
+          }
+        ],
+        "stars": [
+          9,
+          19,
+          38,
+          95,
+          190
+        ]
+      },
+      "stars": {
+        "keno5x109": [
+          1,
+          6,
+          11,
+          22,
+          55,
+          109
+        ],
+        "rollOver47": [
+          2,
+          9,
+          18,
+          36,
+          91,
+          182
+        ],
+        "diceDuel178": [
+          2,
+          9,
+          18,
+          36,
+          89,
+          178
+        ],
+        "coinFlip": [
+          2,
+          9,
+          19,
+          38,
+          95,
+          190
+        ],
+        "higherLowerRound3": [
+          2,
+          11,
+          23,
+          45,
+          113,
+          226
+        ]
+      }
+    },
+    {
+      "serverSeed": "ffffffff00000000ffffffff00000000ffffffff00000000ffffffff00000000",
+      "serverSeedHash": "140b4dd25fba9a34726bc92b4c31e9d58d2b128837285f66a24c6c5982cf41b7",
+      "clientSeed": "x",
+      "nonce": 123456,
+      "hmacHex44": "082023627403a8ee32e014bd7c03371124ba6288b50693581ef8459e46d68df2cbe738772be2545b02d06bce",
+      "floats11": [
+        0.03174039022997022,
+        0.45318084536120296,
+        0.19873170484788716,
+        0.4844240585807711,
+        0.14346900768578053,
+        0.7071315851062536,
+        0.1209758291952312,
+        0.2767113414593041,
+        0.7964968958403915,
+        0.1714222643058747,
+        0.01099275378510356
+      ],
+      "plinko16": {
+        "slot": 5,
+        "bits": 26912
+      },
+      "keno": [
+        2,
+        3,
+        10,
+        11,
+        15,
+        17,
+        19,
+        21,
+        30,
+        34
+      ],
+      "rollOver": 3,
+      "diceDuel": [
+        1,
+        3,
+        2,
+        3
+      ],
+      "coinFlip": "tails",
+      "minefield": {
+        "easy": [
+          0,
+          10,
+          4
+        ],
+        "medium": [
+          0,
+          10,
+          4,
+          23,
+          3
+        ],
+        "hard": [
+          0,
+          10,
+          4,
+          23,
+          3,
+          14,
+          2,
+          22,
+          13,
+          18
+        ]
+      },
+      "minesTower": {
+        "easy": [
+          [
+            0
+          ],
+          [
+            2
+          ],
+          [
+            0
+          ],
+          [
+            2
+          ],
+          [
+            0
+          ],
+          [
+            3
+          ]
+        ],
+        "medium": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "hard": [
+          [
+            0,
+            1,
+            4
+          ],
+          [
+            2,
+            0,
+            4
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            4,
+            2
+          ],
+          [
+            0,
+            2,
+            1
+          ]
+        ]
+      },
+      "balloonBurstPump": 32,
+      "balloonBurstPumpFlat": 21,
+      "higherLowerDeck": [
+        32,
+        2,
+        22,
+        26,
+        17,
+        11,
+        37,
+        20,
+        44,
+        13,
+        19,
+        34,
+        36,
+        29,
+        18,
+        38,
+        28,
+        46,
+        47,
+        49,
+        45,
+        25,
+        27,
+        43,
+        15,
+        14,
+        10,
+        42,
+        8,
+        3,
+        30,
+        48,
+        31,
+        16,
+        40,
+        51,
+        4,
+        24,
+        21,
+        41,
+        39,
+        0,
+        7,
+        35,
+        12,
+        5,
+        33,
+        6,
+        50,
+        9,
+        23,
+        1
+      ],
+      "higherLowerPayoutFloats": [
+        0.8637413904070854,
+        0.950751073891297,
+        0.3079111585393548,
+        0.14792510401457548,
+        0.934815518790856,
+        0.24862280231900513
+      ],
+      "higherLowerPerCall": {
+        "likely": {
+          "calls": "H",
+          "steps": [
+            {
+              "card": 32,
+              "nextCard": 2,
+              "call": "H",
+              "outcome": "Loss",
+              "callMultiplier": "1.9",
+              "multiplierAfter": "0"
+            }
+          ],
+          "rounds": 0,
+          "lost": true,
+          "multiplier": "0",
+          "stars": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "gram": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "deep": {
+          "calls": "H",
+          "steps": [
+            {
+              "card": 32,
+              "nextCard": 2,
+              "call": "H",
+              "outcome": "Loss",
+              "callMultiplier": "1.9",
+              "multiplierAfter": "0"
+            }
+          ],
+          "rounds": 0,
+          "lost": true,
+          "multiplier": "0",
+          "stars": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "gram": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "longShot": {
+          "calls": "LL",
+          "steps": [
+            {
+              "card": 32,
+              "nextCard": 2,
+              "call": "L",
+              "outcome": "Win",
+              "callMultiplier": "1.9",
+              "multiplierAfter": "1.9"
+            },
+            {
+              "card": 2,
+              "nextCard": 22,
+              "call": "L",
+              "outcome": "Loss",
+              "callMultiplier": "5.875",
+              "multiplierAfter": "0"
+            }
+          ],
+          "rounds": 1,
+          "lost": true,
+          "multiplier": "0",
+          "stars": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "gram": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "kenoGram": [
+        2,
+        3,
+        10,
+        11,
+        15,
+        17,
+        19,
+        21,
+        30,
+        34
+      ],
+      "seaWar": {
+        "creatorShootsFirst": true,
+        "layouts": [
+          {
+            "k": 0,
+            "creator": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  16,
+                  23,
+                  30,
+                  37
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  32,
+                  39,
+                  46
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  11,
+                  18
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  41,
+                  48
+                ],
+                "horizontal": false
+              }
+            ],
+            "opponent": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  42,
+                  43,
+                  44,
+                  45
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  23,
+                  24,
+                  25
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  2,
+                  9
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  20,
+                  27
+                ],
+                "horizontal": false
+              }
+            ]
+          },
+          {
+            "k": 1,
+            "creator": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  35,
+                  36,
+                  37,
+                  38
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  26,
+                  33,
+                  40
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  4,
+                  11
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  15,
+                  22
+                ],
+                "horizontal": false
+              }
+            ],
+            "opponent": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  23,
+                  30,
+                  37,
+                  44
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  5,
+                  12,
+                  19
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  47,
+                  48
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  33,
+                  34
+                ],
+                "horizontal": true
+              }
+            ]
+          },
+          {
+            "k": 2,
+            "creator": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  42,
+                  43,
+                  44,
+                  45
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  26,
+                  33,
+                  40
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  8,
+                  9
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  23,
+                  30
+                ],
+                "horizontal": false
+              }
+            ],
+            "opponent": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  9,
+                  16,
+                  23,
+                  30
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  14,
+                  21,
+                  28
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  6,
+                  13
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  39,
+                  46
+                ],
+                "horizontal": false
+              }
+            ]
+          },
+          {
+            "k": 3,
+            "creator": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  13,
+                  20,
+                  27,
+                  34
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  16,
+                  23,
+                  30
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  4,
+                  11
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  0,
+                  1
+                ],
+                "horizontal": true
+              }
+            ],
+            "opponent": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  14,
+                  15,
+                  16,
+                  17
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  26,
+                  33,
+                  40
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  0,
+                  1
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  38,
+                  45
+                ],
+                "horizontal": false
+              }
+            ]
+          },
+          {
+            "k": 4,
+            "creator": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  38,
+                  39,
+                  40,
+                  41
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  1,
+                  2,
+                  3
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  18,
+                  19
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  15,
+                  22
+                ],
+                "horizontal": false
+              }
+            ],
+            "opponent": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  6,
+                  13,
+                  20,
+                  27
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  35,
+                  36,
+                  37
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  14,
+                  21
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  9,
+                  10
+                ],
+                "horizontal": true
+              }
+            ]
+          },
+          {
+            "k": 5,
+            "creator": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  27,
+                  34,
+                  41,
+                  48
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  7,
+                  8,
+                  9
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  23,
+                  30
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  4,
+                  11
+                ],
+                "horizontal": false
+              }
+            ],
+            "opponent": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  18,
+                  25,
+                  32,
+                  39
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  28,
+                  35,
+                  42
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  14,
+                  15
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  0,
+                  1
+                ],
+                "horizontal": true
+              }
+            ]
+          },
+          {
+            "k": 99,
+            "creator": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  3,
+                  4,
+                  5,
+                  6
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  21,
+                  22,
+                  23
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  36,
+                  37
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  26,
+                  33
+                ],
+                "horizontal": false
+              }
+            ],
+            "opponent": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  16,
+                  17,
+                  18,
+                  19
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  33,
+                  40,
+                  47
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  28,
+                  35
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  30,
+                  37
+                ],
+                "horizontal": false
+              }
+            ]
+          }
+        ],
+        "stars": [
+          10,
+          19,
+          38,
+          95,
+          190
+        ]
+      },
+      "stars": {
+        "keno5x109": [
+          2,
+          6,
+          11,
+          22,
+          55,
+          109
+        ],
+        "rollOver47": [
+          2,
+          9,
+          18,
+          37,
+          91,
+          183
+        ],
+        "diceDuel178": [
+          2,
+          9,
+          18,
+          36,
+          89,
+          178
+        ],
+        "coinFlip": [
+          2,
+          10,
+          19,
+          38,
+          95,
+          190
+        ],
+        "higherLowerRound3": [
+          2,
+          11,
+          23,
+          45,
+          113,
+          226
+        ]
+      }
+    },
+    {
+      "serverSeed": "5c6e1b2a9d8f7e3c4b1a0f9e8d7c6b5a4f3e2d1c0b9a8f7e6d5c4b3a2f1e0d9c",
+      "serverSeedHash": "012cb10ccf55458739e285c8dcf6f1957d2ad6e2e5b29d1ff9e4067b6b22d4e8",
+      "clientSeed": "player-client-seed",
+      "nonce": 42,
+      "hmacHex44": "5db70c3b27a9b7748a6c9599273e0ee4b3c649d42f1c8aa3a6a7b93055529afb56da5c8603717ab7db2e1383",
+      "floats11": [
+        0.3660743373911828,
+        0.15493342000991106,
+        0.54071936593391,
+        0.1532906824722886,
+        0.7022443907335401,
+        0.18402925948612392,
+        0.6509967558085918,
+        0.33329170825891197,
+        0.3392694308422506,
+        0.013450307538732886,
+        0.85617181728594
+      ],
+      "plinko16": {
+        "slot": 6,
+        "bits": 35924
+      },
+      "keno": [
+        8,
+        9,
+        10,
+        12,
+        15,
+        18,
+        19,
+        23,
+        29,
+        30
+      ],
+      "rollOver": 36,
+      "diceDuel": [
+        3,
+        1,
+        4,
+        1
+      ],
+      "coinFlip": "tails",
+      "minefield": {
+        "easy": [
+          9,
+          3,
+          12
+        ],
+        "medium": [
+          9,
+          3,
+          12,
+          23,
+          14
+        ],
+        "hard": [
+          9,
+          3,
+          12,
+          23,
+          14,
+          21,
+          22,
+          5,
+          17,
+          0
+        ]
+      },
+      "minesTower": {
+        "easy": [
+          [
+            1
+          ],
+          [
+            0
+          ],
+          [
+            2
+          ],
+          [
+            0
+          ],
+          [
+            3
+          ],
+          [
+            0
+          ]
+        ],
+        "medium": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "hard": [
+          [
+            1,
+            0,
+            4
+          ],
+          [
+            0,
+            2,
+            4
+          ],
+          [
+            3,
+            1,
+            4
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            1,
+            3
+          ]
+        ]
+      },
+      "balloonBurstPump": 11,
+      "balloonBurstPumpFlat": 10,
+      "higherLowerDeck": [
+        51,
+        9,
+        6,
+        4,
+        47,
+        32,
+        42,
+        43,
+        24,
+        40,
+        41,
+        49,
+        48,
+        39,
+        36,
+        15,
+        13,
+        26,
+        45,
+        20,
+        28,
+        5,
+        10,
+        37,
+        21,
+        31,
+        2,
+        18,
+        30,
+        46,
+        38,
+        12,
+        23,
+        34,
+        1,
+        16,
+        22,
+        17,
+        11,
+        3,
+        25,
+        35,
+        0,
+        44,
+        14,
+        29,
+        8,
+        33,
+        50,
+        27,
+        7,
+        19
+      ],
+      "higherLowerPayoutFloats": [
+        0.2245382466353476,
+        0.8554649860598147,
+        0.42853115824982524,
+        0.4232441377826035,
+        0.5783662309404463,
+        0.08884124411270022
+      ],
+      "higherLowerPerCall": {
+        "likely": {
+          "calls": "LLL",
+          "steps": [
+            {
+              "card": 51,
+              "nextCard": 9,
+              "call": "L",
+              "outcome": "Skip",
+              "callMultiplier": "1",
+              "multiplierAfter": "1"
+            },
+            {
+              "card": 9,
+              "nextCard": 6,
+              "call": "L",
+              "outcome": "Win",
+              "callMultiplier": "1.2402",
+              "multiplierAfter": "1.2402"
+            },
+            {
+              "card": 6,
+              "nextCard": 4,
+              "call": "L",
+              "outcome": "Win",
+              "callMultiplier": "1.9166",
+              "multiplierAfter": "2.3769"
+            }
+          ],
+          "rounds": 2,
+          "lost": false,
+          "multiplier": "2.3769",
+          "stars": [
+            2,
+            12,
+            23,
+            47,
+            118,
+            237
+          ],
+          "gram": [
+            "0.23769",
+            "1.18845",
+            "2.3769",
+            "4.7538",
+            "7.1307",
+            "11.8845",
+            "23.769"
+          ]
+        },
+        "deep": {
+          "calls": "LLLHLLHHLHHL",
+          "steps": [
+            {
+              "card": 51,
+              "nextCard": 9,
+              "call": "L",
+              "outcome": "Skip",
+              "callMultiplier": "1",
+              "multiplierAfter": "1"
+            },
+            {
+              "card": 9,
+              "nextCard": 6,
+              "call": "L",
+              "outcome": "Win",
+              "callMultiplier": "1.2402",
+              "multiplierAfter": "1.2402"
+            },
+            {
+              "card": 6,
+              "nextCard": 4,
+              "call": "L",
+              "outcome": "Win",
+              "callMultiplier": "1.9166",
+              "multiplierAfter": "2.3769"
+            },
+            {
+              "card": 4,
+              "nextCard": 47,
+              "call": "H",
+              "outcome": "Win",
+              "callMultiplier": "1.5517",
+              "multiplierAfter": "3.6882"
+            },
+            {
+              "card": 47,
+              "nextCard": 32,
+              "call": "L",
+              "outcome": "Win",
+              "callMultiplier": "1.4666",
+              "multiplierAfter": "5.4091"
+            },
+            {
+              "card": 32,
+              "nextCard": 42,
+              "call": "L",
+              "outcome": "Win",
+              "callMultiplier": "1.913",
+              "multiplierAfter": "10.3476"
+            },
+            {
+              "card": 42,
+              "nextCard": 43,
+              "call": "H",
+              "outcome": "Win",
+              "callMultiplier": "1.4",
+              "multiplierAfter": "14.4866"
+            },
+            {
+              "card": 43,
+              "nextCard": 24,
+              "call": "H",
+              "outcome": "Win",
+              "callMultiplier": "1.5555",
+              "multiplierAfter": "22.5339"
+            },
+            {
+              "card": 24,
+              "nextCard": 40,
+              "call": "L",
+              "outcome": "Win",
+              "callMultiplier": "1.081",
+              "multiplierAfter": "24.3591"
+            },
+            {
+              "card": 40,
+              "nextCard": 41,
+              "call": "H",
+              "outcome": "Win",
+              "callMultiplier": "1.1142",
+              "multiplierAfter": "27.1409"
+            },
+            {
+              "card": 41,
+              "nextCard": 49,
+              "call": "H",
+              "outcome": "Win",
+              "callMultiplier": "1.2258",
+              "multiplierAfter": "33.2693"
+            },
+            {
+              "card": 49,
+              "nextCard": 48,
+              "call": "L",
+              "outcome": "Win",
+              "callMultiplier": "1.1935",
+              "multiplierAfter": "39.7069"
+            }
+          ],
+          "rounds": 11,
+          "lost": false,
+          "multiplier": "39.7069",
+          "stars": [
+            40,
+            199,
+            397,
+            794,
+            1985,
+            3971
+          ],
+          "gram": [
+            "3.97069",
+            "19.85345",
+            "39.7069",
+            "79.4138",
+            "119.1207",
+            "198.5345",
+            "397.069"
+          ]
+        },
+        "longShot": {
+          "calls": "LH",
+          "steps": [
+            {
+              "card": 51,
+              "nextCard": 9,
+              "call": "L",
+              "outcome": "Skip",
+              "callMultiplier": "1",
+              "multiplierAfter": "1"
+            },
+            {
+              "card": 9,
+              "nextCard": 6,
+              "call": "H",
+              "outcome": "Loss",
+              "callMultiplier": "4.059",
+              "multiplierAfter": "0"
+            }
+          ],
+          "rounds": 0,
+          "lost": true,
+          "multiplier": "0",
+          "stars": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "gram": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "kenoGram": [
+        8,
+        9,
+        10,
+        12,
+        15,
+        18,
+        19,
+        23,
+        29,
+        30
+      ],
+      "seaWar": {
+        "creatorShootsFirst": true,
+        "layouts": [
+          {
+            "k": 0,
+            "creator": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  42,
+                  43,
+                  44,
+                  45
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  5,
+                  12,
+                  19
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  8,
+                  9
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  40,
+                  47
+                ],
+                "horizontal": false
+              }
+            ],
+            "opponent": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  4,
+                  11,
+                  18,
+                  25
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  28,
+                  35,
+                  42
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  37,
+                  44
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  0,
+                  7
+                ],
+                "horizontal": false
+              }
+            ]
+          },
+          {
+            "k": 1,
+            "creator": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  14,
+                  15,
+                  16,
+                  17
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  1,
+                  2,
+                  3
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  28,
+                  35
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  6,
+                  13
+                ],
+                "horizontal": false
+              }
+            ],
+            "opponent": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  25,
+                  32,
+                  39,
+                  46
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  15,
+                  22,
+                  29
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  43,
+                  44
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  5,
+                  12
+                ],
+                "horizontal": false
+              }
+            ]
+          },
+          {
+            "k": 2,
+            "creator": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  15,
+                  16,
+                  17,
+                  18
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  29,
+                  36,
+                  43
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  38,
+                  45
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  27,
+                  34
+                ],
+                "horizontal": false
+              }
+            ],
+            "opponent": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  3,
+                  4,
+                  5,
+                  6
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  23,
+                  30,
+                  37
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  33,
+                  40
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  28,
+                  35
+                ],
+                "horizontal": false
+              }
+            ]
+          },
+          {
+            "k": 3,
+            "creator": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  8,
+                  15,
+                  22,
+                  29
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  4,
+                  11,
+                  18
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  32,
+                  39
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  20,
+                  27
+                ],
+                "horizontal": false
+              }
+            ],
+            "opponent": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  21,
+                  22,
+                  23,
+                  24
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  33,
+                  40,
+                  47
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  35,
+                  36
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  13,
+                  20
+                ],
+                "horizontal": false
+              }
+            ]
+          },
+          {
+            "k": 4,
+            "creator": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  31,
+                  32,
+                  33,
+                  34
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  7,
+                  14,
+                  21
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  9,
+                  10
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  6,
+                  13
+                ],
+                "horizontal": false
+              }
+            ],
+            "opponent": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  30,
+                  31,
+                  32
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  17,
+                  18
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  28,
+                  35
+                ],
+                "horizontal": false
+              }
+            ]
+          },
+          {
+            "k": 5,
+            "creator": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  44,
+                  45,
+                  46,
+                  47
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  11,
+                  18,
+                  25
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  27,
+                  34
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  14,
+                  15
+                ],
+                "horizontal": true
+              }
+            ],
+            "opponent": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  38,
+                  39,
+                  40
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  21,
+                  22
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  24,
+                  25
+                ],
+                "horizontal": true
+              }
+            ]
+          },
+          {
+            "k": 99,
+            "creator": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  28,
+                  29,
+                  30,
+                  31
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  5,
+                  12,
+                  19
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  34,
+                  41
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  7,
+                  14
+                ],
+                "horizontal": false
+              }
+            ],
+            "opponent": [
+              {
+                "index": 0,
+                "size": 4,
+                "cells": [
+                  9,
+                  16,
+                  23,
+                  30
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 1,
+                "size": 3,
+                "cells": [
+                  39,
+                  40,
+                  41
+                ],
+                "horizontal": true
+              },
+              {
+                "index": 2,
+                "size": 2,
+                "cells": [
+                  21,
+                  28
+                ],
+                "horizontal": false
+              },
+              {
+                "index": 3,
+                "size": 2,
+                "cells": [
+                  4,
+                  5
+                ],
+                "horizontal": true
+              }
+            ]
+          }
+        ],
+        "stars": [
+          10,
+          19,
+          38,
+          95,
+          190
+        ]
+      },
+      "stars": {
+        "keno5x109": [
+          1,
+          5,
+          11,
+          21,
+          54,
+          109
+        ],
+        "rollOver47": [
+          2,
+          9,
+          19,
+          37,
+          92,
+          183
+        ],
+        "diceDuel178": [
+          2,
+          9,
+          18,
+          35,
+          89,
+          178
+        ],
+        "coinFlip": [
+          2,
+          10,
+          19,
+          38,
+          95,
+          190
+        ],
+        "higherLowerRound3": [
+          2,
+          11,
+          23,
+          45,
+          113,
+          226
+        ]
+      }
+    }
+  ]
+}

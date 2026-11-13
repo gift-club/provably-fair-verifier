@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Verificatore Provably fair: codice open source HMAC-SHA256 (npm)</title>
+<meta name="description" content="TypeScript open source che ricalcola ogni round di Gift Club da server seed, client seed e nonce. CLI e libreria npm, testate sugli output del server stesso.">
+<link rel="canonical" href="https://gift-club.github.io/provably-fair-verifier/it/">
+<link rel="alternate" hreflang="en" href="https://gift-club.github.io/provably-fair-verifier/">
+<link rel="alternate" hreflang="ru" href="https://gift-club.github.io/provably-fair-verifier/ru/">
+<link rel="alternate" hreflang="uk" href="https://gift-club.github.io/provably-fair-verifier/uk/">
+<link rel="alternate" hreflang="es" href="https://gift-club.github.io/provably-fair-verifier/es/">
+<link rel="alternate" hreflang="pl" href="https://gift-club.github.io/provably-fair-verifier/pl/">
+<link rel="alternate" hreflang="it" href="https://gift-club.github.io/provably-fair-verifier/it/">
+<link rel="alternate" hreflang="tr" href="https://gift-club.github.io/provably-fair-verifier/tr/">
+<link rel="alternate" hreflang="de" href="https://gift-club.github.io/provably-fair-verifier/de/">
+<link rel="alternate" hreflang="fr" href="https://gift-club.github.io/provably-fair-verifier/fr/">
+<link rel="alternate" hreflang="x-default" href="https://gift-club.github.io/provably-fair-verifier/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Verificatore Provably fair di Gift Club">
+<meta property="og:title" content="Verificatore Provably fair: codice open source HMAC-SHA256 (npm)">
+<meta property="og:description" content="TypeScript open source che ricalcola ogni round di Gift Club da server seed, client seed e nonce. CLI e libreria npm, testate sugli output del server stesso.">
+<meta property="og:url" content="https://gift-club.github.io/provably-fair-verifier/it/">
+<meta property="og:locale" content="it_IT">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#0d0b14">
+<link rel="icon" href="/provably-fair-verifier/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/provably-fair-verifier/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/provably-fair-verifier/icon-192.png">
+<link rel="apple-touch-icon" href="/provably-fair-verifier/apple-touch-icon.png">
+<style>:root{color-scheme:dark;--bg:#0d0b14;--panel:#17141f;--line:#2a2535;--ink:#f3f0fa;--muted:#a59fb5;--accent:#ffcf4a;--link:#8ec5ff}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--link)}
+a:hover{text-decoration-thickness:2px}
+.wrap{max-width:860px;margin:0 auto;padding:0 16px}
+header{border-bottom:1px solid var(--line)}
+header .wrap{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;justify-content:space-between;padding-top:14px;padding-bottom:14px}
+.brand{display:inline-flex;align-items:center;gap:10px;font-weight:700;color:var(--ink);text-decoration:none}
+.brand img{display:block;width:32px;height:32px;border-radius:8px}
+.brand em{font-style:normal;color:var(--accent)}
+nav ul{display:flex;flex-wrap:wrap;gap:6px 14px;list-style:none;margin:0;padding:0;font-size:15px}
+nav a{color:var(--muted);text-decoration:none}
+nav a[aria-current=page]{color:var(--ink);font-weight:600}
+main{padding:28px 0 40px}
+h1{font-size:clamp(28px,5vw,40px);line-height:1.15;margin:0 0 12px}
+h2{font-size:24px;line-height:1.25;margin:36px 0 10px}
+h3{font-size:19px;margin:24px 0 8px}
+.lead{font-size:18px;color:var(--ink)}
+.meta{color:var(--muted);font-size:14px}
+.answer{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:10px;padding:14px 16px;margin:18px 0}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:16px 0}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.card h3{margin:0 0 6px;font-size:17px}
+.card p{margin:0;color:var(--muted);font-size:15px}
+.table-wrap{overflow-x:auto;margin:12px 0;border:1px solid var(--line);border-radius:10px}
+table{border-collapse:collapse;width:100%;font-size:15px}
+th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}
+pre,code{overflow-wrap:anywhere}
+pre{white-space:pre}
+th{background:var(--panel);position:sticky;top:0}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+tr:last-child td{border-bottom:0}
+caption{caption-side:top;text-align:left;padding:8px 10px;color:var(--muted);font-size:14px}
+code,pre{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:14px}
+code{background:var(--panel);padding:1px 5px;border-radius:5px}
+pre{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 14px;overflow-x:auto}
+pre code{background:none;padding:0}
+details{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin:8px 0}
+summary{cursor:pointer;font-weight:600}
+.langs{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:14px;color:var(--muted)}
+.langs a{color:var(--muted)}
+.langs a[aria-current=true]{color:var(--ink);font-weight:600;text-decoration:none}
+footer{border-top:1px solid var(--line);padding:24px 0 40px;color:var(--muted);font-size:14px}
+footer p{margin:6px 0}
+iframe{max-width:100%}</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"Gift Club provably fair verifier","description":"TypeScript open source che ricalcola ogni round di Gift Club da server seed, client seed e nonce. CLI e libreria npm, testate sugli output del server stesso.","url":"https://gift-club.github.io/provably-fair-verifier/it/","codeRepository":"https://github.com/gift-club/provably-fair-verifier","programmingLanguage":"TypeScript","runtimePlatform":["Node.js","Web browser"],"license":"https://opensource.org/licenses/MIT","version":"1.0.0","author":{"@type":"Organization","@id":"https://giftclub.app/#organization","name":"Gift Club","url":"https://giftclub.app/","sameAs":["https://github.com/gift-club","https://gift-club.github.io/"]},"publisher":{"@type":"Organization","@id":"https://giftclub.app/#organization","name":"Gift Club","url":"https://giftclub.app/","sameAs":["https://github.com/gift-club","https://gift-club.github.io/"]}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Verificatore Provably fair di Gift Club","item":"https://gift-club.github.io/provably-fair-verifier/it/"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Cosa significa Provably fair?","acceptedAnswer":{"@type":"Answer","text":"Che chiunque può dimostrare che il risultato di un round era fissato prima della puntata e non è stato cambiato dopo. Il server si impegna su un seed segreto pubblicandone l'hash, mescola un seed che controlli tu e rivela il proprio più tardi, così puoi ricalcolare il risultato."}},{"@type":"Question","name":"Il server può cambiare un risultato dopo che ho giocato?","acceptedAnswer":{"@type":"Answer","text":"Non senza essere scoperto: un seed diverso dà un hash SHA-256 diverso, e l'hash ti è stato mostrato prima del round."}},{"@type":"Question","name":"Perché il mio client seed conta?","acceptedAnswer":{"@type":"Answer","text":"Il risultato dipende da entrambi i seed. Dato che puoi impostare tu il tuo client seed, il server non può scegliere un seed che favorisca un esito già noto."}},{"@type":"Question","name":"Il verificatore ha bisogno di internet o di un account?","acceptedAnswer":{"@type":"Answer","text":"No. Funziona interamente sul tuo computer e servono solo i quattro valori del round."}}]}</script>
+</head>
+<body>
+<header><div class="wrap">
+<a class="brand" href="/provably-fair-verifier/it/"><img src="/provably-fair-verifier/logo-64.png" width="32" height="32" alt=""><span>Gift Club <em>Provably fair</em></span></a>
+<nav aria-label="Sezioni della documentazione"><ul><li><a href="/provably-fair-verifier/it/" aria-current="page">Panoramica</a></li><li><a href="/provably-fair-verifier/it/how-it-works/">Come funziona</a></li></ul></nav>
+</div></header>
+<main><div class="wrap">
+<h1>Verificatore Provably fair</h1>
+<p class="lead">Controlla qualsiasi round di Gift Club in autonomia, sul tuo computer, con la stessa matematica che ha eseguito il server.</p>
+
+
+<div class="answer"><p>Un round Provably fair può essere ricalcolato da chiunque. Prima del round il server pubblica l'<strong>hash SHA-256</strong> di un server seed segreto; dopo, il seed stesso. Questo pacchetto confronta il seed con l'hash e rigenera il round con <strong>HMAC-SHA256</strong>, così vedi che il risultato era fissato prima che giocassi e non è stato cambiato dopo.</p></div>
+<h2>Verifica un round in quattro passi</h2>
+<ol><li>Nei dettagli del round in Gift Club, copia l'<strong>hash del server seed</strong> mostrato prima di giocare.</li><li>Dopo la rotazione del seed, copia il <strong>server seed</strong> rivelato, il tuo <strong>client seed</strong> e il <strong>nonce</strong> del round.</li><li>Esegui il verificatore: controlla che lo SHA-256 del seed sia uguale all'hash, poi rigenera i numeri del round.</li><li>Confronta il risultato rigenerato con quello nella tua cronologia. Coincidono byte per byte.</li></ol>
+<h2>Dalla riga di comando</h2>
+<p>Con npx non serve installare nulla. L'esempio qui sotto è il round dimostrativo del pacchetto stesso:</p>
+<pre><code>npx @gift-club/provably-fair-verifier \
+  0f1e2d3c4b5a69788796a5b4c3d2e1f00112233445566778899aabbccddeeff0 \
+  afa880ca0c7da502fc32ab284cf70852ef7c5540204e4215c2a1617074ca7905 \
+  gift-club-demo 0 2
+
+SHA-256(server seed) = afa880ca0c7da502fc32ab284cf70852ef7c5540204e4215c2a1617074ca7905
+✔ matches the hash published before the round
+float 0: 0.1044411135  (uint32 448571167)
+float 1: 0.1064818364  (uint32 457336005)</code></pre>
+<h2>Come libreria</h2>
+<pre><code>npm install @gift-club/provably-fair-verifier</code></pre>
+<pre><code>import { generateFloats, hexToBytes, sha256Hex } from &quot;@gift-club/provably-fair-verifier&quot;;
+
+const seed = hexToBytes(serverSeed);
+(await sha256Hex(seed)) === serverSeedHash;              // the seed was fixed before the round
+const [f] = await generateFloats(seed, clientSeed, nonce, 1); // the round&#39;s first draw, in [0, 1)</code></pre>
+<p>L'estrazione di ogni gioco (dove cade la pallina, quali carte vengono date, il punto di Crash) è un namespace, per esempio <code>plinkoGold</code>, <code>crash</code> o <code>collect</code>. Tipi TypeScript inclusi.</p>
+<h2>Cosa copre</h2>
+<p>Tutti i giochi di Gift Club che estraggono con il motore Provably fair, in Stelle e in Gram:</p>
+<p>Crash · Plinko · Plinko Gold · Pachinko · Keno · Supera il numero · Duello di dadi · Testa o croce · Campo di mine · Torre delle mine · Gonfia il palloncino · Più alto o più basso · Indovina il colore · Carta, forbice, sasso · Porta magica · Indovina il numero · Tre in fila · Slot · Roulette europea · Ruota · Traversata a molla · Blackjack</p>
+<h3>Duelli 1v1</h3>
+<p>Duello di Blackjack · Campo di mine 1v1 · Dadi 1v1 · Palloncino 1v1 · Duello a Ludo · Battaglia navale · Dama turca · Dama</p>
+<h3>Casse e gratta e vinci</h3>
+<p>Le casse e i gratta e vinci estraggono da una tabella fissa di biglietti: il verificatore ricalcola quale biglietto ha scelto un'estrazione, anche con un obiettivo impostato.</p>
+<p>Preferisci il browser? Incolla gli stessi valori in <a href="https://giftclub.app/tools/provably-fair-checker">Provably Fair Checker and Calculator: Verify a Round</a>.</p>
+<h2>Perché puoi fidarti del codice</h2>
+<p>Ogni funzione replica un metodo del server byte per byte, e i test la legano a più di 2.600 vettori di input e output prodotti dal codice del server stesso. Se la matematica del server cambia, questi test falliscono finché il verificatore non torna a coincidere.</p>
+<h2>Continua a leggere su Gift Club</h2><ul><li><a href="https://giftclub.app/tools/provably-fair-checker">Provably Fair Checker and Calculator: Verify a Round</a></li></ul>
+<h2>Domande</h2>
+<details><summary>Cosa significa Provably fair?</summary><p>Che chiunque può dimostrare che il risultato di un round era fissato prima della puntata e non è stato cambiato dopo. Il server si impegna su un seed segreto pubblicandone l'hash, mescola un seed che controlli tu e rivela il proprio più tardi, così puoi ricalcolare il risultato.</p></details>
+<details><summary>Il server può cambiare un risultato dopo che ho giocato?</summary><p>Non senza essere scoperto: un seed diverso dà un hash SHA-256 diverso, e l'hash ti è stato mostrato prima del round.</p></details>
+<details><summary>Perché il mio client seed conta?</summary><p>Il risultato dipende da entrambi i seed. Dato che puoi impostare tu il tuo client seed, il server non può scegliere un seed che favorisca un esito già noto.</p></details>
+<details><summary>Il verificatore ha bisogno di internet o di un account?</summary><p>No. Funziona interamente sul tuo computer e servono solo i quattro valori del round.</p></details>
+
+</div></main>
+<footer><div class="wrap">
+<p class="langs" aria-label="Lingue"><a href="/provably-fair-verifier/" hreflang="en" lang="en">English</a><a href="/provably-fair-verifier/ru/" hreflang="ru" lang="ru">Русский</a><a href="/provably-fair-verifier/uk/" hreflang="uk" lang="uk">Українська</a><a href="/provably-fair-verifier/es/" hreflang="es" lang="es">Español</a><a href="/provably-fair-verifier/pl/" hreflang="pl" lang="pl">Polski</a><a href="/provably-fair-verifier/it/" hreflang="it" lang="it" aria-current="true">Italiano</a><a href="/provably-fair-verifier/tr/" hreflang="tr" lang="tr">Türkçe</a><a href="/provably-fair-verifier/de/" hreflang="de" lang="de">Deutsch</a><a href="/provably-fair-verifier/fr/" hreflang="fr" lang="fr">Français</a></p>
+<p>Open source di <a href="https://giftclub.app/it/">Gift Club</a>, la Telegram Mini App con casse di regali e giochi.</p>
+<p>Altro da Gift Club: <a href="/telegram-gifts-dataset/it/">Telegram data</a> · <a href="/telegram-stars-calculator/it/">Stars calculator</a> · <a href="https://github.com/gift-club/provably-fair-verifier">Codice su GitHub</a></p>
+
+</div></footer>
+</body>
+</html>

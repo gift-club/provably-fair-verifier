@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Provably fair doğrulayıcı: açık kaynak HMAC-SHA256 (npm)</title>
+<meta name="description" content="Her Gift Club turunu server seed, client seed ve nonce ile yeniden hesaplayan açık kaynak TypeScript. CLI ve npm kütüphanesi, sunucuyla test edildi.">
+<link rel="canonical" href="https://gift-club.github.io/provably-fair-verifier/tr/">
+<link rel="alternate" hreflang="en" href="https://gift-club.github.io/provably-fair-verifier/">
+<link rel="alternate" hreflang="ru" href="https://gift-club.github.io/provably-fair-verifier/ru/">
+<link rel="alternate" hreflang="uk" href="https://gift-club.github.io/provably-fair-verifier/uk/">
+<link rel="alternate" hreflang="es" href="https://gift-club.github.io/provably-fair-verifier/es/">
+<link rel="alternate" hreflang="pl" href="https://gift-club.github.io/provably-fair-verifier/pl/">
+<link rel="alternate" hreflang="it" href="https://gift-club.github.io/provably-fair-verifier/it/">
+<link rel="alternate" hreflang="tr" href="https://gift-club.github.io/provably-fair-verifier/tr/">
+<link rel="alternate" hreflang="de" href="https://gift-club.github.io/provably-fair-verifier/de/">
+<link rel="alternate" hreflang="fr" href="https://gift-club.github.io/provably-fair-verifier/fr/">
+<link rel="alternate" hreflang="x-default" href="https://gift-club.github.io/provably-fair-verifier/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Gift Club Provably fair doğrulayıcı">
+<meta property="og:title" content="Provably fair doğrulayıcı: açık kaynak HMAC-SHA256 (npm)">
+<meta property="og:description" content="Her Gift Club turunu server seed, client seed ve nonce ile yeniden hesaplayan açık kaynak TypeScript. CLI ve npm kütüphanesi, sunucuyla test edildi.">
+<meta property="og:url" content="https://gift-club.github.io/provably-fair-verifier/tr/">
+<meta property="og:locale" content="tr_TR">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#0d0b14">
+<link rel="icon" href="/provably-fair-verifier/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/provably-fair-verifier/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/provably-fair-verifier/icon-192.png">
+<link rel="apple-touch-icon" href="/provably-fair-verifier/apple-touch-icon.png">
+<style>:root{color-scheme:dark;--bg:#0d0b14;--panel:#17141f;--line:#2a2535;--ink:#f3f0fa;--muted:#a59fb5;--accent:#ffcf4a;--link:#8ec5ff}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--link)}
+a:hover{text-decoration-thickness:2px}
+.wrap{max-width:860px;margin:0 auto;padding:0 16px}
+header{border-bottom:1px solid var(--line)}
+header .wrap{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;justify-content:space-between;padding-top:14px;padding-bottom:14px}
+.brand{display:inline-flex;align-items:center;gap:10px;font-weight:700;color:var(--ink);text-decoration:none}
+.brand img{display:block;width:32px;height:32px;border-radius:8px}
+.brand em{font-style:normal;color:var(--accent)}
+nav ul{display:flex;flex-wrap:wrap;gap:6px 14px;list-style:none;margin:0;padding:0;font-size:15px}
+nav a{color:var(--muted);text-decoration:none}
+nav a[aria-current=page]{color:var(--ink);font-weight:600}
+main{padding:28px 0 40px}
+h1{font-size:clamp(28px,5vw,40px);line-height:1.15;margin:0 0 12px}
+h2{font-size:24px;line-height:1.25;margin:36px 0 10px}
+h3{font-size:19px;margin:24px 0 8px}
+.lead{font-size:18px;color:var(--ink)}
+.meta{color:var(--muted);font-size:14px}
+.answer{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:10px;padding:14px 16px;margin:18px 0}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:16px 0}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.card h3{margin:0 0 6px;font-size:17px}
+.card p{margin:0;color:var(--muted);font-size:15px}
+.table-wrap{overflow-x:auto;margin:12px 0;border:1px solid var(--line);border-radius:10px}
+table{border-collapse:collapse;width:100%;font-size:15px}
+th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}
+pre,code{overflow-wrap:anywhere}
+pre{white-space:pre}
+th{background:var(--panel);position:sticky;top:0}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+tr:last-child td{border-bottom:0}
+caption{caption-side:top;text-align:left;padding:8px 10px;color:var(--muted);font-size:14px}
+code,pre{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:14px}
+code{background:var(--panel);padding:1px 5px;border-radius:5px}
+pre{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 14px;overflow-x:auto}
+pre code{background:none;padding:0}
+details{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin:8px 0}
+summary{cursor:pointer;font-weight:600}
+.langs{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:14px;color:var(--muted)}
+.langs a{color:var(--muted)}
+.langs a[aria-current=true]{color:var(--ink);font-weight:600;text-decoration:none}
+footer{border-top:1px solid var(--line);padding:24px 0 40px;color:var(--muted);font-size:14px}
+footer p{margin:6px 0}
+iframe{max-width:100%}</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"Gift Club provably fair verifier","description":"Her Gift Club turunu server seed, client seed ve nonce ile yeniden hesaplayan açık kaynak TypeScript. CLI ve npm kütüphanesi, sunucuyla test edildi.","url":"https://gift-club.github.io/provably-fair-verifier/tr/","codeRepository":"https://github.com/gift-club/provably-fair-verifier","programmingLanguage":"TypeScript","runtimePlatform":["Node.js","Web browser"],"license":"https://opensource.org/licenses/MIT","version":"1.0.0","author":{"@type":"Organization","@id":"https://giftclub.app/#organization","name":"Gift Club","url":"https://giftclub.app/","sameAs":["https://github.com/gift-club","https://gift-club.github.io/"]},"publisher":{"@type":"Organization","@id":"https://giftclub.app/#organization","name":"Gift Club","url":"https://giftclub.app/","sameAs":["https://github.com/gift-club","https://gift-club.github.io/"]}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Gift Club Provably fair doğrulayıcı","item":"https://gift-club.github.io/provably-fair-verifier/tr/"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Provably fair ne demek?","acceptedAnswer":{"@type":"Answer","text":"Herkesin, bir turun sonucunun bahisten önce belirlendiğini ve sonradan değiştirilmediğini kanıtlayabilmesi demek. Sunucu, hash'ini yayımlayarak gizli bir seed'e bağlanır, senin belirlediğin bir seed'i karıştırır ve sonucu yeniden hesaplayabilmen için kendi seed'ini sonra açıklar."}},{"@type":"Question","name":"Sunucu ben oynadıktan sonra sonucu değiştirebilir mi?","acceptedAnswer":{"@type":"Answer","text":"Yakalanmadan olmaz: farklı bir seed farklı bir SHA-256 hash verir ve hash sana turdan önce gösterildi."}},{"@type":"Question","name":"Client seed'im neden önemli?","acceptedAnswer":{"@type":"Answer","text":"Sonuç iki seed'e de bağlıdır. Kendi client seed'ini belirleyebildiğin için sunucu, bilinen bir sonucu kayıran bir seed seçemez."}},{"@type":"Question","name":"Doğrulayıcı internet bağlantısı ya da hesap gerektirir mi?","acceptedAnswer":{"@type":"Answer","text":"Hayır. Tamamen senin bilgisayarında çalışır ve yalnızca turun dört değerine ihtiyaç duyar."}}]}</script>
+</head>
+<body>
+<header><div class="wrap">
+<a class="brand" href="/provably-fair-verifier/tr/"><img src="/provably-fair-verifier/logo-64.png" width="32" height="32" alt=""><span>Gift Club <em>Provably fair</em></span></a>
+<nav aria-label="Belge bölümleri"><ul><li><a href="/provably-fair-verifier/tr/" aria-current="page">Genel bakış</a></li><li><a href="/provably-fair-verifier/tr/how-it-works/">Nasıl çalışır</a></li></ul></nav>
+</div></header>
+<main><div class="wrap">
+<h1>Provably fair doğrulayıcı</h1>
+<p class="lead">Gift Club'daki herhangi bir turu kendi bilgisayarında, sunucunun çalıştırdığı matematikle kendin kontrol et.</p>
+
+
+<div class="answer"><p>Provably fair bir turu herkes yeniden hesaplayabilir. Tur başlamadan önce sunucu gizli bir server seed'in <strong>SHA-256 hash</strong>'ini yayımlar; turdan sonra seed'in kendisini açıklar. Bu paket seed'i hash ile karşılaştırır ve turu <strong>HMAC-SHA256</strong> ile yeniden çeker; böylece sonucun sen oynamadan önce belirlendiğini ve sonradan değiştirilmediğini görürsün.</p></div>
+<h2>Bir turu dört adımda doğrula</h2>
+<ol><li>Gift Club'daki tur ayrıntılarında, oynamadan önce gösterilen <strong>server seed hash</strong> değerini kopyala.</li><li>Seed yenilendikten sonra açıklanan <strong>server seed</strong>'i, kendi <strong>client seed</strong> değerini ve turun <strong>nonce</strong> değerini kopyala.</li><li>Doğrulayıcıyı çalıştır: seed'in SHA-256 değerinin hash'e eşit olduğunu kontrol eder, sonra turun sayılarını yeniden çeker.</li><li>Yeniden çekilen sonucu geçmişindeki sonuçla karşılaştır. Bayt bayt aynıdır.</li></ol>
+<h2>Komut satırından</h2>
+<p>npx ile kurulum gerekmez. Aşağıdaki örnek paketin kendi demo turudur:</p>
+<pre><code>npx @gift-club/provably-fair-verifier \
+  0f1e2d3c4b5a69788796a5b4c3d2e1f00112233445566778899aabbccddeeff0 \
+  afa880ca0c7da502fc32ab284cf70852ef7c5540204e4215c2a1617074ca7905 \
+  gift-club-demo 0 2
+
+SHA-256(server seed) = afa880ca0c7da502fc32ab284cf70852ef7c5540204e4215c2a1617074ca7905
+✔ matches the hash published before the round
+float 0: 0.1044411135  (uint32 448571167)
+float 1: 0.1064818364  (uint32 457336005)</code></pre>
+<h2>Kütüphane olarak</h2>
+<pre><code>npm install @gift-club/provably-fair-verifier</code></pre>
+<pre><code>import { generateFloats, hexToBytes, sha256Hex } from &quot;@gift-club/provably-fair-verifier&quot;;
+
+const seed = hexToBytes(serverSeed);
+(await sha256Hex(seed)) === serverSeedHash;              // the seed was fixed before the round
+const [f] = await generateFloats(seed, clientSeed, nonce, 1); // the round&#39;s first draw, in [0, 1)</code></pre>
+<p>Her oyunun kendi çekilişi (topun nereye düştüğü, hangi kartların dağıtıldığı, Crash noktası) bir ad alanıdır, örneğin <code>plinkoGold</code>, <code>crash</code> veya <code>collect</code>. TypeScript tipleri dahildir.</p>
+<h2>Neleri kapsar</h2>
+<p>Provably fair motoruyla çekiliş yapan tüm Gift Club oyunları, Yıldız ve Gram ile:</p>
+<p>Crash · Plinko · Plinko Gold · Pachinko · Keno · Sayıyı Geç · Zar Düellosu · Yazı Tura · Mayın Tarlası · Mayın Kulesi · Balonu Şişir · Büyük mü Küçük mü · Rengi Bil · Taş Kâğıt Makas · Sihirli Kapı · Sayı Tahmini · Üçlü Eşleştir · Slotlar · Avrupa Ruleti · Çark · Kurmalı Geçit · Blackjack</p>
+<h3>1v1 düellolar</h3>
+<p>Blackjack Düellosu · Mayın Tarlası 1v1 · Zar 1v1 · Balon 1v1 · Kızma Birader Düellosu · Amiral Battı · Dama · Amerikan Daması</p>
+<h3>Kasalar ve kazı kazanlar</h3>
+<p>Kasalar ve kazı kazanlar sabit bir bilet tablosundan çekiliş yapar: doğrulayıcı, hedef belirlenmiş bir çekiliş dahil, çekilişin hangi bileti seçtiğini yeniden hesaplar.</p>
+<p>Tarayıcıyı mı tercih edersin? Aynı değerleri şuraya yapıştır: <a href="https://giftclub.app/tools/provably-fair-checker">Provably Fair Checker and Calculator: Verify a Round</a>.</p>
+<h2>Koda neden güvenebilirsin</h2>
+<p>Her fonksiyon bir sunucu metodunu bayt bayt yansıtır ve testler onu sunucunun kendi kodunun ürettiği 2.600'den fazla girdi–çıktı vektörüne bağlar. Sunucunun matematiği değişirse, doğrulayıcı yeniden eşleşene kadar bu testler başarısız olur.</p>
+<h2>Gift Club&#39;da sıradaki yazı</h2><ul><li><a href="https://giftclub.app/tools/provably-fair-checker">Provably Fair Checker and Calculator: Verify a Round</a></li></ul>
+<h2>Sorular</h2>
+<details><summary>Provably fair ne demek?</summary><p>Herkesin, bir turun sonucunun bahisten önce belirlendiğini ve sonradan değiştirilmediğini kanıtlayabilmesi demek. Sunucu, hash'ini yayımlayarak gizli bir seed'e bağlanır, senin belirlediğin bir seed'i karıştırır ve sonucu yeniden hesaplayabilmen için kendi seed'ini sonra açıklar.</p></details>
+<details><summary>Sunucu ben oynadıktan sonra sonucu değiştirebilir mi?</summary><p>Yakalanmadan olmaz: farklı bir seed farklı bir SHA-256 hash verir ve hash sana turdan önce gösterildi.</p></details>
+<details><summary>Client seed&#39;im neden önemli?</summary><p>Sonuç iki seed'e de bağlıdır. Kendi client seed'ini belirleyebildiğin için sunucu, bilinen bir sonucu kayıran bir seed seçemez.</p></details>
+<details><summary>Doğrulayıcı internet bağlantısı ya da hesap gerektirir mi?</summary><p>Hayır. Tamamen senin bilgisayarında çalışır ve yalnızca turun dört değerine ihtiyaç duyar.</p></details>
+
+</div></main>
+<footer><div class="wrap">
+<p class="langs" aria-label="Diller"><a href="/provably-fair-verifier/" hreflang="en" lang="en">English</a><a href="/provably-fair-verifier/ru/" hreflang="ru" lang="ru">Русский</a><a href="/provably-fair-verifier/uk/" hreflang="uk" lang="uk">Українська</a><a href="/provably-fair-verifier/es/" hreflang="es" lang="es">Español</a><a href="/provably-fair-verifier/pl/" hreflang="pl" lang="pl">Polski</a><a href="/provably-fair-verifier/it/" hreflang="it" lang="it">Italiano</a><a href="/provably-fair-verifier/tr/" hreflang="tr" lang="tr" aria-current="true">Türkçe</a><a href="/provably-fair-verifier/de/" hreflang="de" lang="de">Deutsch</a><a href="/provably-fair-verifier/fr/" hreflang="fr" lang="fr">Français</a></p>
+<p>Hediye kasaları ve oyunlar sunan Telegram Mini App <a href="https://giftclub.app/tr/">Gift Club</a> tarafından açık kaynak olarak yayımlandı.</p>
+<p>Gift Club&#39;dan daha fazlası: <a href="/telegram-gifts-dataset/tr/">Telegram data</a> · <a href="/telegram-stars-calculator/tr/">Stars calculator</a> · <a href="https://github.com/gift-club/provably-fair-verifier">Kaynak kod GitHub&#39;da</a></p>
+
+</div></footer>
+</body>
+</html>

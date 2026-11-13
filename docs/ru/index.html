@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Доказуемо честный верификатор: открытый код HMAC-SHA256 (npm)</title>
+<meta name="description" content="Открытый TypeScript-код пересчитывает каждый раунд Gift Club по серверному и клиентскому сиду и nonce. CLI и npm-библиотека, сверены с сервером.">
+<link rel="canonical" href="https://gift-club.github.io/provably-fair-verifier/ru/">
+<link rel="alternate" hreflang="en" href="https://gift-club.github.io/provably-fair-verifier/">
+<link rel="alternate" hreflang="ru" href="https://gift-club.github.io/provably-fair-verifier/ru/">
+<link rel="alternate" hreflang="uk" href="https://gift-club.github.io/provably-fair-verifier/uk/">
+<link rel="alternate" hreflang="es" href="https://gift-club.github.io/provably-fair-verifier/es/">
+<link rel="alternate" hreflang="pl" href="https://gift-club.github.io/provably-fair-verifier/pl/">
+<link rel="alternate" hreflang="it" href="https://gift-club.github.io/provably-fair-verifier/it/">
+<link rel="alternate" hreflang="tr" href="https://gift-club.github.io/provably-fair-verifier/tr/">
+<link rel="alternate" hreflang="de" href="https://gift-club.github.io/provably-fair-verifier/de/">
+<link rel="alternate" hreflang="fr" href="https://gift-club.github.io/provably-fair-verifier/fr/">
+<link rel="alternate" hreflang="x-default" href="https://gift-club.github.io/provably-fair-verifier/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Gift Club: доказуемо честная проверка">
+<meta property="og:title" content="Доказуемо честный верификатор: открытый код HMAC-SHA256 (npm)">
+<meta property="og:description" content="Открытый TypeScript-код пересчитывает каждый раунд Gift Club по серверному и клиентскому сиду и nonce. CLI и npm-библиотека, сверены с сервером.">
+<meta property="og:url" content="https://gift-club.github.io/provably-fair-verifier/ru/">
+<meta property="og:locale" content="ru_RU">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#0d0b14">
+<link rel="icon" href="/provably-fair-verifier/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/provably-fair-verifier/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/provably-fair-verifier/icon-192.png">
+<link rel="apple-touch-icon" href="/provably-fair-verifier/apple-touch-icon.png">
+<style>:root{color-scheme:dark;--bg:#0d0b14;--panel:#17141f;--line:#2a2535;--ink:#f3f0fa;--muted:#a59fb5;--accent:#ffcf4a;--link:#8ec5ff}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--link)}
+a:hover{text-decoration-thickness:2px}
+.wrap{max-width:860px;margin:0 auto;padding:0 16px}
+header{border-bottom:1px solid var(--line)}
+header .wrap{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;justify-content:space-between;padding-top:14px;padding-bottom:14px}
+.brand{display:inline-flex;align-items:center;gap:10px;font-weight:700;color:var(--ink);text-decoration:none}
+.brand img{display:block;width:32px;height:32px;border-radius:8px}
+.brand em{font-style:normal;color:var(--accent)}
+nav ul{display:flex;flex-wrap:wrap;gap:6px 14px;list-style:none;margin:0;padding:0;font-size:15px}
+nav a{color:var(--muted);text-decoration:none}
+nav a[aria-current=page]{color:var(--ink);font-weight:600}
+main{padding:28px 0 40px}
+h1{font-size:clamp(28px,5vw,40px);line-height:1.15;margin:0 0 12px}
+h2{font-size:24px;line-height:1.25;margin:36px 0 10px}
+h3{font-size:19px;margin:24px 0 8px}
+.lead{font-size:18px;color:var(--ink)}
+.meta{color:var(--muted);font-size:14px}
+.answer{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:10px;padding:14px 16px;margin:18px 0}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:16px 0}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.card h3{margin:0 0 6px;font-size:17px}
+.card p{margin:0;color:var(--muted);font-size:15px}
+.table-wrap{overflow-x:auto;margin:12px 0;border:1px solid var(--line);border-radius:10px}
+table{border-collapse:collapse;width:100%;font-size:15px}
+th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}
+pre,code{overflow-wrap:anywhere}
+pre{white-space:pre}
+th{background:var(--panel);position:sticky;top:0}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+tr:last-child td{border-bottom:0}
+caption{caption-side:top;text-align:left;padding:8px 10px;color:var(--muted);font-size:14px}
+code,pre{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:14px}
+code{background:var(--panel);padding:1px 5px;border-radius:5px}
+pre{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 14px;overflow-x:auto}
+pre code{background:none;padding:0}
+details{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin:8px 0}
+summary{cursor:pointer;font-weight:600}
+.langs{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:14px;color:var(--muted)}
+.langs a{color:var(--muted)}
+.langs a[aria-current=true]{color:var(--ink);font-weight:600;text-decoration:none}
+footer{border-top:1px solid var(--line);padding:24px 0 40px;color:var(--muted);font-size:14px}
+footer p{margin:6px 0}
+iframe{max-width:100%}</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"Gift Club provably fair verifier","description":"Открытый TypeScript-код пересчитывает каждый раунд Gift Club по серверному и клиентскому сиду и nonce. CLI и npm-библиотека, сверены с сервером.","url":"https://gift-club.github.io/provably-fair-verifier/ru/","codeRepository":"https://github.com/gift-club/provably-fair-verifier","programmingLanguage":"TypeScript","runtimePlatform":["Node.js","Web browser"],"license":"https://opensource.org/licenses/MIT","version":"1.0.0","author":{"@type":"Organization","@id":"https://giftclub.app/#organization","name":"Gift Club","url":"https://giftclub.app/","sameAs":["https://github.com/gift-club","https://gift-club.github.io/"]},"publisher":{"@type":"Organization","@id":"https://giftclub.app/#organization","name":"Gift Club","url":"https://giftclub.app/","sameAs":["https://github.com/gift-club","https://gift-club.github.io/"]}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Gift Club: доказуемо честная проверка","item":"https://gift-club.github.io/provably-fair-verifier/ru/"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Что значит «доказуемо честно»?","acceptedAnswer":{"@type":"Answer","text":"Что любой может доказать: результат раунда был определён до ставки и не менялся после. Сервер фиксирует секретный сид, публикуя его хеш, подмешивает сид, который задаёшь ты, а свой сид открывает позже, чтобы ты мог пересчитать результат."}},{"@type":"Question","name":"Может ли сервер изменить результат после моей игры?","acceptedAnswer":{"@type":"Answer","text":"Только так, чтобы его поймали: другой сид даёт другой SHA-256 хеш, а хеш был показан тебе до раунда."}},{"@type":"Question","name":"Почему важен мой клиентский сид?","acceptedAnswer":{"@type":"Answer","text":"Результат зависит от обоих сидов. Раз свой клиентский сид можешь задать ты, сервер не может подобрать сид под заранее известный исход."}},{"@type":"Question","name":"Нужен ли верификатору интернет или аккаунт?","acceptedAnswer":{"@type":"Answer","text":"Нет. Он работает целиком на твоём компьютере и требует только четыре значения из раунда."}}]}</script>
+</head>
+<body>
+<header><div class="wrap">
+<a class="brand" href="/provably-fair-verifier/ru/"><img src="/provably-fair-verifier/logo-64.png" width="32" height="32" alt=""><span>Gift Club <em>Доказуемо честно</em></span></a>
+<nav aria-label="Разделы документации"><ul><li><a href="/provably-fair-verifier/ru/" aria-current="page">Обзор</a></li><li><a href="/provably-fair-verifier/ru/how-it-works/">Как это работает</a></li></ul></nav>
+</div></header>
+<main><div class="wrap">
+<h1>Доказуемо честный верификатор</h1>
+<p class="lead">Проверь любой раунд Gift Club сам, на своём компьютере, по той же математике, что считал сервер.</p>
+
+
+<div class="answer"><p>Доказуемо честный раунд может пересчитать кто угодно. До раунда сервер публикует <strong>SHA-256 хеш</strong> секретного серверного сида, а после раунда открывает сам сид. Этот пакет сверяет сид с хешем и заново разыгрывает раунд через <strong>HMAC-SHA256</strong>, так что видно: результат был определён до твоей игры и не менялся после.</p></div>
+<h2>Проверь раунд за четыре шага</h2>
+<ol><li>В деталях раунда в Gift Club скопируй <strong>хеш серверного сида</strong>, который был показан до игры.</li><li>После смены сида скопируй открытый <strong>серверный сид</strong>, свой <strong>клиентский сид</strong> и <strong>nonce</strong> раунда.</li><li>Запусти верификатор: он проверит, что SHA-256 от сида равен хешу, и заново разыграет числа раунда.</li><li>Сравни пересчитанный результат с тем, что в твоей истории. Они совпадают байт в байт.</li></ol>
+<h2>Из командной строки</h2>
+<p>С npx ничего устанавливать не нужно. Ниже демонстрационный раунд из самого пакета:</p>
+<pre><code>npx @gift-club/provably-fair-verifier \
+  0f1e2d3c4b5a69788796a5b4c3d2e1f00112233445566778899aabbccddeeff0 \
+  afa880ca0c7da502fc32ab284cf70852ef7c5540204e4215c2a1617074ca7905 \
+  gift-club-demo 0 2
+
+SHA-256(server seed) = afa880ca0c7da502fc32ab284cf70852ef7c5540204e4215c2a1617074ca7905
+✔ matches the hash published before the round
+float 0: 0.1044411135  (uint32 448571167)
+float 1: 0.1064818364  (uint32 457336005)</code></pre>
+<h2>Как библиотека</h2>
+<pre><code>npm install @gift-club/provably-fair-verifier</code></pre>
+<pre><code>import { generateFloats, hexToBytes, sha256Hex } from &quot;@gift-club/provably-fair-verifier&quot;;
+
+const seed = hexToBytes(serverSeed);
+(await sha256Hex(seed)) === serverSeedHash;              // the seed was fixed before the round
+const [f] = await generateFloats(seed, clientSeed, nonce, 1); // the round&#39;s first draw, in [0, 1)</code></pre>
+<p>Розыгрыш каждой игры (куда упадёт шарик, какие карты сданы, точка краша) вынесен в отдельное пространство имён, например <code>plinkoGold</code>, <code>crash</code> или <code>collect</code>. Типы TypeScript в комплекте.</p>
+<h2>Что покрывает</h2>
+<p>Все игры Gift Club, которые разыгрываются доказуемо честным движком, за звёзды и за Gram:</p>
+<p>Crash · Плинко · Плинко Голд · Пачинко · Кено · Ставка на больше · Дуэль на кубиках · Подбрось монету · Минное поле · Минная башня · Накачай шарик · Больше/Меньше · Угадай цвет · Камень, ножницы, бумага · Волшебная дверь · Угадай число · Три в ряд · Слоты · Европейская рулетка · Колесо · Заводной переход · Блэкджек</p>
+<h3>Дуэли 1 на 1</h3>
+<p>Дуэль в блэкджек · Минное поле 1 на 1 · Кубики 1 на 1 · Шарик 1 на 1 · Дуэль Лудо · Морской бой · Турецкие шашки · Шашки</p>
+<h3>Кейсы и скретч-карты</h3>
+<p>Кейсы и скретч-карты разыгрываются по фиксированной таблице билетов: верификатор пересчитывает, какой билет выпал, в том числе при заданной цели.</p>
+<p>Удобнее в браузере? Вставь те же значения в <a href="https://giftclub.app/ru/tools/provably-fair-checker">Проверка provably fair: проверь раунд в браузере</a>.</p>
+<h2>Почему коду можно доверять</h2>
+<p>Каждая функция повторяет серверный метод байт в байт, а тесты привязывают её к более чем 2 600 парам вход–выход, полученным кодом самого сервера. Если математика сервера изменится, тесты упадут, пока верификатор не догонит её.</p>
+<h2>Читай дальше на Gift Club</h2><ul><li><a href="https://giftclub.app/ru/tools/provably-fair-checker">Проверка provably fair: проверь раунд в браузере</a></li><li><a href="https://giftclub.app/ru/blog/provably-fair-verification">Как проверить раунд Provably Fair</a></li><li><a href="https://giftclub.app/ru/blog/are-telegram-gift-games-legit">Честны ли игры с подарочными кейсами в Telegram? Как проверить</a></li></ul>
+<h2>Вопросы</h2>
+<details><summary>Что значит «доказуемо честно»?</summary><p>Что любой может доказать: результат раунда был определён до ставки и не менялся после. Сервер фиксирует секретный сид, публикуя его хеш, подмешивает сид, который задаёшь ты, а свой сид открывает позже, чтобы ты мог пересчитать результат.</p></details>
+<details><summary>Может ли сервер изменить результат после моей игры?</summary><p>Только так, чтобы его поймали: другой сид даёт другой SHA-256 хеш, а хеш был показан тебе до раунда.</p></details>
+<details><summary>Почему важен мой клиентский сид?</summary><p>Результат зависит от обоих сидов. Раз свой клиентский сид можешь задать ты, сервер не может подобрать сид под заранее известный исход.</p></details>
+<details><summary>Нужен ли верификатору интернет или аккаунт?</summary><p>Нет. Он работает целиком на твоём компьютере и требует только четыре значения из раунда.</p></details>
+
+</div></main>
+<footer><div class="wrap">
+<p class="langs" aria-label="Языки"><a href="/provably-fair-verifier/" hreflang="en" lang="en">English</a><a href="/provably-fair-verifier/ru/" hreflang="ru" lang="ru" aria-current="true">Русский</a><a href="/provably-fair-verifier/uk/" hreflang="uk" lang="uk">Українська</a><a href="/provably-fair-verifier/es/" hreflang="es" lang="es">Español</a><a href="/provably-fair-verifier/pl/" hreflang="pl" lang="pl">Polski</a><a href="/provably-fair-verifier/it/" hreflang="it" lang="it">Italiano</a><a href="/provably-fair-verifier/tr/" hreflang="tr" lang="tr">Türkçe</a><a href="/provably-fair-verifier/de/" hreflang="de" lang="de">Deutsch</a><a href="/provably-fair-verifier/fr/" hreflang="fr" lang="fr">Français</a></p>
+<p>Открытый код от <a href="https://giftclub.app/ru/">Gift Club</a>, Telegram Mini App с кейсами с подарками и играми.</p>
+<p>Ещё от Gift Club: <a href="/telegram-gifts-dataset/ru/">Telegram data</a> · <a href="/telegram-stars-calculator/ru/">Stars calculator</a> · <a href="https://github.com/gift-club/provably-fair-verifier">Исходники на GitHub</a></p>
+
+</div></footer>
+</body>
+</html>

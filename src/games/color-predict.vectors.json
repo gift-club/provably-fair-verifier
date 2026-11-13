@@ -1,0 +1,552 @@
+{
+  "generatedBy": "the Gift Club server's own code",
+  "multipliers": {
+    "red": "2.375",
+    "green": "2.375",
+    "violet": "4.75"
+  },
+  "legacyMultipliers": {
+    "red": "2.45",
+    "green": "2.45",
+    "violet": "4.90"
+  },
+  "table": [
+    {
+      "number": 0,
+      "color": "violet",
+      "wins": [
+        "violet"
+      ]
+    },
+    {
+      "number": 1,
+      "color": "red",
+      "wins": [
+        "red"
+      ]
+    },
+    {
+      "number": 2,
+      "color": "green",
+      "wins": [
+        "green"
+      ]
+    },
+    {
+      "number": 3,
+      "color": "red",
+      "wins": [
+        "red"
+      ]
+    },
+    {
+      "number": 4,
+      "color": "green",
+      "wins": [
+        "green"
+      ]
+    },
+    {
+      "number": 5,
+      "color": "violet",
+      "wins": [
+        "violet"
+      ]
+    },
+    {
+      "number": 6,
+      "color": "green",
+      "wins": [
+        "green"
+      ]
+    },
+    {
+      "number": 7,
+      "color": "red",
+      "wins": [
+        "red"
+      ]
+    },
+    {
+      "number": 8,
+      "color": "green",
+      "wins": [
+        "green"
+      ]
+    },
+    {
+      "number": 9,
+      "color": "red",
+      "wins": [
+        "red"
+      ]
+    }
+  ],
+  "gram": {
+    "tiers": [
+      "0.1",
+      "0.5",
+      "1",
+      "2",
+      "3",
+      "5",
+      "10"
+    ],
+    "redGreen": [
+      "0.2375",
+      "1.1875",
+      "2.375",
+      "4.75",
+      "7.125",
+      "11.875",
+      "23.75"
+    ],
+    "violet": [
+      "0.475",
+      "2.375",
+      "4.75",
+      "9.5",
+      "14.25",
+      "23.75",
+      "47.5"
+    ]
+  },
+  "cases": [
+    {
+      "serverSeed": "0f1e2d3c4b5a69788796a5b4c3d2e1f00112233445566778899aabbccddeeff0",
+      "clientSeed": "gift-club-demo",
+      "nonce": 0,
+      "floats": [
+        0.10444111353717744,
+        0.10648183641023934
+      ],
+      "winningNumber": 1,
+      "gramNumber": 1,
+      "winningColor": "red",
+      "isViolet": false,
+      "rounding": {
+        "2.375": [
+          3,
+          12,
+          24,
+          48,
+          119,
+          238
+        ],
+        "4.75": [
+          5,
+          24,
+          48,
+          95,
+          238,
+          475
+        ],
+        "2.45": [
+          3,
+          13,
+          25,
+          49,
+          123,
+          245
+        ],
+        "4.90": [
+          5,
+          25,
+          49,
+          98,
+          245,
+          490
+        ]
+      },
+      "choices": {
+        "red": {
+          "win": true,
+          "multiplier": "2.375",
+          "stars": [
+            3,
+            12,
+            24,
+            48,
+            119,
+            238
+          ],
+          "starsLegacy": [
+            3,
+            13,
+            25,
+            49,
+            123,
+            245
+          ]
+        },
+        "green": {
+          "win": false,
+          "multiplier": "0",
+          "stars": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "starsLegacy": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "violet": {
+          "win": false,
+          "multiplier": "0",
+          "stars": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "starsLegacy": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "a3f1c9e84b2d7f6051e9c3a7b8d4f2e6c1a09b7e5d3f8c2a6e4b1d9f7c3a5e8b",
+      "clientSeed": "9d4c1f3e-2b7a-4e8c-9f1d-3a6b5c8e7d2f",
+      "nonce": 7,
+      "floats": [
+        0.902275743894279,
+        0.8036713697947562
+      ],
+      "winningNumber": 9,
+      "gramNumber": 9,
+      "winningColor": "red",
+      "isViolet": false,
+      "rounding": {
+        "2.375": [
+          2,
+          12,
+          23,
+          47,
+          118,
+          237
+        ],
+        "4.75": [
+          4,
+          23,
+          47,
+          95,
+          237,
+          475
+        ],
+        "2.45": [
+          2,
+          12,
+          24,
+          49,
+          122,
+          245
+        ],
+        "4.90": [
+          5,
+          24,
+          49,
+          98,
+          245,
+          490
+        ]
+      },
+      "choices": {
+        "red": {
+          "win": true,
+          "multiplier": "2.375",
+          "stars": [
+            2,
+            12,
+            23,
+            47,
+            118,
+            237
+          ],
+          "starsLegacy": [
+            2,
+            12,
+            24,
+            49,
+            122,
+            245
+          ]
+        },
+        "green": {
+          "win": false,
+          "multiplier": "0",
+          "stars": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "starsLegacy": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "violet": {
+          "win": false,
+          "multiplier": "0",
+          "stars": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "starsLegacy": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "ffffffff00000000ffffffff00000000ffffffff00000000ffffffff00000000",
+      "clientSeed": "x",
+      "nonce": 123456,
+      "floats": [
+        0.03174039022997022,
+        0.45318084536120296
+      ],
+      "winningNumber": 0,
+      "gramNumber": 0,
+      "winningColor": "violet",
+      "isViolet": true,
+      "rounding": {
+        "2.375": [
+          2,
+          12,
+          24,
+          48,
+          119,
+          238
+        ],
+        "4.75": [
+          5,
+          24,
+          48,
+          95,
+          238,
+          475
+        ],
+        "2.45": [
+          2,
+          12,
+          25,
+          49,
+          123,
+          245
+        ],
+        "4.90": [
+          5,
+          25,
+          49,
+          98,
+          245,
+          490
+        ]
+      },
+      "choices": {
+        "red": {
+          "win": false,
+          "multiplier": "0",
+          "stars": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "starsLegacy": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "green": {
+          "win": false,
+          "multiplier": "0",
+          "stars": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "starsLegacy": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "violet": {
+          "win": true,
+          "multiplier": "4.75",
+          "stars": [
+            5,
+            24,
+            48,
+            95,
+            238,
+            475
+          ],
+          "starsLegacy": [
+            5,
+            25,
+            49,
+            98,
+            245,
+            490
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "5c6e1b2a9d8f7e3c4b1a0f9e8d7c6b5a4f3e2d1c0b9a8f7e6d5c4b3a2f1e0d9c",
+      "clientSeed": "player-client-seed",
+      "nonce": 42,
+      "floats": [
+        0.3660743373911828,
+        0.15493342000991106
+      ],
+      "winningNumber": 3,
+      "gramNumber": 3,
+      "winningColor": "red",
+      "isViolet": false,
+      "rounding": {
+        "2.375": [
+          3,
+          12,
+          24,
+          48,
+          119,
+          238
+        ],
+        "4.75": [
+          5,
+          24,
+          48,
+          95,
+          238,
+          475
+        ],
+        "2.45": [
+          3,
+          13,
+          25,
+          49,
+          123,
+          245
+        ],
+        "4.90": [
+          5,
+          25,
+          49,
+          98,
+          245,
+          490
+        ]
+      },
+      "choices": {
+        "red": {
+          "win": true,
+          "multiplier": "2.375",
+          "stars": [
+            3,
+            12,
+            24,
+            48,
+            119,
+            238
+          ],
+          "starsLegacy": [
+            3,
+            13,
+            25,
+            49,
+            123,
+            245
+          ]
+        },
+        "green": {
+          "win": false,
+          "multiplier": "0",
+          "stars": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "starsLegacy": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "violet": {
+          "win": false,
+          "multiplier": "0",
+          "stars": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "starsLegacy": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ]
+}

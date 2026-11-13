@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>How Provably Fair Works: HMAC-SHA256 Algorithm, Step by Step</title>
+<meta name="description" content="The provably fair algorithm behind Gift Club, step by step: seed hash commitment, HMAC-SHA256 byte stream, bytes to floats, payout rounding, with a worked example.">
+<link rel="canonical" href="https://gift-club.github.io/provably-fair-verifier/how-it-works/">
+<link rel="alternate" hreflang="en" href="https://gift-club.github.io/provably-fair-verifier/how-it-works/">
+<link rel="alternate" hreflang="ru" href="https://gift-club.github.io/provably-fair-verifier/ru/how-it-works/">
+<link rel="alternate" hreflang="uk" href="https://gift-club.github.io/provably-fair-verifier/uk/how-it-works/">
+<link rel="alternate" hreflang="es" href="https://gift-club.github.io/provably-fair-verifier/es/how-it-works/">
+<link rel="alternate" hreflang="pl" href="https://gift-club.github.io/provably-fair-verifier/pl/how-it-works/">
+<link rel="alternate" hreflang="it" href="https://gift-club.github.io/provably-fair-verifier/it/how-it-works/">
+<link rel="alternate" hreflang="tr" href="https://gift-club.github.io/provably-fair-verifier/tr/how-it-works/">
+<link rel="alternate" hreflang="de" href="https://gift-club.github.io/provably-fair-verifier/de/how-it-works/">
+<link rel="alternate" hreflang="fr" href="https://gift-club.github.io/provably-fair-verifier/fr/how-it-works/">
+<link rel="alternate" hreflang="x-default" href="https://gift-club.github.io/provably-fair-verifier/how-it-works/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Gift Club provably fair verifier">
+<meta property="og:title" content="How Provably Fair Works: HMAC-SHA256 Algorithm, Step by Step">
+<meta property="og:description" content="The provably fair algorithm behind Gift Club, step by step: seed hash commitment, HMAC-SHA256 byte stream, bytes to floats, payout rounding, with a worked example.">
+<meta property="og:url" content="https://gift-club.github.io/provably-fair-verifier/how-it-works/">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#0d0b14">
+<link rel="icon" href="/provably-fair-verifier/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/provably-fair-verifier/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/provably-fair-verifier/icon-192.png">
+<link rel="apple-touch-icon" href="/provably-fair-verifier/apple-touch-icon.png">
+<style>:root{color-scheme:dark;--bg:#0d0b14;--panel:#17141f;--line:#2a2535;--ink:#f3f0fa;--muted:#a59fb5;--accent:#ffcf4a;--link:#8ec5ff}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--link)}
+a:hover{text-decoration-thickness:2px}
+.wrap{max-width:860px;margin:0 auto;padding:0 16px}
+header{border-bottom:1px solid var(--line)}
+header .wrap{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;justify-content:space-between;padding-top:14px;padding-bottom:14px}
+.brand{display:inline-flex;align-items:center;gap:10px;font-weight:700;color:var(--ink);text-decoration:none}
+.brand img{display:block;width:32px;height:32px;border-radius:8px}
+.brand em{font-style:normal;color:var(--accent)}
+nav ul{display:flex;flex-wrap:wrap;gap:6px 14px;list-style:none;margin:0;padding:0;font-size:15px}
+nav a{color:var(--muted);text-decoration:none}
+nav a[aria-current=page]{color:var(--ink);font-weight:600}
+main{padding:28px 0 40px}
+h1{font-size:clamp(28px,5vw,40px);line-height:1.15;margin:0 0 12px}
+h2{font-size:24px;line-height:1.25;margin:36px 0 10px}
+h3{font-size:19px;margin:24px 0 8px}
+.lead{font-size:18px;color:var(--ink)}
+.meta{color:var(--muted);font-size:14px}
+.answer{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:10px;padding:14px 16px;margin:18px 0}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:16px 0}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.card h3{margin:0 0 6px;font-size:17px}
+.card p{margin:0;color:var(--muted);font-size:15px}
+.table-wrap{overflow-x:auto;margin:12px 0;border:1px solid var(--line);border-radius:10px}
+table{border-collapse:collapse;width:100%;font-size:15px}
+th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}
+pre,code{overflow-wrap:anywhere}
+pre{white-space:pre}
+th{background:var(--panel);position:sticky;top:0}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+tr:last-child td{border-bottom:0}
+caption{caption-side:top;text-align:left;padding:8px 10px;color:var(--muted);font-size:14px}
+code,pre{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:14px}
+code{background:var(--panel);padding:1px 5px;border-radius:5px}
+pre{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 14px;overflow-x:auto}
+pre code{background:none;padding:0}
+details{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin:8px 0}
+summary{cursor:pointer;font-weight:600}
+.langs{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:14px;color:var(--muted)}
+.langs a{color:var(--muted)}
+.langs a[aria-current=true]{color:var(--ink);font-weight:600;text-decoration:none}
+footer{border-top:1px solid var(--line);padding:24px 0 40px;color:var(--muted);font-size:14px}
+footer p{margin:6px 0}
+iframe{max-width:100%}</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","headline":"How the provably fair draw works","description":"The provably fair algorithm behind Gift Club, step by step: seed hash commitment, HMAC-SHA256 byte stream, bytes to floats, payout rounding, with a worked example.","inLanguage":"en","url":"https://gift-club.github.io/provably-fair-verifier/how-it-works/","author":{"@type":"Organization","@id":"https://giftclub.app/#organization","name":"Gift Club","url":"https://giftclub.app/","sameAs":["https://github.com/gift-club","https://gift-club.github.io/"]},"publisher":{"@type":"Organization","@id":"https://giftclub.app/#organization","name":"Gift Club","url":"https://giftclub.app/","sameAs":["https://github.com/gift-club","https://gift-club.github.io/"]},"about":"Provably fair HMAC-SHA256 random number generation"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Gift Club provably fair verifier","item":"https://gift-club.github.io/provably-fair-verifier/"},{"@type":"ListItem","position":2,"name":"How it works","item":"https://gift-club.github.io/provably-fair-verifier/how-it-works/"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Why HMAC-SHA256 and not a plain random number?","acceptedAnswer":{"@type":"Answer","text":"Because it is deterministic: the same seeds and nonce always give the same bytes, so a result can be re-computed and checked. A plain random number cannot be checked after the fact."}},{"@type":"Question","name":"Can the same seeds produce two results?","acceptedAnswer":{"@type":"Answer","text":"No. Every round uses a new nonce, so no two rounds on one seed pair share their bytes."}},{"@type":"Question","name":"Where are the game rules?","acceptedAnswer":{"@type":"Answer","text":"In src/games/, one file per game, each with the pay tables the server uses."}}]}</script>
+</head>
+<body>
+<header><div class="wrap">
+<a class="brand" href="/provably-fair-verifier/"><img src="/provably-fair-verifier/logo-64.png" width="32" height="32" alt=""><span>Gift Club <em>Provably fair</em></span></a>
+<nav aria-label="Docs sections"><ul><li><a href="/provably-fair-verifier/">Overview</a></li><li><a href="/provably-fair-verifier/how-it-works/" aria-current="page">How it works</a></li></ul></nav>
+</div></header>
+<main><div class="wrap">
+<h1>How the provably fair draw works</h1>
+
+
+
+<p>The whole algorithm, with the numbers of one real example round worked through.</p>
+<h2>1. The commitment: a hashed server seed</h2>
+<p>The server picks a random 32-byte <strong>server seed</strong> and shows you only its SHA-256 hash. The hash reveals nothing about the seed, but it pins it: no other seed has the same hash.</p>
+<pre><code>server seed      0f1e2d3c4b5a69788796a5b4c3d2e1f00112233445566778899aabbccddeeff0
+SHA-256 (shown)  afa880ca0c7da502fc32ab284cf70852ef7c5540204e4215c2a1617074ca7905</code></pre>
+<h2>2. The byte stream: HMAC-SHA256</h2>
+<p>Each round is keyed by the raw server seed and the message <code>clientSeed:nonce:round</code>. The <strong>nonce</strong> counts your rounds on this seed pair; <code>round</code> counts 32-byte blocks when a game needs more than 32 bytes.</p>
+<pre><code>key      = server seed (32 raw bytes)
+message  = &quot;gift-club-demo:0:0&quot;        // clientSeed:nonce:round
+block    = HMAC-SHA256(key, message)
+bytes    = 1a bc a7 1f 1b 42 64 c5 …</code></pre>
+<h2>3. From bytes to numbers</h2>
+<p>Every four bytes make one float in [0, 1). The formula is exact, so the verifier compares the underlying 32-bit integer, never a rounded decimal.</p>
+<pre><code>float = b0/256 + b1/256² + b2/256³ + b3/256⁴
+      = 26/256 + 188/65536 + 167/16777216 + 31/4294967296
+      = 0.1044411135</code></pre>
+<h2>4. From numbers to a result</h2>
+<p>Each game turns its floats into an outcome by its own published rule: a row of left/right bounces in Plinko, a shuffled deck in Blackjack, a ticket number in a box. The game modules in <code>src/games/</code> hold each rule and each pay table.</p>
+<h2>5. Payout rounding</h2>
+<p>A win in Stars is a whole number. When bet × multiplier has a fraction, one more float decides whether it rounds up, so the rounding is provably fair too. Gram payouts are floored to the nanoton instead and draw no rounding float.</p>
+<h2>Pay table versions</h2>
+<p>When a pay table is retuned, the old one stays in the code under its version number. A round is always checked against the version it was played on, which the round's details show.</p>
+<h2>Run the tests yourself</h2>
+<p>The test suite replays thousands of rounds the server computed and checks every byte:</p>
+<pre><code>git clone https://github.com/gift-club/provably-fair-verifier.git
+cd provably-fair-verifier &amp;&amp; npm install &amp;&amp; npm test</code></pre>
+<h2>Read next on Gift Club</h2><ul><li><a href="https://giftclub.app/blog/provably-fair-verification">How to Verify a Provably Fair Round</a></li><li><a href="https://giftclub.app/tools/provably-fair-checker">Provably Fair Checker and Calculator: Verify a Round</a></li></ul>
+<h2>Questions</h2>
+<details><summary>Why HMAC-SHA256 and not a plain random number?</summary><p>Because it is deterministic: the same seeds and nonce always give the same bytes, so a result can be re-computed and checked. A plain random number cannot be checked after the fact.</p></details>
+<details><summary>Can the same seeds produce two results?</summary><p>No. Every round uses a new nonce, so no two rounds on one seed pair share their bytes.</p></details>
+<details><summary>Where are the game rules?</summary><p>In src/games/, one file per game, each with the pay tables the server uses.</p></details>
+
+</div></main>
+<footer><div class="wrap">
+<p class="langs" aria-label="Languages"><a href="/provably-fair-verifier/how-it-works/" hreflang="en" lang="en" aria-current="true">English</a><a href="/provably-fair-verifier/ru/how-it-works/" hreflang="ru" lang="ru">Русский</a><a href="/provably-fair-verifier/uk/how-it-works/" hreflang="uk" lang="uk">Українська</a><a href="/provably-fair-verifier/es/how-it-works/" hreflang="es" lang="es">Español</a><a href="/provably-fair-verifier/pl/how-it-works/" hreflang="pl" lang="pl">Polski</a><a href="/provably-fair-verifier/it/how-it-works/" hreflang="it" lang="it">Italiano</a><a href="/provably-fair-verifier/tr/how-it-works/" hreflang="tr" lang="tr">Türkçe</a><a href="/provably-fair-verifier/de/how-it-works/" hreflang="de" lang="de">Deutsch</a><a href="/provably-fair-verifier/fr/how-it-works/" hreflang="fr" lang="fr">Français</a></p>
+<p>Open source by <a href="https://giftclub.app/">Gift Club</a>, the Telegram Mini App with gift boxes and games.</p>
+<p>More from Gift Club: <a href="/telegram-gifts-dataset/">Telegram data</a> · <a href="/telegram-stars-calculator/">Stars calculator</a> · <a href="https://github.com/gift-club/provably-fair-verifier">Source on GitHub</a></p>
+
+</div></footer>
+</body>
+</html>
